@@ -1,7 +1,7 @@
 ---
 name: Kyeongchan Im
 image: images/photo.jpg
-role: PhD course
+role: student
 description: PhD student
 department: School of Medicine
 status: current
