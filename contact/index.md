@@ -14,20 +14,20 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
+  text="lee.joosang@gmail.com"
+  link="lee.joosang@gmail.com"
 %}
 {%
   include button.html
   type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
+  text="010-9711-7459"
+  link="010-9711-7459"
 %}
 {%
   include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  link="https://goo.gl/maps/esAoSh75Xyfkknra8"
 %}
 
 {% include section.html %}
@@ -36,7 +36,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {%
   include figure.html
-  image="images/photo.jpg"
+  image="images/medical_school_1.jpeg"
   caption="Lorem ipsum"
 %}
 
