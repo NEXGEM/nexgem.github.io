@@ -1,5 +1,4 @@
-title: NEXGEM
-subtitle: by the Greene Lab
+title: nexgem25
 description: An engaging 1-3 sentence description of your lab.
 header: images/background.jpg
 footer: images/background.jpg
@@ -45,8 +44,8 @@ exclude:
   - README.md
   - LICENSE.md
   - CITATION.cff
-email: contact@NEXGEM.com
-github: NEXGEM
-twitter: NEXGEM
-instagram: NEXGEM
-youtube: NEXGEM
+email: contact@nexgem25.com
+github: nexgem25
+twitter: nexgem25
+instagram: nexgem25
+youtube: nexgem25
