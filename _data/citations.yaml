@@ -123,6 +123,34 @@
   image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-018-04647-1/MediaObjects/41467_2018_4647_Fig1_HTML.jpg?as=webp
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1016/j.ccell.2019.01.009
+  title: A Platform of Synthetic Lethal Gene Interaction Networks Reveals that the
+    GNAQ Uveal Melanoma Oncogene Controls the Hippo Pathway through FAK
+  authors:
+  - Xiaodong Feng
+  - Nadia Arang
+  - Damiano Cosimo Rigiracciolo
+  - Joo Sang Lee
+  - Huwate Yeerna
+  - Zhiyong Wang
+  - Simone Lubrano
+  - Ayush Kishore
+  - Jonathan A. Pachter
+  - "Gabriele M. K\xF6nig"
+  - Marcello Maggiolini
+  - Evi Kostenis
+  - David D. Schlaepfer
+  - Pablo Tamayo
+  - Qianming Chen
+  - Eytan Ruppin
+  - J. Silvio Gutkind
+  publisher: Cancer Cell
+  date: '2019-03-01'
+  link: https://doi.org/gfx6ds
+  type: paper
+  image: https://www.cell.com/cms/attachment/6a7b8f6a-74be-40a4-85cc-d01f8e7e4ccd/fx1.jpg
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1038/s41591-018-0157-9
   title: Robust prediction of response to immune checkpoint blockade therapy in metastatic
     melanoma
