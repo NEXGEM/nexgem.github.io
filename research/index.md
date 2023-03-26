@@ -13,7 +13,7 @@ We are witnessing the beginning of a new generation of medicine. The unprecedent
 
 ## Highlighted
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{% include citation.html lookup="Synthetic lethality-mediated precision oncology via the tumor transcriptome" style="rich" %}
 
 {% include section.html %}
 
