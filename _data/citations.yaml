@@ -27,7 +27,7 @@
   - Kenneth Aldape
   - Eytan Ruppin
   publisher: Cell
-  date: '2021-04-29'
+  date: '2021-04-01'
   link: https://doi.org/gjtcvt
   type: paper
   image: https://ars.els-cdn.com/content/image/1-s2.0-S0092867421003615-fx1.jpg
@@ -69,6 +69,7 @@
   publisher: Nature Communications
   date: '2018-06-29'
   link: https://doi.org/gdtzpr
+  type: paper
   image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-018-04647-1/MediaObjects/41467_2018_4647_Fig1_HTML.jpg?as=webp
   plugin: sources.py
   file: sources.yaml
@@ -81,6 +82,7 @@
   publisher: JAMA Oncology
   date: '2019-11-01'
   link: https://doi.org/gg35tg
+  type: paper
   image: https://cdn.jamanetwork.com/ama/content_public/journal/oncology/938270/cbr190007f1.png?Expires=1682004390&Signature=XTp2ZHqY787p4upKcKjb7af99L2ChqPLANq66Btjo7OhbLxjpxCcqNY2ZphPUl3t2iTGPs3HjAAConNnFnRiUnSHQK80hiiiFiTBrGKxC-I2oaX4VrtOxTGL~YGucVW1yEBoJyvhXaW-BVVouk565cDMiUcHHPbGIkGZ1gRxP8XQ7oUiB4iduaLsCrZiozoGvpTbOSUMV~Apy-wpuIcvQ6xB3WZ~AnoYVMeLIBRVoORUKSACdI07CEqq6y8M5FMuEUQVjB3p5vuh1fT9PQusHYi4eO9N-xbKN-JLqwcwHzRtPz-zHxhePR7qXTVpXUOqjWHo55JTquQEDkWbELS-EQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
   plugin: sources.py
   file: sources.yaml
