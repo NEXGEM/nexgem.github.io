@@ -3,10 +3,10 @@ description: Next Genernation Medicine Lab (NEXGEM) aims to integrate the biolog
 header: images/background.jpg
 footer: images/background.jpg
 links:
-  email: contact@your-lab.com
+  email: lee.joosang@gmail.com
   orcid: 0000-0001-8713-9213
   google-scholar: ETJoidYAAAAJ
-  github: your-lab
+  github: https://github.com/nexgem
   twitter: YourLabHandle
   youtube: YourLabChannel
 defaults:
@@ -45,7 +45,5 @@ exclude:
   - LICENSE.md
   - CITATION.cff
 email: lee.joosang@gmail.com
-github: nexgem25
-twitter: nexgem25
-instagram: nexgem25
-youtube: nexgem25
+github: nexgem
+
