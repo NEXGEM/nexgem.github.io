@@ -2,7 +2,7 @@
 name: Dasol Kim
 image: images/team/some-image.jpg
 role: phd
-description: Integrated MS/PhD student
+description: Integrated MS/PhD Student
 Department: Department of Artificial Intelligence
 status: current
 
