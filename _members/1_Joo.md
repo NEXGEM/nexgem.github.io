@@ -1,10 +1,9 @@
 ---
 name: Joosang Lee
-image: images/photo.jpg
+image: images/joo.jpeg
 role: pi
 aliases:
   - Joo
-  - 
 links:
   email: lee.joosang@gmail.com
   home-page: https://leejoosang.wixsite.com/ngml
