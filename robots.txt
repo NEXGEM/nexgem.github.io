@@ -1,1 +1,1 @@
-Sitemap: /NEXGEM-homepage/sitemap.xml
+Sitemap: /sitemap.xml
