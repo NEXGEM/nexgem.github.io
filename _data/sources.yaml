@@ -22,13 +22,15 @@
   
 - id: doi:10.1038/s41467-021-21804-1
   type: paper
+  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-021-21804-1/MediaObjects/41467_2021_21804_Fig1_HTML.png?as=webp
   
 - id: doi:10.1038/s43018-020-0106-7
   type: paper
-  image: 
+  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs43018-020-0106-7/MediaObjects/43018_2020_106_Fig1_HTML.png?as=webp
   
 - id: doi:10.1038/s41467-020-14639-9
   type: paper
+  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-020-14639-9/MediaObjects/41467_2020_14639_Fig1_HTML.png?as=webp
    
 - id: doi:10.1038/s41467-018-04647-1
   type: paper
@@ -44,8 +46,11 @@
   
 - id: doi:10.1038/s41591-018-0157-9
   type: paper
+  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-018-0157-9/MediaObjects/41591_2018_157_Fig1_HTML.png?as=webp
+  
 - id: doi:10.1038/s41556-019-0415-1
   type: paper
+  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41556-019-0415-1/MediaObjects/41556_2019_415_Fig1_HTML.png?as=webp
   
 - id: doi:10.1001/jamaoncol.2019.2311
   type: paper
