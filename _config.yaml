@@ -1,4 +1,4 @@
-title: nexgem25
+title: Next Generation Medicine Lab
 description: An engaging 1-3 sentence description of your lab.
 header: images/background.jpg
 footer: images/background.jpg
@@ -44,7 +44,7 @@ exclude:
   - README.md
   - LICENSE.md
   - CITATION.cff
-email: contact@nexgem25.com
+email: lee.joosang@gmail.com
 github: nexgem25
 twitter: nexgem25
 instagram: nexgem25
