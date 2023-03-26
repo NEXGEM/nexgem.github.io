@@ -111,6 +111,47 @@
   type: paper
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1038/s43018-020-0106-7
+  title: Targeting purine synthesis in ASS1-expressing tumors enhances the response
+    to immune checkpoint inhibitors
+  authors:
+  - Rom Keshet
+  - Joo Sang Lee
+  - Lital Adler
+  - Muhammed Iraqi
+  - Yarden Ariav
+  - Lisha Qiu Jin Lim
+  - Shaul Lerner
+  - Shiran Rabinovich
+  - Roni Oren
+  - Rotem Katzir
+  - Hila Weiss Tishler
+  - Noa Stettner
+  - Omer Goldman
+  - Hadas Landesman
+  - Sivan Galai
+  - Yael Kuperman
+  - Yuri Kuznetsov
+  - Alexander Brandis
+  - Tevi Mehlman
+  - Sergey Malitsky
+  - Maxim Itkin
+  - S. Eleonore Koehler
+  - Yongmei Zhao
+  - Keyur Talsania
+  - Tsai-wei Shen
+  - Nir Peled
+  - Igor Ulitsky
+  - Angel Porgador
+  - Eytan Ruppin
+  - Ayelet Erez
+  publisher: Nature Cancer
+  date: '2020-08-31'
+  link: https://doi.org/gmjdkg
+  type: paper
+  image: null
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1038/s41467-018-04647-1
   title: Harnessing synthetic lethality to predict the response to cancer treatment
   authors:
