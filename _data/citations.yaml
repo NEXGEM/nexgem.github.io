@@ -152,6 +152,34 @@
   image: null
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1038/s41467-020-14639-9
+  title: Immunoproteasome expression is associated with better prognosis and response
+    to checkpoint therapies in melanoma
+  authors:
+  - Shelly Kalaora
+  - Joo Sang Lee
+  - Eilon Barnea
+  - Ronen Levy
+  - Polina Greenberg
+  - Michal Alon
+  - Gal Yagel
+  - Gitit Bar Eli
+  - Roni Oren
+  - Aviyah Peri
+  - Sushant Patkar
+  - Lital Bitton
+  - Steven A. Rosenberg
+  - Michal Lotem
+  - Yishai Levin
+  - Arie Admon
+  - Eytan Ruppin
+  - Yardena Samuels
+  publisher: Nature Communications
+  date: '2020-02-14'
+  link: https://doi.org/grz3bs
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1038/s41467-018-04647-1
   title: Harnessing synthetic lethality to predict the response to cancer treatment
   authors:
@@ -281,6 +309,28 @@
   publisher: Nature Medicine
   date: '2018-08-20'
   link: https://doi.org/gffzjt
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41556-019-0415-1
+  title: Translational reprogramming marks adaptation to asparagine restriction in
+    cancer
+  authors:
+  - Gaurav Pathria
+  - Joo Sang Lee
+  - Erez Hasnis
+  - Kristofferson Tandoc
+  - David A. Scott
+  - Sachin Verma
+  - Yongmei Feng
+  - Lionel Larue
+  - Avinash D. Sahu
+  - Ivan Topisirovic
+  - Eytan Ruppin
+  - "Ze\u2019ev A. Ronai"
+  publisher: Nature Cell Biology
+  date: '2019-11-18'
+  link: https://doi.org/grz3bt
   type: paper
   plugin: sources.py
   file: sources.yaml
