@@ -1,5 +1,55 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1158/2159-8290.CD-22-0111
+  title: AXL and Error-Prone DNA Replication Confer Drug Resistance and Offer Strategies
+    to Treat EGFR-Mutant Lung Cancer
+  authors:
+  - Ashish Noronha
+  - Nishanth Belugali Nataraj
+  - Joo Sang Lee
+  - Benny Zhitomirsky
+  - Yaara Oren
+  - Sara Oster
+  - Moshit Lindzen
+  - Saptaparna Mukherjee
+  - Rainer Will
+  - Soma Ghosh
+  - Arturo Simoni-Nieves
+  - Aakanksha Verma
+  - Rishita Chatterjee
+  - Simone Borgoni
+  - Welles Robinson
+  - Sanju Sinha
+  - Alexander Brandis
+  - D. Lucas Kerr
+  - Wei Wu
+  - Arunachalam Sekar
+  - Suvendu Giri
+  - Youngmin Chung
+  - Diana Drago-Garcia
+  - Brian P. Danysh
+  - Mattia Lauriola
+  - Michelangelo Fiorentino
+  - Andrea Ardizzoni
+  - Moshe Oren
+  - Collin M. Blakely
+  - Jideofor Ezike
+  - Stefan Wiemann
+  - Laxmi Parida
+  - Trever G. Bivona
+  - Rami I. Aqeilan
+  - Joan S. Brugge
+  - Aviv Regev
+  - Gad Getz
+  - Eytan Ruppin
+  - Yosef Yarden
+  publisher: Cancer Discovery
+  date: '2022-07-27'
+  link: https://doi.org/gqqzxh
+  type: paper
+  image: https://aacr.silverchair-cdn.com/aacr/content_public/journal/cancerdiscovery/12/11/10.1158_2159-8290.cd-22-0111/3/m_2666fig1.jpeg?Expires=1681214687&Signature=mwsUxMpvii84tjc2sF5RvrSsMzkVbKQS9NKTv66npKJzxbn01VRt36DU2ip9ZlXHgHmXXAuwJrLXUfd~cm14CJlUoo7WirIWRBmfqb1lYD-AGetb~3yAXxezhG-GrX1~TcRmiCCf7DpJNQnsFB6G5jmEgbxWy5B4VM~wFZ7uAsLG7CAJP17IFcSvIy~OCdWy41zyDcxf5Sy-KbwqypfsErSvdRMBKXZZpbCgs2JqQAvvGaI-fJsBqo7tYl07wg0Q4O3BJceR7VK9Innjc5gzbtmVP7Vh5C9GSv5rUuXzq~mDWkf1LKmEfuE5yh-iKNzhgLGYffbcOM6MR30eatTg5A__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1016/j.cell.2021.03.030
   title: Synthetic lethality-mediated precision oncology via the tumor transcriptome
   authors:
