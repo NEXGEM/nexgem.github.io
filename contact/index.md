@@ -36,7 +36,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {%
   include figure.html
-  image="images/skku_gate.jpeg"
+  image="images/skku_logo.png"
   caption=""
 %}
 
@@ -47,7 +47,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {%
   include figure.html
   image="images/skku_med.jpeg"
-  caption="Lorem ipsum"
+  caption="Medical school"
 %}
 
 {% endcapture %}
