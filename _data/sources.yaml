@@ -1,23 +1,24 @@
-- id: doi:10.1371/journal.pcbi.1007128
+- id: doi:10.1016/j.cell.2021.03.030
   type: paper
   description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
+  date: 2021-4-29
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S0092867421003615-fx1.jpg
+#   buttons:
+#     - type: manubot
+#       link: https://greenelab.github.io/meta-review/
+#     - type: source
+#       text: Manuscript Source
+#       link: https://github.com/greenelab/meta-review
+#     - type: website
+#       link: http://manubot.org/
   tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
+    - synthetic lethality
+    - cancer therapy
+    - precision medicine
+  repo: NEXGEM/SELECT
 
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+- id: doi:10.1038/s41467-018-04647-1
+  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-018-04647-1/MediaObjects/41467_2018_4647_Fig1_HTML.jpg?as=webp
 
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+- id: doi:10.1001/jamaoncol.2019.2311
+  image: https://cdn.jamanetwork.com/ama/content_public/journal/oncology/938270/cbr190007f1.png?Expires=1682004390&Signature=XTp2ZHqY787p4upKcKjb7af99L2ChqPLANq66Btjo7OhbLxjpxCcqNY2ZphPUl3t2iTGPs3HjAAConNnFnRiUnSHQK80hiiiFiTBrGKxC-I2oaX4VrtOxTGL~YGucVW1yEBoJyvhXaW-BVVouk565cDMiUcHHPbGIkGZ1gRxP8XQ7oUiB4iduaLsCrZiozoGvpTbOSUMV~Apy-wpuIcvQ6xB3WZ~AnoYVMeLIBRVoORUKSACdI07CEqq6y8M5FMuEUQVjB3p5vuh1fT9PQusHYi4eO9N-xbKN-JLqwcwHzRtPz-zHxhePR7qXTVpXUOqjWHo55JTquQEDkWbELS-EQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
