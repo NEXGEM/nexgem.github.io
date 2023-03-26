@@ -28,6 +28,10 @@
   type: paper
   image: https://www.cell.com/cms/attachment/6a7b8f6a-74be-40a4-85cc-d01f8e7e4ccd/fx1.jpg
   
+- id: doi:10.1016/j.cell.2018.07.019
+  type: paper
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S0092867418309139-fx1.jpg
+  
 - id: doi:10.1038/s41591-018-0157-9
   type: paper
 
