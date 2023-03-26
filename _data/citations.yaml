@@ -151,6 +151,51 @@
   image: https://www.cell.com/cms/attachment/6a7b8f6a-74be-40a4-85cc-d01f8e7e4ccd/fx1.jpg
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1016/j.cell.2018.07.019
+  title: Urea Cycle Dysregulation Generates Clinically Relevant Genomic and Biochemical
+    Signatures
+  authors:
+  - Joo Sang Lee
+  - Lital Adler
+  - Hiren Karathia
+  - Narin Carmel
+  - Shiran Rabinovich
+  - Noam Auslander
+  - Rom Keshet
+  - Noa Stettner
+  - Alon Silberman
+  - Lilach Agemy
+  - Daniel Helbling
+  - Raya Eilam
+  - Qin Sun
+  - Alexander Brandis
+  - Sergey Malitsky
+  - Maxim Itkin
+  - Hila Weiss
+  - Sivan Pinto
+  - Shelly Kalaora
+  - Ronen Levy
+  - Eilon Barnea
+  - Arie Admon
+  - David Dimmock
+  - Noam Stern-Ginossar
+  - Avigdor Scherz
+  - Sandesh C.S. Nagamani
+  - Miguel Unda
+  - David M. Wilson
+  - Ronit Elhasid
+  - Arkaitz Carracedo
+  - Yardena Samuels
+  - Sridhar Hannenhalli
+  - Eytan Ruppin
+  - Ayelet Erez
+  publisher: Cell
+  date: '2018-09-01'
+  link: https://doi.org/gdxxpn
+  type: paper
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S0092867418309139-fx1.jpg
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1038/s41591-018-0157-9
   title: Robust prediction of response to immune checkpoint blockade therapy in metastatic
     melanoma
