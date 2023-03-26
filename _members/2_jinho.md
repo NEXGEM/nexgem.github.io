@@ -1,7 +1,7 @@
 ---
 name: Jinho Lee
 image: images/team/some-image.jpg
-role: post-doc
+role: postdoc
 description: post-doc
 status: current
 
