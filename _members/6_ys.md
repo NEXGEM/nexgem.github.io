@@ -1,7 +1,7 @@
 ---
 name: Shin Yoo
 image: images/team/some-image.jpg
-role: student
+role: phd
 description: Integrated MS/PhD student
 department: School of Medicine
 status: current
