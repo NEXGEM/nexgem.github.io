@@ -1,6 +1,6 @@
 ---
 name: Youngmin Chung
-image: images/photo.jpg
+image: images/ym.jpeg
 role: Integrated PhD course
 description: Integrated MS/PhD student
 department: Department of Artificial Intelligence
