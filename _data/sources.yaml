@@ -1,6 +1,6 @@
 - id: doi:10.1016/j.cell.2021.03.030
   type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#   description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   date: 2021-4-29
   image: https://ars.els-cdn.com/content/image/1-s2.0-S0092867421003615-fx1.jpg
 #   buttons:
