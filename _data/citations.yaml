@@ -123,6 +123,30 @@
   image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-018-04647-1/MediaObjects/41467_2018_4647_Fig1_HTML.jpg?as=webp
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1038/s41591-018-0157-9
+  title: Robust prediction of response to immune checkpoint blockade therapy in metastatic
+    melanoma
+  authors:
+  - Noam Auslander
+  - Gao Zhang
+  - Joo Sang Lee
+  - Dennie T. Frederick
+  - Benchun Miao
+  - Tabea Moll
+  - Tian Tian
+  - Zhi Wei
+  - Sanna Madan
+  - Ryan J. Sullivan
+  - Genevieve Boland
+  - Keith Flaherty
+  - Meenhard Herlyn
+  - Eytan Ruppin
+  publisher: Nature Medicine
+  date: '2018-08-20'
+  link: https://doi.org/gffzjt
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1001/jamaoncol.2019.2311
   title: Multiomics Prediction of Response Rates to Therapies to Inhibit Programmed
     Cell Death 1 and Programmed Cell Death 1 Ligand 1
