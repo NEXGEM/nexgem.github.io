@@ -1,6 +1,6 @@
 ---
 name: Jaeyoung Ahn
-image: images/team/some-image.jpg
+image: images/ajh.jpg
 role: phd
 description: Integrated MS/PhD Student
 department: School of Medicine
