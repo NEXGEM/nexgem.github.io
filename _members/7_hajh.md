@@ -1,6 +1,6 @@
 ---
 name: Jihoon Ha
-image: images/team/some-image.jpg
+image: images/team/hajh.jpg
 role: phd
 description: Integrated MS/PhD Student
 department: School of Medicine
