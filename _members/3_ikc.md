@@ -1,6 +1,6 @@
 ---
 name: Kyeongchan Im
-image: images/ikc.png
+image: images/ikc.jpg
 role: phd
 department: School of Medicine
 status: current
