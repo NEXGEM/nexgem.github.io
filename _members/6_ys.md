@@ -1,6 +1,6 @@
 ---
 name: Shin Yoo
-image: images/team/some-image.jpg
+image: images/ys.jpg
 role: phd
 description: Integrated MS/PhD Student
 department: School of Medicine
