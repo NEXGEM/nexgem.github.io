@@ -455,7 +455,7 @@
 
 <header
   class="background"
-  style="--image: url('/images/background.jpg')"
+  style="--image: url('/images/nexgem_background.jpg')"
   
     data-dark="true"
   
