@@ -1,5 +1,5 @@
 ---
-name: Jaeyoung An
+name: Jaeyoung Ahn
 image: images/team/some-image.jpg
 role: phd
 description: Integrated MS/PhD Student
