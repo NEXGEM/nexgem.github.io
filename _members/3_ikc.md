@@ -9,3 +9,4 @@ links:
   email: ikc412@o365.skku.edu
 ---
 
+Department: School of Medicine
