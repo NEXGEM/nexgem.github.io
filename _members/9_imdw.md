@@ -6,6 +6,6 @@ department: School of Medicine
 status: current
 
 links:
-  email: borisu0323@naver.com
+  email: dowonim323@gmail.com
 ---
 
