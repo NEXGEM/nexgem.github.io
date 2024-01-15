@@ -648,7 +648,7 @@
   <div class="button-wrapper">
     <a
       class="button"
-      href="https://orcid.org/0000-0001-8713-9213"
+      href="https://orcid.org/0000-0001-8564-0848"
       
         data-tooltip="ORCID"
       
@@ -672,7 +672,7 @@
   <div class="button-wrapper">
     <a
       class="button"
-      href="https://scholar.google.com/citations?user=ETJoidYAAAAJ"
+      href="https://scholar.google.com/citations?user=O1WXoOsAAAAJ"
       
         data-tooltip="Google Scholar"
       
@@ -729,30 +729,6 @@
       aria-label="Twitter"
     >
       <i class="icon fa-brands fa-twitter"></i>
-      
-    </a>
-  </div>
-
-
-    
-      
-      
-      
-
-
-
-  <div class="button-wrapper">
-    <a
-      class="button"
-      href="https://youtube.com/YourLabChannel"
-      
-        data-tooltip="YouTube"
-      
-      data-style="bare"
-      
-      aria-label="YouTube"
-    >
-      <i class="icon fa-brands fa-youtube"></i>
       
     </a>
   </div>
