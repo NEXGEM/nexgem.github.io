@@ -27,7 +27,7 @@ Next Generation Medicine Lab studies ...
   filters="role: postdoc"
 %}
 
-# <i class="fas fa-users"></i>Researchers
+# <i class="fas fa-users"></i>Student researchers
 {%
   include list.html
   data="members"
