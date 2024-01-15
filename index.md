@@ -9,11 +9,6 @@ Next Genernation Medicine Lab (NEXGEM) aims to integrate the biological big-data
 
 ## Highlights
 
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
 {%
   include gallery.html
   style="square"
