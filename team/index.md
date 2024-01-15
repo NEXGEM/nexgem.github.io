@@ -5,11 +5,11 @@ nav:
   tooltip: About our team
 ---
 
+{% include section.html %}
+
 # <i class="fas fa-microscope"></i>Principal Investigators
 
 Next Generation Medicine Lab studies ...
-
-{% include section.html %}
 
 {%
   include list.html
