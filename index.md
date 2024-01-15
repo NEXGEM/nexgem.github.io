@@ -30,11 +30,11 @@ Next Genernation Medicine Lab (NEXGEM) aims to integrate the biological big-data
   tooltip4="Socio-ecological dynamics"
   
   image5="images/ikc.jpg"
-  link5="https://quantmarineecolab.github.io/publications/"
+  link5="research"
   tooltip5="Spatial ecology"
   
   image6="images/ajh.jpg"
-  link6="https://quantmarineecolab.github.io/research/bioed"
+  link6="research"
   tooltip6="Biology education research"
 
 
