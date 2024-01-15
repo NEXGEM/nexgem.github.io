@@ -19,19 +19,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   style="square"
 
   image1="images/ikc.jpg"
-  link1="https://quantmarineecolab.github.io/research/monitoring"
+  link1="research"
   tooltip1="Ecological monitoring"
 
   image2="images/ikc.jpg"
-  link2="https://quantmarineecolab.github.io/research/seafood"
+  link2="research"
   tooltip2="Sustainable seafood"
 
   image3="images/ikc.jpg"
-  link3="https://quantmarineecolab.github.io/publications/"
+  link3="research"
   tooltip3="Extreme events"
 
   image4="images/ikc.jpg"
-  link4="https://quantmarineecolab.github.io/research/socioeco"
+  link4="research"
   tooltip4="Socio-ecological dynamics"
 
 
