@@ -5,7 +5,7 @@ nav:
   tooltip: About our team
 ---
 
-# <i class="fas fa-microscope"></i>Principal Investigators
+# <i class="fas fa-microscope"></i>Principal Investigator
 {% include section.html %}
 
 Next Generation Medicine Lab studies ...
@@ -19,7 +19,7 @@ Next Generation Medicine Lab studies ...
 
 {% include section.html %}
 
-# <i class="fas fa-microscope"></i>Postdoctoral researcher
+# <i class="fas fa-microscope"></i>Postdoctoral researchers
 {%
   include list.html
   data="members"
