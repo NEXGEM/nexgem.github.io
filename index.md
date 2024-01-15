@@ -15,7 +15,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 {%
-  include button.html
+  include gallery.html
   style="square"
 
   image1="images/ikc.jpg"
