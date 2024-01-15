@@ -54,21 +54,6 @@ Next Generation Medicine Lab studies ...
 
 {% include section.html %}
 
-// # <i class="fas fa-users"></i>Alumni
-
-{:.center}
-
-{% include section.html background="images/banner.webp" dark=true%}
-
-<p style="text-align:center">“Science is the most reliable guide in life.”</p>
-<p style="text-align:center"><i>Mustafa Kemal Ataturk</i></p>
-
-
-
-
-
-{% include section.html %}
-
 ## Funding
 
 Our work is made possible by funding from the following organizations.
@@ -77,16 +62,13 @@ Our work is made possible by funding from the following organizations.
 {%
   include gallery.html
 
-  image1="images/funding/nih.webp"
-  link1="https://nih.gov/"
-  tooltip1="National Institutes of Health"
+  image1="images/funding/skku.jpeg"
+  link1="https://www.skku.edu/"
+  tooltip1="SungKyunKwan university"
+  
+  image2="images/funding/samsung.png"
+  link2="https://www.samsungstf.org/"
+  tooltip2="Samsung Science & Technology"
 
-  image2="images/funding/pelotonia.webp"
-  link2="https://cancer.osu.edu/for-cancer-researchers/research/research-institutes-and-centers/pelotonia-institute-for-immuno-oncology"
-  tooltip2="Pelotonia Institute for Immuno-Oncology"
-
-  image3="images/funding/Ohio-State.webp"
-  link3="https://idi.osu.edu/"
-  tooltip2="Ohio State University Infectious Disease Institute"
 %}
 {:.center}
