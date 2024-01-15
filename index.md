@@ -1,7 +1,7 @@
 ---
 ---
 
-# Next Generation Medicine Lab HI
+# Next Generation Medicine Lab
 
 Next Genernation Medicine Lab (NEXGEM) aims to integrate the biological big-data with AI and data science approaches and cutting-edge experimental techniques to find a better way to treat cancer patients. Our research covers highly translationally important questions in multiple fields of cancer biology including cancer immunotherapy. In particular, we focus on precision cancer medicine, tailoring the cancer treatments based on the molecular markup of individual patients from the perspective of AI and data science.
 
