@@ -4,11 +4,11 @@ header: images/nexgem_background.jpg
 footer: images/background.jpg
 links:
   email: lee.joosang@gmail.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
+  orcid: 0000-0001-8564-0848
+  google-scholar: O1WXoOsAAAAJ
   github: https://github.com/nexgem
   twitter: YourLabHandle
-  youtube: YourLabChannel
+  # youtube: YourLabChannel
 defaults:
   - scope:
       path: ""
