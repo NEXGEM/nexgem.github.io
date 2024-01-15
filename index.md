@@ -18,19 +18,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include gallery.html
   style="square"
 
-  image1="images/ikc.jpg"
+  image1="images/topic-bioed.jpeg"
   link1="research"
   tooltip1="Ecological monitoring"
 
-  image2="images/ikc.jpg"
+  image2="images/topic-bioed.jpeg"
   link2="research"
   tooltip2="Sustainable seafood"
 
-  image3="images/ikc.jpg"
+  image3="images/topic-bioed.jpeg"
   link3="research"
   tooltip3="Extreme events"
 
-  image4="images/ikc.jpg"
+  image4="images/topic-bioed.jpeg"
   link4="research"
   tooltip4="Socio-ecological dynamics"
 
