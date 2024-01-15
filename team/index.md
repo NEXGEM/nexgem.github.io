@@ -28,8 +28,6 @@ Next Generation Medicine Lab studies ...
   filters="role: postdoc"
 %}
 
-{% include section.html %}
-
 # <i class="fas fa-users"></i>Researchers
 {%
   include list.html
@@ -51,8 +49,6 @@ Next Generation Medicine Lab studies ...
 %}
 
 {:.center}
-
-{% include section.html %}
 
 ## Funding
 
