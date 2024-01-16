@@ -1,6 +1,6 @@
 ---
 name: Dowon Im
-image: images/imdw.jpg
+image: images/team/imdw.jpg
 role: undergrad
 department: School of Medicine
 status: current

@@ -1,6 +1,6 @@
 ---
 name: Joosang Lee
-image: images/joo.jpeg
+image: images/team/joo.jpeg
 role: pi
 aliases:
   - Joo
