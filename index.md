@@ -13,27 +13,27 @@
   include gallery.html
   style="square"
 
-  image1="images/ajh.jpg"
+  image1="images/team/ajh.jpg"
   link1="research"
   tooltip1="Ecological monitoring"
 
-  image2="images/ajh.jpg"
+  image2="images/team/ajh.jpg"
   link2="research"
   tooltip2="Sustainable seafood"
 
-  image3="images/ajh.jpg"
+  image3="images/team/ajh.jpg"
   link3="research"
   tooltip3="Extreme events"
 
-  image4="images/ajh.jpg"
+  image4="images/team/ajh.jpg"
   link4="research"
   tooltip4="Socio-ecological dynamics"
   
-  image5="images/ikc.jpg"
+  image5="images/team/ikc.jpg"
   link5="research"
   tooltip5="Spatial ecology"
   
-  image6="images/ajh.jpg"
+  image6="images/team/ajh.jpg"
   link6="research"
   tooltip6="Biology education research"
 
