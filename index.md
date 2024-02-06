@@ -13,31 +13,21 @@
   include gallery.html
   style="square"
 
-  image1="images/team/main/Blog.webp"
+  image1="images/team/main/Research.jpg"
   link1="research"
-  tooltip1="Ecological monitoring"
+  tooltip1="reseach"
 
-  image2="images/team/ajy.jpg"
-  link2="research"
-  tooltip2="Sustainable seafood"
+  image2="images/team/main/Team.jpg"
+  link2="team"
+  tooltip2="Team"
 
-  image3="images/team/ajy.jpg"
-  link3="research"
-  tooltip3="Extreme events"
+  image3="images/team/main/Blog.jpg
+  link3="blog"
+  tooltip3="Blog"
 
-  image4="images/team/ajy.jpg"
-  link4="research"
-  tooltip4="Socio-ecological dynamics"
-  
-  image5="images/team/ikc.jpg"
-  link5="research"
-  tooltip5="Spatial ecology"
-  
-  image6="images/team/ajy.jpg"
-  link6="research"
-  tooltip6="Biology education research"
-
-
+  image4="images/team/main/Contact.jpg"
+  link4="contact"
+  tooltip4="Contact"
 %}
 
 {% include twitter.html %}
