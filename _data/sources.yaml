@@ -6,13 +6,13 @@
 #   type: paper
 #   image: https://ars.els-cdn.com/content/image/1-s2.0-S2666379123000307-fx1_lrg.jpg
 
-# - id: doi.org/10.1158/2159-8290.CD-22-1062
-#   type: paper
-#   image: https://aacr.silverchair-cdn.com/aacr/content_public/journal/cancerdiscovery/13/7/10.1158_2159-8290.cd-22-1062/4/1616fig1.jpeg?Expires=1710229248&Signature=cc81Qw6TxedEkSVVP~yVn5TsT0oWkn7KDGWBQ5LUJv9gMUHQtPVQkzZT~7w-bd3JkvAHOxlrUoqyW~UKOUGCCfkRwuDY3fvbi2aY9SuCXoGv4AlTnY2eUseLYAaMaXurmWsRmncenP-vjzeLcq6eNr5TaFreTuM9qoQxtoWTiNMMDk4dVGF0fiDb2EdsDoRpmjYA52zqvSeMiaRPy7MDRh0EoOioTGCKiADA9yx4BcVsnmFSUfDxeSTu8g4Fh~a~E-ZwYuksgD36cy5aHjk1KCzFbsLKthWDylbMaa6ZUMNXpnLmJ26gR0Q0YVhEHMoR0CBhFAwpgI6vUe5HAPhdTg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
-
-- id: doi.org/10.1038/s41467-023-39528-9
+- id: doi.org/10.1158/2159-8290.CD-22-1062
   type: paper
-  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-023-39528-9/MediaObjects/41467_2023_39528_Fig1_HTML.png?as=webp
+  image: https://aacr.silverchair-cdn.com/aacr/content_public/journal/cancerdiscovery/13/7/10.1158_2159-8290.cd-22-1062/4/1616fig1.jpeg?Expires=1710229248&Signature=cc81Qw6TxedEkSVVP~yVn5TsT0oWkn7KDGWBQ5LUJv9gMUHQtPVQkzZT~7w-bd3JkvAHOxlrUoqyW~UKOUGCCfkRwuDY3fvbi2aY9SuCXoGv4AlTnY2eUseLYAaMaXurmWsRmncenP-vjzeLcq6eNr5TaFreTuM9qoQxtoWTiNMMDk4dVGF0fiDb2EdsDoRpmjYA52zqvSeMiaRPy7MDRh0EoOioTGCKiADA9yx4BcVsnmFSUfDxeSTu8g4Fh~a~E-ZwYuksgD36cy5aHjk1KCzFbsLKthWDylbMaa6ZUMNXpnLmJ26gR0Q0YVhEHMoR0CBhFAwpgI6vUe5HAPhdTg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+
+# - id: doi.org/10.1038/s41467-023-39528-9
+#   type: paper
+#   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-023-39528-9/MediaObjects/41467_2023_39528_Fig1_HTML.png?as=webp
 
 # - id: doi.org/10.1186/s40560-023-00683-2
 #   type: paper
