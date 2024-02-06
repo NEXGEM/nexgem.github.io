@@ -35,19 +35,15 @@
 
 AI-based microscopy machine vision is a highly multi-disciplinary field. There are so many fanscinating problems to explore and study.
 
-See our research landscape  → {:.center} {% endcapture %}
+[See our research landscape](https://nexgem.github.io/research/) {:.center} {% endcapture %}
 
-{%
-  include gallery.html
-  style="square"
-  
-  include feature.html image="images/main/Research.jpg" link="research" headline="Our Research" text=text %}
+{%  include feature.html image="images/main/Research.jpg" link="research" headline="Our Research" text=text %}
 
 {% capture text %}
 
 Our group is fully commited to open science, such as open source softwares/packages, public datasets, open access publications. We believe open science can lead to impactful big science.
 
-Visit our open science portal  → {:.center} {% endcapture %}
+[Meet our team](https://nexgem.github.io/team/) {:.center} {% endcapture %}
 
 {% include feature.html image="images/main/Team.jpg" link="team" headline="Our Team" text=text %}
 
@@ -55,7 +51,7 @@ Visit our open science portal  → {:.center} {% endcapture %}
 
 We are building a team with diverse background and expertises, from software enigneering, machine learning, image analysis, data analysis to microscopy and computational biomedical modeling.
 
-Meet our team  → {:.center} {% endcapture %}
+[Visit our blog](https://nexgem.github.io/blog/) {:.center} {% endcapture %}
 
 {% include feature.html image="images/main/Blog.jpg" link="blog" headline="Our Blog" text=text %}
 
@@ -63,7 +59,7 @@ Meet our team  → {:.center} {% endcapture %}
 
 Our group is fully commited to open science, such as open source softwares/packages, public datasets, open access publications. We believe open science can lead to impactful big science.
 
-Visit our open science portal  → {:.center} {% endcapture %}
+[Contact](https://nexgem.github.io/contact/) {:.center} {% endcapture %}
 
 {% include feature.html image="images/main/Contact.jpg" link="contact" headline="Contact" text=text %}
 
