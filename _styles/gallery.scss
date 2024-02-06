@@ -12,6 +12,7 @@
   align-items: center;
   @include big-margins;
   @include trim-v-margins;
+  grid-template-columns: repeat(4, 1fr);
 
   .gallery_item {
     // box-shadow: $shadow;
