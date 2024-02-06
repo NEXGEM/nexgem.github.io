@@ -1,5 +1,169 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1136/jitc-2023-007310
+  title: Increased interleukin-6/C-reactive protein levels are associated with the
+    upregulation of the adenosine pathway and serve as potential markers of therapeutic
+    resistance to immune checkpoint inhibitor-based therapies in non-small cell lung
+    cancer
+  authors:
+  - Abdul Rafeh Naqash
+  - Justin D McCallen
+  - Emma Mi
+  - Sanna Iivanainen
+  - Mona A Marie
+  - Daria Gramenitskaya
+  - James Clark
+  - Jussi Pekka Koivunen
+  - Shravanti Macherla
+  - Sweta Jonnalagadda
+  - Shanker Polsani
+  - Rahim Ali Jiwani
+  - Maida Hafiz
+  - Mahvish Muzaffar
+  - Leonardo Brunetti
+  - Chipman R G Stroud
+  - Paul R Walker
+  - Kun Wang
+  - Youngmin Chung
+  - Eytan Ruppin
+  - Se-Hoon Lee
+  - Li V Yang
+  - David J Pinato
+  - Joo Sang Lee
+  - Alessio Cortellini
+  publisher: Journal for ImmunoTherapy of Cancer
+  date: '2023-10-01'
+  link: https://doi.org/gtg3dx
+  type: paper
+  image: https://www.ncbi.nlm.nih.gov/corecgi/tileshop/tileshop.fcgi?p=PMC3&id=72550&s=175&r=1&c=2
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.xcrm.2023.100938
+  title: Genomic and transcriptomic analyses identify a prognostic gene signature
+    and predict response to therapy in pleural and peritoneal mesothelioma
+  authors:
+  - Nishanth Ulhas Nair
+  - Qun Jiang
+  - Jun Stephen Wei
+  - Vikram Alexander Misra
+  - Betsy Morrow
+  - Chimene Kesserwan
+  - Leandro C. Hermida
+  - Joo Sang Lee
+  - Idrees Mian
+  - Jingli Zhang
+  - Alexandra Lebensohn
+  - Markku Miettinen
+  - Manjistha Sengupta
+  - Javed Khan
+  - Eytan Ruppin
+  - Raffit Hassan
+  publisher: Cell Reports Medicine
+  date: '2023-02-01'
+  link: https://doi.org/gsts4f
+  type: paper
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2666379123000307-fx1_lrg.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1158/2159-8290.CD-22-1062
+  title: "Early Infiltration of Innate Immune Cells to the Liver Depletes HNF4\u03B1\
+    \ and Promotes Extrahepatic Carcinogenesis"
+  authors:
+  - Omer Goldman
+  - Lital N. Adler
+  - Emma Hajaj
+  - Tommaso Croese
+  - Naama Darzi
+  - Sivan Galai
+  - Hila Tishler
+  - Yarden Ariav
+  - Dor Lavie
+  - Liat Fellus-Alyagor
+  - Roni Oren
+  - Yuri Kuznetsov
+  - Eyal David
+  - Rami Jaschek
+  - Chani Stossel
+  - Oded Singer
+  - Sergey Malitsky
+  - Renana Barak
+  - Rony Seger
+  - Neta Erez
+  - Ido Amit
+  - Amos Tanay
+  - Ann Saada
+  - Talia Golan
+  - Tamar Rubinek
+  - Joo Sang Lee
+  - Shay Ben-Shachar
+  - Ido Wolf
+  - Ayelet Erez
+  publisher: Cancer Discovery
+  date: '2023-03-27'
+  link: https://doi.org/gr7p6p
+  type: paper
+  image: https://aacr.silverchair-cdn.com/aacr/content_public/journal/cancerdiscovery/13/7/10.1158_2159-8290.cd-22-1062/4/1616fig1.jpeg?Expires=1710229248&Signature=cc81Qw6TxedEkSVVP~yVn5TsT0oWkn7KDGWBQ5LUJv9gMUHQtPVQkzZT~7w-bd3JkvAHOxlrUoqyW~UKOUGCCfkRwuDY3fvbi2aY9SuCXoGv4AlTnY2eUseLYAaMaXurmWsRmncenP-vjzeLcq6eNr5TaFreTuM9qoQxtoWTiNMMDk4dVGF0fiDb2EdsDoRpmjYA52zqvSeMiaRPy7MDRh0EoOioTGCKiADA9yx4BcVsnmFSUfDxeSTu8g4Fh~a~E-ZwYuksgD36cy5aHjk1KCzFbsLKthWDylbMaa6ZUMNXpnLmJ26gR0Q0YVhEHMoR0CBhFAwpgI6vUe5HAPhdTg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41467-023-39528-9
+  title: A landscape of response to drug combinations in non-small cell lung cancer
+  authors:
+  - Nishanth Ulhas Nair
+  - Patricia Greninger
+  - Xiaohu Zhang
+  - Adam A. Friedman
+  - Arnaud Amzallag
+  - Eliane Cortez
+  - Avinash Das Sahu
+  - Joo Sang Lee
+  - Anahita Dastur
+  - Regina K. Egan
+  - Ellen Murchie
+  - Michele Ceribelli
+  - Giovanna S. Crowther
+  - Erin Beck
+  - Joseph McClanaghan
+  - Carleen Klump-Thomas
+  - Jessica L. Boisvert
+  - Leah J. Damon
+  - Kelli M. Wilson
+  - Jeffrey Ho
+  - Angela Tam
+  - Crystal McKnight
+  - Sam Michael
+  - Zina Itkin
+  - Mathew J. Garnett
+  - Jeffrey A. Engelman
+  - Daniel A. Haber
+  - Craig J. Thomas
+  - Eytan Ruppin
+  - Cyril H. Benes
+  publisher: Nature Communications
+  date: '2023-06-28'
+  link: https://doi.org/gtg3dz
+  type: paper
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-023-39528-9/MediaObjects/41467_2023_39528_Fig1_HTML.png?as=webp
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/s40560-023-00683-2
+  title: 'Prognostic implication of downregulated exosomal miRNAs in patients with
+    sepsis: a cross-sectional study with bioinformatics analysis'
+  authors:
+  - Beomsu Shin
+  - Jin Young Lee
+  - Yunjoo Im
+  - Hongseok Yoo
+  - Junseon Park
+  - Joo Sang Lee
+  - Ki-Young Lee
+  - Kyeongman Jeon
+  publisher: Journal of Intensive Care
+  date: '2023-08-03'
+  link: https://doi.org/gtg3d2
+  type: paper
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs40560-023-00683-2/MediaObjects/40560_2023_683_Fig1_HTML.png
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1016/j.medj.2023.12.009
   title: A systematic analysis of the landscape of synthetic lethality-driven precision
     oncology
