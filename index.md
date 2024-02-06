@@ -21,13 +21,14 @@
   link2="team"
   tooltip2="Team"
 
-  image3="images/team/main/Blog.jpg
+  image3="images/team/main/Blog.jpg"
   link3="blog"
   tooltip3="Blog"
 
   image4="images/team/main/Contact.jpg"
   link4="contact"
   tooltip4="Contact"
+  
 %}
 
 {% include twitter.html %}
