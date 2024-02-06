@@ -1,5 +1,21 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1016/j.medj.2023.12.009
+  title: A systematic analysis of the landscape of synthetic lethality-driven precision
+    oncology
+  authors:
+  - "Alejandro A. Sch\xE4ffer"
+  - Youngmin Chung
+  - Ashwin V. Kammula
+  - Eytan Ruppin
+  - Joo Sang Lee
+  publisher: Med
+  date: '2024-01-01'
+  link: https://doi.org/gtdm2n
+  type: paper
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2666634023004075-fx1_lrg.jpg
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1158/2159-8290.CD-22-0111
   title: AXL and Error-Prone DNA Replication Confer Drug Resistance and Offer Strategies
     to Treat EGFR-Mutant Lung Cancer
