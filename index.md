@@ -9,28 +9,6 @@
 
 ## Contents
 
-{%
-  include gallery.html
-  style="square"
-
-  image1="images/main/Research.jpg"
-  link1="research"
-  tooltip1="reseach"
-
-  image2="images/main/Team.jpg"
-  link2="team"
-  tooltip2="Team"
-
-  image3="images/main/Blog.jpg"
-  link3="blog"
-  tooltip3="Blog"
-
-  image4="images/main/Contact.jpg"
-  link4="contact"
-  tooltip4="Contact"
-  
-%}
-
 {% capture text %}
 
 AI-based microscopy machine vision is a highly multi-disciplinary field. There are so many fanscinating problems to explore and study.
