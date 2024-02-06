@@ -48,7 +48,7 @@
   }
 
   @media (max-width: $phone) {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr 1fr !important;
   }
 
   &[data-number="2"] {
@@ -56,6 +56,6 @@
   }
 
   &[data-number="1"] {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
