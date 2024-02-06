@@ -13,7 +13,7 @@
   include gallery.html
   style="square"
 
-  image1="images/team/ajy.jpg"
+  image1="images/team/main/Blog.webp"
   link1="research"
   tooltip1="Ecological monitoring"
 
