@@ -13,19 +13,19 @@
   include gallery.html
   style="square"
 
-  image1="images/team/main/Research.jpg"
+  image1="images/team/Research.jpg"
   link1="research"
   tooltip1="reseach"
 
-  image2="images/team/main/Team.jpg"
+  image2="images/team/Team.jpg"
   link2="team"
   tooltip2="Team"
 
-  image3="images/team/main/Blog.jpg"
+  image3="images/team/Blog.jpg"
   link3="blog"
   tooltip3="Blog"
 
-  image4="images/team/main/Contact.jpg"
+  image4="images/team/Contact.jpg"
   link4="contact"
   tooltip4="Contact"
   
