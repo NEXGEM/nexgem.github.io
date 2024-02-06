@@ -7,7 +7,7 @@
 
 {% include section.html %}
 
-##Contents
+## Highlights
 
 {%
   include gallery.html
