@@ -1,3 +1,15 @@
+- id: doi:10.1038/s41467-021-26788-6
+  type: paper
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-021-26788-6/MediaObjects/41467_2021_26788_Fig1_HTML.png?as=webp
+
+- id: doi:10.1158/2159-8290.CD-21-0887
+  type: paper
+  image: https://aacr.silverchair-cdn.com/aacr/content_public/journal/cancerdiscovery/12/4/10.1158_2159-8290.cd-21-0887/4/1088fig1.jpeg?Expires=1710306178&Signature=v5FkW3AzkhX2aj9ZvT5K8r7M-gnVgKiMd6Ct-ChSDCK3eqd1t7r4ZFHLNU1M2zH~SFaNNGKJAjPDrpd5tp4a9~9mHfzrB7BZlGnugXhQmjuOmrJx~ZsSjh4fTOE1WYXpRzLFIsasgfFIFh2B3CHPSN~I3uEkbRBMeoSUntpQzgg9ziRJE4jTS9Kge7a91ZJiwl4TW8hb0EMVnOBXWbmmRNNcVenYrftSAO58pKTZskJXAwyNnoLHJpPXHarUhU~zyHXQzy0yZE4e3Ftn5uME2Nq-NzA5fo~MyH9od0nDGIGTUPXYGQWJjkrSzzJ6rz4gJKNhl~NKqtGRQMqX2dwc1g__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+
+- id: doi:10.1016/j.celrep.2022.110418
+  type: paper
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2211124722001425-fx1_lrg.jpg
+
 - id: doi:10.1136/jitc-2023-007310
   type: paper
   image: https://www.ncbi.nlm.nih.gov/corecgi/tileshop/tileshop.fcgi?p=PMC3&id=72550&s=175&r=1&c=2
