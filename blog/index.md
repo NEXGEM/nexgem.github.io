@@ -18,3 +18,5 @@ Explore diverse experience in NEXGEM LAB
 {% include search-info.html %}
 
 {% include posts-grid.html data="posts" component="posts-grid" %}
+
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/styles/posts-grid.css">
