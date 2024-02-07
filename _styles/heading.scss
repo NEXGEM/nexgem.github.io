@@ -1,45 +1,48 @@
 ---
 ---
 
-@import "palettes";
-@import "theme";
-@import "mixins";
-
 h1,
 h2,
 h3,
 h4 {
-  font-family: $sans;
-  font-weight: $medium;
-  line-height: $spacing - 0.3;
-  margin: 40px 0 20px 0;
-  @include trim-v-margins;
-  padding: 10px 0;
+  font-family: var(--heading);
+  line-height: calc(var(--spacing) - 0.2);
 }
 
 h1 {
-  font-size: 1.4rem;
-  letter-spacing: 2px;
+  margin: 40px 0 20px 0;
+  font-size: var(--xxl);
+  font-weight: var(--regular);
+  letter-spacing: 1px;
   text-transform: uppercase;
-  text-align: center;
-
-  & + p {
-    margin-top: 40px;
-  }
+  text-align: left;
 }
 
 h2 {
-  font-size: 1.3rem;
+  margin: 40px 0 20px 0;
+  padding-bottom: 5px;
+  border-bottom: solid 1px var(--light-gray);
+  font-size: var(--xl);
+  font-weight: var(--regular);
   letter-spacing: 1px;
-  text-align: center;
+  text-align: left;
 }
 
 h3 {
-  font-size: 1.2rem;
-  text-align: center;
+  margin: 40px 0 20px 0;
+  font-size: var(--large);
+  font-weight: var(--semi-bold);
+  text-align: left;
 }
 
 h4 {
-  font-size: 1rem;
+  margin: 40px 0 20px 0;
+  font-size: var(--medium);
+  font-weight: var(--semi-bold);
   text-align: left;
+}
+
+:where(h1, h2, h3, h4) > .icon {
+  margin-right: 1em;
+  color: var(--light-gray);
 }
