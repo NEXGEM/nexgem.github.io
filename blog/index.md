@@ -17,6 +17,6 @@ Explore diverse experience in NEXGEM LAB
 
 {% include search-info.html %}
 
-{% include posts-grid.html data="posts" component="blog-grid" %}
+{% include blog-grid.html data="posts" component="blog-grid" %}
 
 <link rel="stylesheet" type="text/css" href="/_styles/blog-grid.css">
