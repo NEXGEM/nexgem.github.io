@@ -1,5 +1,8 @@
 ---
 title: Example post 1
+year: 2019
+month: 01
+day: 07
 author: sarah-johnson
 tags:
   - biology
