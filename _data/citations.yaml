@@ -1,5 +1,83 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1038/s41467-021-26788-6
+  title: A systematic genome-wide mapping of oncogenic mutation selection during CRISPR-Cas9
+    genome editing
+  authors:
+  - Sanju Sinha
+  - Karina Barbosa
+  - Kuoyuan Cheng
+  - Mark D. M. Leiserson
+  - Prashant Jain
+  - Anagha Deshpande
+  - David M. Wilson
+  - "Br\xEDd M. Ryan"
+  - Ji Luo
+  - "Ze\u2019ev A. Ronai"
+  - Joo Sang Lee
+  - Aniruddha J. Deshpande
+  - Eytan Ruppin
+  publisher: Nature Communications
+  date: '2021-11-11'
+  link: https://doi.org/gtg4t7
+  type: paper
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-021-26788-6/MediaObjects/41467_2021_26788_Fig1_HTML.png?as=webp
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1158/2159-8290.CD-21-0887
+  title: "Deconvolving Clinically Relevant Cellular Immune Cross-talk from Bulk Gene\
+    \ Expression Using CODEFACS and LIRICS Stratifies Patients with Melanoma to Anti\u2013\
+    PD-1 Therapy"
+  authors:
+  - Kun Wang
+  - Sushant Patkar
+  - Joo Sang Lee
+  - E. Michael Gertz
+  - Welles Robinson
+  - Fiorella Schischlik
+  - David R. Crawford
+  - "Alejandro A. Sch\xE4ffer"
+  - Eytan Ruppin
+  publisher: Cancer Discovery
+  date: '2022-01-04'
+  link: https://doi.org/gnz74b
+  type: paper
+  image: https://aacr.silverchair-cdn.com/aacr/content_public/journal/cancerdiscovery/12/4/10.1158_2159-8290.cd-21-0887/4/1088fig1.jpeg?Expires=1710306178&Signature=v5FkW3AzkhX2aj9ZvT5K8r7M-gnVgKiMd6Ct-ChSDCK3eqd1t7r4ZFHLNU1M2zH~SFaNNGKJAjPDrpd5tp4a9~9mHfzrB7BZlGnugXhQmjuOmrJx~ZsSjh4fTOE1WYXpRzLFIsasgfFIFh2B3CHPSN~I3uEkbRBMeoSUntpQzgg9ziRJE4jTS9Kge7a91ZJiwl4TW8hb0EMVnOBXWbmmRNNcVenYrftSAO58pKTZskJXAwyNnoLHJpPXHarUhU~zyHXQzy0yZE4e3Ftn5uME2Nq-NzA5fo~MyH9od0nDGIGTUPXYGQWJjkrSzzJ6rz4gJKNhl~NKqtGRQMqX2dwc1g__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.celrep.2022.110418
+  title: 'Nucleoporin-93 reveals a common feature of aggressive breast cancers: robust
+    nucleocytoplasmic transport of transcription factors'
+  authors:
+  - Nishanth Belugali Nataraj
+  - Ashish Noronha
+  - Joo Sang Lee
+  - Soma Ghosh
+  - Harsha Raj Mohan Raju
+  - Arunachalam Sekar
+  - Binyamin Zuckerman
+  - Moshit Lindzen
+  - Emilio Tarcitano
+  - Swati Srivastava
+  - Michael Selitrennik
+  - Ido Livneh
+  - Diana Drago-Garcia
+  - Oscar Rueda
+  - Carlos Caldas
+  - Sima Lev
+  - Tamar Geiger
+  - Aaron Ciechanover
+  - Igor Ulitsky
+  - Rony Seger
+  - Eytan Ruppin
+  - Yosef Yarden
+  publisher: Cell Reports
+  date: '2022-02-01'
+  link: https://doi.org/gs8z4s
+  type: paper
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2211124722001425-fx1_lrg.jpg
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1136/jitc-2023-007310
   title: Increased interleukin-6/C-reactive protein levels are associated with the
     upregulation of the adenosine pathway and serve as potential markers of therapeutic
