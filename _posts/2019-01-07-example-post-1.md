@@ -1,6 +1,6 @@
 ---
 title: Example post 1
-date:2019-01-07
+date: 2019-01-07
 author: sarah-johnson
 tags:
   - biology
