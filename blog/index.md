@@ -17,4 +17,4 @@ Explore diverse experience in NEXGEM LAB
 
 {% include search-info.html %}
 
-{% include list.html data="posts" component="post-excerpt" %}
+{% include posts-grid.html data="posts" component="posts-grid" %}
