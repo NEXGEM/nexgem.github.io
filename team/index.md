@@ -63,7 +63,7 @@ Our work is made possible by funding from the following organizations.
   link1="https://www.skku.edu/"
   tooltip1="SungKyunKwan university"
   
-  image2="images/funding/samsung.png"
+  image2="images/funding/samsung_미래.png"
   link2="https://www.samsungstf.org/"
   tooltip2="Samsung Science & Technology"
 
