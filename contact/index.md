@@ -23,6 +23,12 @@ We are currently recruiting experimental cancer biologists with M.S degree for m
 %}
 {%
   include button.html
+  type="phone"
+  text="031-299-6110"
+  link="031-299-6110"
+%}
+{%
+  include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
   link="https://goo.gl/maps/esAoSh75Xyfkknra8"
@@ -54,22 +60,3 @@ We are currently recruiting experimental cancer biologists with M.S degree for m
 
 {% include section.html dark=true %}
 
-{% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
