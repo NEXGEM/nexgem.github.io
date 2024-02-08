@@ -13,11 +13,11 @@ links:
 
 ---
 
-## Education
+## **Education**
 
 * **B.S**, Pharmacy, Chung-Ang University, 2023
   
-## Research Interests
+## **Research Interests**
 
 * **Deep learning in biology**
     - Protein structure prediction
@@ -26,11 +26,11 @@ links:
 * **Bioinformatics and cancer therapy**
     - Abnormal gene expression in cancer
 
-## Awards and Honors
+## **Awards and Honors**
 
 * 성균관대학교 대학원우수장학금
 
-## Contact
+## **Contact**
 
 * Email: gkwlgns323@gmail.com
 * Twitter: https://twitter.com/gkwlgns323
