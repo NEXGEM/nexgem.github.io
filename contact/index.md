@@ -49,7 +49,7 @@ We are currently recruiting **experimental cancer biologists** with M.S degree f
 
 {%
   include figure.html
-  image="images/성대정문.png"
+  image="images/성대정문.jpg"
   caption=""
 %}
 
