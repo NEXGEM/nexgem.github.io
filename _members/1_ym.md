@@ -13,11 +13,11 @@ links:
 
 ---
 
-## Education
+## **Education**
 
 * **B.S.**, Konkuk University, 2021 (Integrated biotechnology)
 
-## Research Interests
+## **Research Interests**
 
 * **Deep learning for cancer biology**
   - Computational pathology
@@ -28,17 +28,17 @@ links:
 * **Data science and bioinformatics**
   - Synthetic lethality for cancer treatment
 
-## Publications
+## **Publications**
 
 * Lee, J. S., Nair, N. U., Dinstag, G., Chapman, L., Chung, Y., Wang, K., ... & Ruppin, E. (2021). Synthetic lethality-mediated precision oncology via the tumor transcriptome. Cell, 184(9), 2487-2502.
 * Schäffer, A. A., Chung, Y., Kammula, A. V., Ruppin, E., & Lee, J. S. (2024). A systematic analysis of the landscape of synthetic lethality-driven precision oncology. Med, 5(1), 73-89.
 
-## Awards and Honors
+## **Awards and Honors**
 
 * 성균관대학교 대학원우수장학금
 * 관정이종환교육재단 제17기 국내 대학원 장학생
 
-## Contact
+## **Contact**
 
 * Email: ymblue@g.skku.edu
 * Twitter: https://twitter.com/ChungYoungmin
