@@ -10,11 +10,11 @@ links:
   email: yoos0728@naver.com
 ---
 
-## Education
+## **Education**
 
 * **B.S.**, Biological Science, Sungkyunkwan University, 2022
 
-## Research Interests
+## **Research Interests**
 
 * **Data science and bioinformatics**
     - Synthetic lethality for cancer treatment
@@ -22,6 +22,6 @@ links:
 * **In vitro and in vivo experiments**
     - Synthetic lethality for cancer treatment
 
-## Contact
+## **Contact**
 
-* Email: yoos0728@naver.com
+* **Email**: yoos0728@naver.com
