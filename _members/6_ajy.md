@@ -11,4 +11,20 @@ links:
  
 ---
 
-Department: School of Medicine
+---
+
+## **Education**
+
+* **B.S**, Pharmacy, Chung-Ang University, 2023
+
+## **Research Interests**
+
+* **Data science and bioinformatics**
+    - Multiomics data analysis
+    - Cancer neuroscience
+    - Gene fusion target discovery
+* **In vitro and in vivo experiments**
+    - CRISPR  screening 
+
+## **Contact**
+* **Email**: talbot05@naver.com
