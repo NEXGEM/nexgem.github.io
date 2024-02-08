@@ -24,7 +24,7 @@ links:
 * Deep learning for cancer biology
     - single-cell / spatial RNA-seq analysis
     - Drug response prediction
-* Data science and bioinformatic
+* Data science and bioinformatics
     - Synthetic lethality for cancer treatment
 
 ## Contact
