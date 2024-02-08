@@ -32,7 +32,7 @@ links:
 
 ## **Contact**
 
-* Email: gkwlgns323@gmail.com
-* Twitter: https://twitter.com/gkwlgns323
+* **Email**: gkwlgns323@gmail.com
+* **Twitter**: https://twitter.com/gkwlgns323
 
 
