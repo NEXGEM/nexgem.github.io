@@ -12,6 +12,7 @@
 {% capture text %}
 
 ##Research
+
 Explore the cutting-edge projects and scientific inquiries our team is currently investigating. Delve into our methodologies, findings, and the impact of our work.
 
 {%  include feature.html image="images/main/Research.jpg" link="research" headline="Our Research" text=text %}
@@ -19,6 +20,7 @@ Explore the cutting-edge projects and scientific inquiries our team is currently
 {% capture text %}
 
 ##Team
+
 Meet the brilliant minds behind our research. Learn about the expertise and passions of each team member driving innovation in our lab.
 
 {% include feature.html image="images/main/Team.jpg" link="team" headline="Our Team" text=text %}
@@ -26,6 +28,7 @@ Meet the brilliant minds behind our research. Learn about the expertise and pass
 {% capture text %}
 
 ##Blog
+
 Stay updated with the latest news, insights, and breakthroughs from our lab. Our blog features articles, updates, and discussions on our ongoing research and scientific interests.
 
 {% include feature.html image="images/main/Blog.jpg" link="blog" headline="Our Blog" text=text %}
@@ -33,6 +36,7 @@ Stay updated with the latest news, insights, and breakthroughs from our lab. Our
 {% capture text %}
 
 ##Contact
+
 Reach out to us for collaborations, inquiries, or more information about our research. Find how to connect with our team and stay engaged with our work.
 
 {% include feature.html image="images/main/Contact.jpg" link="contact" headline="Contact" text=text %}
