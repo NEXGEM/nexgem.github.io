@@ -5,12 +5,11 @@ nav:
   tooltip: Email, address, and location
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
-
-We are currently recruiting experimental cancer biologists with M.S degree for mouse experiments. 
+# {% include icon.html icon="fa-regular fa-envelope" %}**Contact**
 {% include section.html %}
+We are currently recruiting experimental cancer biologists with M.S degree for mouse experiments. 
 
-## {% include icon.html icon="fa-regular fa-envelope" %}Professor Joo Sang Lee
+## Principal Investigator
 {%
   include button.html
   type="email"
@@ -25,7 +24,7 @@ We are currently recruiting experimental cancer biologists with M.S degree for m
 %}
 {% include section.html %}
 
-## {% include icon.html icon="fa-regular fa-envelope" %}Lab 
+## Lab contact  
 {%
   include button.html
   type="email"
