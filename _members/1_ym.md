@@ -22,7 +22,7 @@ links:
 
 * Deep learning for cancer biology
     * Computational pathology
-    * scRNA-seq and spatial-RNA-seq
+    * single-cell / spatial RNA-seq analysis
     * Genetic interaction prediction
     * Drug response prediction
 * Data science and bioinformatic
