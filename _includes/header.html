@@ -9,6 +9,9 @@
 <header
   class="background"
   style="--image: url('{{ image }}')"
+  {% if page.url == "/" %}
+    data-big
+  {% endif %}
 >
 
   <a href="{{ "/" | relative_url }}" class="home">
