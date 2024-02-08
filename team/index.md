@@ -8,8 +8,6 @@ nav:
 # <i class="fas fa-microscope"></i>Principal Investigator
 {% include section.html %}
 
-Next Generation Medicine Lab studies ...
-
 {%
   include list.html
   data="members"
