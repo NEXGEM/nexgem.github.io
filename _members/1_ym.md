@@ -40,8 +40,8 @@ links:
 
 ## **Contact**
 
-* Email: ymblue@g.skku.edu
-* Twitter: https://twitter.com/ChungYoungmin
+* **Email**: ymblue@g.skku.edu
+* **Twitter**: https://twitter.com/ChungYoungmin
 
 ---
 
