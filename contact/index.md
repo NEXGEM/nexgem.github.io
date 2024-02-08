@@ -8,7 +8,9 @@ nav:
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
 We are currently recruiting experimental cancer biologists with M.S degree for mouse experiments. 
+{% include section.html %}
 
+## {% include icon.html icon="fa-regular fa-envelope" %}Professor Joo Sang Lee
 {%
   include button.html
   type="email"
@@ -23,6 +25,7 @@ We are currently recruiting experimental cancer biologists with M.S degree for m
 %}
 {% include section.html %}
 
+## {% include icon.html icon="fa-regular fa-envelope" %}Lab 
 {%
   include button.html
   type="email"
