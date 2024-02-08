@@ -15,18 +15,17 @@ links:
 
 ## Education
 
-* **B.S.**, Konkuk University, 2021
-  - Major: Integrated biotechnology
+* **B.S.**, Konkuk University, 2021 (Integrated biotechnology)
 
 ## Research Interests
 
-* Deep learning for cancer biology
+* **Deep learning for cancer biology**
   - Computational pathology
   - single-cell / spatial RNA-seq analysis
   - Genetic interaction prediction
   - Drug response prediction
   - Application of LLMs in cancer biology
-* Data science and bioinformatics
+* **Data science and bioinformatics**
   - Synthetic lethality for cancer treatment
 
 ## Publications
