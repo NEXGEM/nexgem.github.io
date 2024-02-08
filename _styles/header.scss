@@ -13,23 +13,9 @@ header {
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 30px;
-  color: $white;
-  background: $gray-800;
-  box-shadow: $shadow;
-
-  & * {
-    font-family: $sans;
-  }
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-//   flex-wrap: wrap;
-//   gap: 20px;
-//   padding: 20px;
-//   box-shadow: var(--shadow);
-
-
+  padding: 20px;
+  box-shadow: var(--shadow);
+  
   @if $sticky {
     position: sticky !important;
     top: 0;
