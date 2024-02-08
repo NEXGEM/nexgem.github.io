@@ -10,30 +10,25 @@ links:
   orcid: 0000-0000-0000-0000
 ---
 
-### RESEARCH CAREER
-**2018-2019**  
-National Cancer Institute
-Cancer Data Science Lab
+---
 
-**2014-2018**  
-University of Maryland
-Center for Bioinformatics and Computational Biology
+## **Education**
+* **Ph.D.**, Physics, Northwestern University, 2012
+* **B.S.**, Physics, KAIST, 2006
 
-**2006-2012**  
-Northwestern University
-PhD in Physics
+## **Experience**
+* **Staff Scientist**, National Cancer Institute, 2018-2019
+* **Research Associate**, University of Maryland, 2014-2018
+* **Postdoc. Scholar**, Tel Aviv University, 2014
 
+## **Awards and Honors**
 
-### RESEARCH INTEREST
- 
-**Artificial Intelligence and Data Science**  
-Analyze biological big data to provide clinically relevant novel insights.
+* POSCO Science Fellowship, 2023-2025
+* Samsung Future Science and Technology Foundation Fellow, 2021-2026
 
-**Precision Medicine**  
-Develop statistical algorithms to match right patients to the right drugs.
+## **Contact**
 
-**Cancer Immunotherapy**  
-Identify new opportunities to harness immune systems to fight against cancer.
+* **Email**: joosang.lee@skku.edu
+* **Twitter**: https://twitter.com/joo_sang_lee
 
-**Cancer Metabolism**  
-Metabolic dysregulation leads to cancer mutagenesis and new opportunities for treatment.
+---
