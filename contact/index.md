@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-We are recruiting ...
+We are currently recruiting experimental cancer biologists with M.S degree for mouse experiments. 
 
 {%
   include button.html
