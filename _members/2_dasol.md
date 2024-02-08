@@ -16,15 +16,14 @@ links:
 
 ## Education
 
-* **B.S.**, Sungkyunkwan University, 2022
-    - Major: Data Science
+* **B.S.**, Sungkyunkwan University, 2022 (Data Science)
 
 ## Research Interests
 
-* Deep learning for cancer biology
+* **Deep learning for cancer biology**
     - single-cell / spatial RNA-seq analysis
     - Drug response prediction
-* Data science and bioinformatics
+* **Data science and bioinformatics**
     - Synthetic lethality for cancer treatment
 
 ## Contact
