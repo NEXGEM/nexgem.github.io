@@ -59,8 +59,7 @@ We are currently recruiting **experimental cancer biologists** with M.S degree f
 
 {%
   include figure.html
-  image="images/skku_med.jpeg"
-  caption="Medical school"
+  image="images/성균관대의대.jpg"
 %}
 
 {% endcapture %}
