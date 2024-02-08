@@ -66,8 +66,10 @@ header a {
 
 // subtitle
 .title > *:last-child {
-  color: var(--gray);
-  font-weight: var(--thin);
+  // color: var(--gray);
+  // font-weight: var(--thin);
+  font-size: 1.5rem;
+  font-weight: var(--bold);
 }
 
 .nav-toggle {
@@ -162,11 +164,15 @@ header[data-big] {
   }
 
   .title > *:first-child {
-    font-size: var(--xxl);
+    // font-size: var(--xxl);
+    font-size: 1.5rem;
+    font-weight: var(--bold);
   }
 
   .title > *:last-child {
-    font-size: var(--large);
+    // font-size: var(--large);
+    font-size: 1.5rem;
+    font-weight: var(--bold);
   }
 }
 
