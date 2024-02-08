@@ -1,7 +1,7 @@
 ---
 ---
 
-.blog-post {
+div.blog-post {
   width: 300px; /* 타일의 폭을 조정할 수 있습니다. */
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -10,10 +10,10 @@
   display: inline-block; /* 인라인 블록 요소로 배치 */
 }
 
-.blog-post h2 {
+div.blog-post h2 {
   font-size: 18px;
 }
 
-.blog-post p {
+div.blog-post p {
   font-size: 14px;
 }
