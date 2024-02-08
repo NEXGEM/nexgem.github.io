@@ -12,7 +12,7 @@ links:
 
 ## Education
 
-* **B.S.**, Sungkyunkwan University, 2022 (Biological Science)
+* **B.S.**, Biological Science, Sungkyunkwan University, 2022
 
 ## Research Interests
 
