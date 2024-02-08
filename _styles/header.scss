@@ -165,10 +165,12 @@ header[data-big] {
 
   .title > *:first-child {
     font-size: var(--xxl);
+    font-weight: var(--bold);
   }
 
   .title > *:last-child {
     font-size: var(--large);
+    font-weight: var(--bold);
   }
 }
 
