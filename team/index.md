@@ -67,5 +67,13 @@ Our work is made possible by funding from the following organizations.
   link2="https://www.samsungstf.org/"
   tooltip2="Samsung Science & Technology"
 
+  image3="images/funding/posco_청암.png"
+  link3="https://www.postf.org/"
+  tooltip3="POSCO TJ Park Foundation"
+
+  image4="images/funding/NRF.png"
+  link4="https://www.nrf.re.kr/"
+  tooltip4="National Research Foundation of Korea"
+
 %}
 {:.center}
