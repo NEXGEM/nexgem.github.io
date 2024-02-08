@@ -5,7 +5,7 @@ nav:
   tooltip: About our team
 ---
 
-# <i class="fas fa-microscope"></i>Principal Investigator
+# <i class="fas fa-microscope"></i> **Principal Investigator**
 {% include section.html %}
 
 {%
@@ -17,7 +17,7 @@ nav:
 
 {% include section.html %}
 
-# <i class="fas fa-microscope"></i>Postdoctoral researchers
+# <i class="fas fa-microscope"></i> **Postdoctoral researchers**
 {%
   include list.html
   data="members"
@@ -25,7 +25,7 @@ nav:
   filters="role: postdoc"
 %}
 
-# <i class="fas fa-users"></i>Student researchers
+# <i class="fas fa-users"></i> **Student researchers**
 {%
   include list.html
   data="members"
@@ -39,7 +39,7 @@ nav:
   filters="role: mdphd"
 %}
 
-# <i class="fas fa-users"></i>Intern
+# <i class="fas fa-users"></i> **Intern**
 {%
   include list.html
   data="members"
@@ -49,7 +49,7 @@ nav:
 
 {:.center}
 
-## Funding
+## **Funding**
 
 Our work is made possible by funding from the following organizations.
 {:.center}
