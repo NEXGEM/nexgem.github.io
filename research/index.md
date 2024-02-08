@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}**Research**
 
-We are witnessing the beginning of a new generation of medicine. The unprecedented amount of large-scale next generation sequencing data from patients with cancer and other diseases makes data science and artificial intelligence (AI) play a pivotal role in biomedical research. The pressing question is how to best translate the accumulated data into a more effective practice of medicine. This question forms the cornerstone of our research articles.
+We are witnessing the beginning of a new generation of medicine. The unprecedented amount of large-scale **next-generation sequencing data** from patients with cancer and other diseases makes **data science and artificial intelligence (AI)** play a pivotal role in biomedical research. The pressing question is how to best translate the accumulated data into a more effective practice of medicine. This question forms the cornerstone of our research articles.
 
 {% include section.html %}
 
