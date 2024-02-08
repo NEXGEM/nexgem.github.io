@@ -4,7 +4,7 @@
   <div class="posts-grid">
   {% for post in year_group.items %}
     <div class='blog-post'>
-      <p>{{ post.excerpt }}</p>
+      <p href = "{{post.url}}">{{ post.excerpt }}</p>
     </div>
   {% endfor %}
   </div>
