@@ -21,6 +21,14 @@ We are currently recruiting experimental cancer biologists with M.S degree for m
   text="031-299-6107"
   link="031-299-6107"
 %}
+{% include section.html %}
+
+{%
+  include button.html
+  type="email"
+  text="nexgem25@gmail.com"
+  link="nexgem25@gmail.com"
+%}
 {%
   include button.html
   type="phone"
@@ -33,8 +41,8 @@ We are currently recruiting experimental cancer biologists with M.S degree for m
   tooltip="Our location on Google Maps for easy navigation"
   link="https://goo.gl/maps/esAoSh75Xyfkknra8"
 %}
-
 {% include section.html %}
+
 
 {% capture col1 %}
 
