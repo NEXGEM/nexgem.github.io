@@ -3,8 +3,8 @@
   <h2>{{ year_group.name }}</h2>
   <div class="posts-grid">
   {% for post in year_group.items %}
-    <div class='blog-post'>
-      <p href = "{{post.url}}">{{ post.excerpt }}</p>
+    <div class='blog-post' href = "{{post.url}}">
+      <p>{{ post.excerpt }}</p>
     </div>
   {% endfor %}
   </div>
