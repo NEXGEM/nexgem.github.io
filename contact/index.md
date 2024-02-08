@@ -58,5 +58,3 @@ We are currently recruiting experimental cancer biologists with M.S degree for m
 
 {% include cols.html col1=col1 col2=col2 %}
 
-{% include section.html dark=true %}
-
