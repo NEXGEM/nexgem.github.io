@@ -5,9 +5,9 @@ nav:
   tooltip: Musings and miscellany
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
+# {% include icon.html icon="images/main/blog.svg" %}Blog
 
-Explore diverse experience in NEXGEM LAB
+## Explore diverse experience in NEXGEM LAB
 
 {% include section.html %}
 
