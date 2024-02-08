@@ -27,6 +27,6 @@ links:
     - Synthetic lethality for cancer treatment
 
 ## Contact
-* Email: gratia__@naver.com
+* **Email**: gratia__@naver.com
 
 ---
