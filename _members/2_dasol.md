@@ -1,6 +1,6 @@
 ---
 name: Dasol Kim
-image: images/team/kimds.jpg
+image: images/team/kimds_resized.jpg
 role: phd
 description: Integrated MS/PhD Student
 Department: Department of Artificial Intelligence
