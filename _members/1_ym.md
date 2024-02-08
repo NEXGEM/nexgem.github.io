@@ -16,21 +16,22 @@ links:
 ## Education
 
 * **B.S.**, Konkuk University, 2021
-    * Major: Integrated biotechnology
+  - Major: Integrated biotechnology
 
 ## Research Interests
 
 * Deep learning for cancer biology
-    * Computational pathology
-    * single-cell / spatial RNA-seq analysis
-    * Genetic interaction prediction
-    * Drug response prediction
+  - Computational pathology
+  - single-cell / spatial RNA-seq analysis
+  - Genetic interaction prediction
+  - Drug response prediction
 * Data science and bioinformatic
-    * Synthetic lethality for cancer treatment
+  - Synthetic lethality for cancer treatment
 
 ## Publications
 
-* Google Scholar: https://scholar.google.com/citations?user=bq-TBLEAAAAJ&hl=ko
+* Lee, J. S., Nair, N. U., Dinstag, G., Chapman, L., Chung, Y., Wang, K., ... & Ruppin, E. (2021). Synthetic lethality-mediated precision oncology via the tumor transcriptome. Cell, 184(9), 2487-2502.
+* Schäffer, A. A., Chung, Y., Kammula, A. V., Ruppin, E., & Lee, J. S. (2024). A systematic analysis of the landscape of synthetic lethality-driven precision oncology. Med, 5(1), 73-89.
 
 ## Awards and Honors
 
