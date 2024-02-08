@@ -26,12 +26,6 @@ We are currently recruiting **experimental cancer biologists** with M.S degree f
 ## Lab contact
 {%
   include button.html
-  type="email"
-  text="nexgem25@gmail.com"
-  link="nexgem25@gmail.com"
-%}
-{%
-  include button.html
   type="phone"
   text="031-299-6110"
   link="031-299-6110"
