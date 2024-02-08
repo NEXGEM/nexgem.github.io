@@ -15,7 +15,7 @@ links:
 
 ## Education
 
-* **B.S**, Chung-Ang University, 2023 (Pharmacy)
+* **B.S**, Pharmacy, Chung-Ang University, 2023
   
 ## Research Interests
 
