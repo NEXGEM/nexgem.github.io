@@ -6,10 +6,9 @@ nav:
 ---
 
 # {% include icon.html icon="fa-regular fa-envelope" %}**Contact**
-{% include section.html %}
+
 We are currently recruiting experimental cancer biologists with M.S degree for mouse experiments. 
 
-## Principal Investigator
 {%
   include button.html
   type="email"
@@ -24,7 +23,7 @@ We are currently recruiting experimental cancer biologists with M.S degree for m
 %}
 {% include section.html %}
 
-## Lab contact  
+## Lab contact
 {%
   include button.html
   type="email"
