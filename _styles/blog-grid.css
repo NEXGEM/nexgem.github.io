@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .blog-post {
   width: 300px; /* 타일의 폭을 조정할 수 있습니다. */
   border: 1px solid #ccc;
@@ -14,3 +15,5 @@
 .blog-post p {
   font-size: 14px;
 }
+
+/*# sourceMappingURL=blog-grid.css.map */
