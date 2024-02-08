@@ -12,4 +12,22 @@ links:
   
 ---
 
-Department: Artificial Intelligence
+---
+
+## Education
+
+* **B.S.**, Sungkyunkwan University, 2022
+    - Major: Data Science
+
+## Research Interests
+
+* Deep learning for cancer biology
+    - single-cell / spatial RNA-seq analysis
+    - Drug response prediction
+* Data science and bioinformatic
+    - Synthetic lethality for cancer treatment
+
+## Contact
+* Email: gratia__@naver.com
+
+---
