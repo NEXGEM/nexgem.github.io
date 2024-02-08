@@ -1,21 +1,12 @@
-<div class="posts-grid">
-  {% for post in page.data %}
-    <div class="blog-post">
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt }}</p>
-    </div>
-  {% endfor %}
-</div>
-
-
-
 {% assign posts_by_year = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
 {% for year_group in posts_by_year %}
   <h2>{{ year_group.name }}</h2>
+  <div class="posts-grid">
   {% for post in year_group.items %}
     <div class='blog-post'>
       <h3><a href='{{ post.url }}'>{{ post.title }}</a></h3>
       <p>{{ post.excerpt }}</p>
     </div>
   {% endfor %}
+  </div>
 {% endfor %}
