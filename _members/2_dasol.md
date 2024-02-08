@@ -14,11 +14,11 @@ links:
 
 ---
 
-## Education
+## **Education**
 
 * **B.S.**, Data Science, Sungkyunkwan University, 2022
 
-## Research Interests
+## **Research Interests**
 
 * **Deep learning for cancer biology**
     - single-cell / spatial RNA-seq analysis
@@ -26,7 +26,7 @@ links:
 * **Data science and bioinformatics**
     - Synthetic lethality for cancer treatment
 
-## Contact
+## **Contact**
 * **Email**: gratia__@naver.com
 
 ---
