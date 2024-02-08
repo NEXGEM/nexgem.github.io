@@ -15,7 +15,7 @@ links:
 
 ## Education
 
-* **[Degree type]**, Konkuk University, 2021
+* **B.S.**, Konkuk University, 2021
     * Major: Integrated biotechnology
 
 ## Research Interests
