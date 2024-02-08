@@ -15,7 +15,7 @@ links:
 
 ## **Education**
 
-* **B.S.**, Konkuk University, 2021 (Integrated biotechnology)
+* **B.S.**, Integrated biotechnology, Konkuk University, 2021
 
 ## **Research Interests**
 
