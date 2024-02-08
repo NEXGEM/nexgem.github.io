@@ -25,7 +25,7 @@ links:
   - single-cell / spatial RNA-seq analysis
   - Genetic interaction prediction
   - Drug response prediction
-* Data science and bioinformatic
+* Data science and bioinformatics
   - Synthetic lethality for cancer treatment
 
 ## Publications
