@@ -23,7 +23,7 @@ We are currently recruiting **experimental cancer biologists** with M.S degree f
 %}
 {% include section.html %}
 
-## Lab contact
+## Lab contact information
 {%
   include button.html
   type="phone"
