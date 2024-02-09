@@ -1,5 +1,5 @@
 ---
-name: Youngmin Chung
+name: Young Min Chung
 image: images/team/ym_resized.jpg
 role: phd
 description: Integrated MS/PhD Student
