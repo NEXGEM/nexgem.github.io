@@ -1,5 +1,5 @@
 ---
-name: Kyeongchan Im
+name: Kyeong Chan Im
 image: images/team/ikc_resized.jpg
 role: phd
 department: School of Medicine
