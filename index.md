@@ -15,7 +15,7 @@
 Explore the cutting-edge projects and scientific inquiries our team is currently investigating. Delve into our methodologies, findings, and the impact of our work.
 {% endcapture %}
 
-{%  include feature.html image="images/main/SELECT2.jpg" link="research" headline="Our Research" text=text %}
+{%  include feature.html image="images/main/ISLE.jpg" link="research" headline="Our Research" text=text %}
 
 {% capture text %}
 
