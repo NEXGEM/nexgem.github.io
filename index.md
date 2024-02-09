@@ -7,7 +7,6 @@
 
 {% include section.html %}
 
-## **Contents**
 
 {% capture text %}
 
