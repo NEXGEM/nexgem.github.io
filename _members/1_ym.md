@@ -22,8 +22,8 @@ links:
 * **Deep learning for cancer biology**
   - Computational pathology
   - single-cell / spatial RNA-seq analysis
-  - Genetic interaction prediction
-  - Drug response prediction
+  - Deep learning for genetic interaction
+  - Deep learning for drug treatment
   - Application of LLMs in cancer biology
 * **Data science and bioinformatics**
   - Synthetic lethality for cancer treatment
