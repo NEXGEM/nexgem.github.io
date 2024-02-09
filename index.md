@@ -34,7 +34,7 @@ Meet the brilliant minds behind our research. Learn about the expertise and pass
 Stay updated with the latest news, insights, and breakthroughs from our lab. Our blog features articles, updates, and discussions on our ongoing research and scientific interests.
 {% endcapture %}
 
-{% include feature.html image="images/main/EACR.jpg" link="blog" headline="Our Blog" text=text %}
+{% include feature.html image="images/main/Blog.jpg" link="blog" headline="Our Blog" text=text %}
 
 {% capture text %}
 
