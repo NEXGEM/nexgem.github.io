@@ -19,6 +19,7 @@ links:
 * **Data science and bioinformatics**
     - Synthetic lethality for cancer treatment
     - Multi-omics data analysis
+    - Large-scale cohort study
 * **In vitro and in vivo experiments**
     - Synthetic lethality for cancer treatment
 
