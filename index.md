@@ -25,7 +25,7 @@ Explore the cutting-edge projects and scientific inquiries our team is currently
 Meet the brilliant minds behind our research. Learn about the expertise and passions of each team member driving innovation in our lab.
 {% endcapture %}
 
-{% include feature.html image="images/main/Team.jpg" link="team" headline="Our Team" text=text %}
+{% include feature.html image="images/main/JACR.jpg" link="team" headline="Our Team" text=text %}
 
 {% capture text %}
 
