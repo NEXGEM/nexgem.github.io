@@ -43,7 +43,7 @@ Stay updated with the latest news, insights, and breakthroughs from our lab. Our
 Reach out to us for collaborations, inquiries, or more information about our research. Find how to connect with our team and stay engaged with our work.
 {% endcapture %}
 
-{% include feature.html image="images/Contact.jpg" link="contact" headline="Contact" text=text %}
+{% include feature.html image="images/성균관대의대.jpg" link="contact" headline="Contact" text=text %}
 
 {% include twitter.html %}
 
