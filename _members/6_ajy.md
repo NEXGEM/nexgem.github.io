@@ -21,7 +21,6 @@ links:
 
 * **Data science and bioinformatics**
     - Multiomics data analysis
-    - Cancer neuroscience
     - Gene fusion target discovery
 * **In vitro and in vivo experiments**
     - CRISPR  screening 
