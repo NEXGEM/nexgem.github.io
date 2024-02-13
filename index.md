@@ -1,4 +1,5 @@
 ---
+title: Home
 ---
 
 # **Next Generation Medicine Lab**
