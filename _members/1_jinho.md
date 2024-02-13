@@ -9,7 +9,6 @@ links:
 
 ---
 
----
 
 ## **Education**
 
