@@ -176,9 +176,11 @@ header[data-big] {
 @media (max-width: $limit-title) {
   .title > *:first-child {
     font-size: var(--medium);
+    font-weight: var(--bold);
   }
 
   .title > *:not(:first-child) {
     display: none;
+    font-weight: var(--bold);
   }
 }
