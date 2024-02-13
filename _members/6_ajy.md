@@ -1,5 +1,5 @@
 ---
-name: Jae Young Ahn
+name: Jaeyoung Ahn
 image: images/team/jaeng_resized.jpg
 role: phd
 description: Integrated MS/PhD Student
