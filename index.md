@@ -25,7 +25,7 @@ Explore the cutting-edge projects and scientific inquiries our team is currently
 Meet the brilliant minds behind our research. Learn about the expertise and passions of each team member driving innovation in our lab.
 {% endcapture %}
 
-{% include feature.html image="images/main/JACR.jpg" link="team" headline="Our Team" text=text %}
+{% include feature.html image="images/main/JACR2.jpg" link="team" headline="Our Team" text=text %}
 
 {% capture text %}
 
@@ -34,7 +34,7 @@ Meet the brilliant minds behind our research. Learn about the expertise and pass
 Stay updated with the latest news, insights, and breakthroughs from our lab. Our blog features articles, updates, and discussions on our ongoing research and scientific interests.
 {% endcapture %}
 
-{% include feature.html image="images/main/sumok2.jpeg" link="blog" headline="Our Blog" text=text %}
+{% include feature.html image="images/main/sumok3.jpeg" link="blog" headline="Our Blog" text=text %}
 
 {% capture text %}
 
