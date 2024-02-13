@@ -9,4 +9,23 @@ links:
   email: dowonim323@gmail.com
 ---
 
-Department: School of Medicine
+---
+  
+## **Research Interests**
+
+* **Bioinformatics and cancer genomics**
+    - scRNA-seq analysis
+    - RNA velocity analysis
+
+## **Awards and Honors**
+
+* 2018 국제물리올림피아드 (IPhO 2018) 금메달
+* 2024년 제4회 성의학술제 **대상**
+
+
+## **Contact**
+
+* **Email**: gkwlgns323@gmail.com
+* **Twitter**: https://twitter.com/gkwlgns323
+
+
