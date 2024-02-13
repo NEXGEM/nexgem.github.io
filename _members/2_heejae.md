@@ -5,7 +5,7 @@ role: postdoc
 status: current
 
 links:
-  email: rejoicejoy@naver.com
+  email: heejae.lee@skku.edu
 
 ---
 
@@ -22,9 +22,5 @@ links:
 
 * Tumor immunology & Immunotherapy
 * Computational immunology
-  
-## **Contact**
-
-* **Email**: heejae.lee@skku.edu
 
 ---
