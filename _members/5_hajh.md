@@ -26,7 +26,7 @@ links:
 
 ## **Awards and Honors**
 
-* 성균관대학교 대학원우수장학금
+* Sungkyunkwan University Graduate Scholarship, 2023-2025
 
 ---
 
