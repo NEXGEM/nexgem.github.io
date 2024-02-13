@@ -6,7 +6,7 @@ department: School of Medicine
 status: current
 
 links:
-  email: ikc412@o365.skku.edu
+  email: ikc412@skku.edu
 ---
 
 ---
@@ -19,10 +19,6 @@ links:
 ## **Research Interests**
 
 * Immunology
-  
-## **Contact**
-
-* **Email**: ikc412@skku.edu
 
 ---
 
