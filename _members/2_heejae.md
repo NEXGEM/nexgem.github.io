@@ -1,5 +1,5 @@
 ---
-name: Heejae Lee
+name: Hee Jae Lee
 image: images/team/heejae.jpg
 role: postdoc
 status: current
