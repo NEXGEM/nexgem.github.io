@@ -26,7 +26,4 @@ links:
 * **Data science and bioinformatics**
     - Synthetic lethality for cancer treatment
 
-## **Contact**
-* **Email**: gratia__@naver.com
-
 ---
