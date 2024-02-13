@@ -22,11 +22,6 @@ links:
 * 2024년 제4회 성의학술제 대상
 * 2018년 국제물리올림피아드 (IPhO) 금메달
 
-
-
-## **Contact**
-
-* **Email**: gkwlgns323@gmail.com
-* **Twitter**: https://twitter.com/gkwlgns323
+---
 
 
