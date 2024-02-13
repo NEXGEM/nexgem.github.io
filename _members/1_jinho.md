@@ -20,7 +20,6 @@ links:
 ## **Research Interests**
 
 * Tumor microenvironment
-* Tumor-Neuron interations
   
 ## **Contact**
 
