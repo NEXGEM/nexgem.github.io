@@ -12,8 +12,6 @@ links:
   
 ---
 
----
-
 ## **Education**
 
 * **B.S.**, Data Science, Sungkyunkwan University, 2022
