@@ -148,9 +148,11 @@ header[data-big] .title > *:last-child {
 @media (max-width: 400px) {
   .title > *:first-child {
     font-size: var(--medium);
+    font-weight: var(--bold);
   }
   .title > *:not(:first-child) {
     display: none;
+    font-weight: var(--bold);
   }
 }
 
