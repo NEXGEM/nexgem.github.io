@@ -9,7 +9,6 @@ links:
   twitter: joo_sang_lee
 ---
 
----
 
 ## **Education**
 * **Ph.D.**, Physics, Northwestern University, 2012
