@@ -29,9 +29,9 @@ links:
 
 ## **Awards and Honors**
 
-* 관정이종환교육재단 제17기 국내 대학원 장학생
-* 성균관대학교 대학원우수장학금, 2021-2024
-* 건국대학교 Dean's List, (2018년 2학기, 2019년 1학기)
+* Kwanjeong Educational Foundation 17th Domestic Graduate School Scholarship 
+* Sungkyunkwan University Graduate Scholarship, 2021-2024
+* Konkuk University Dean's List, (2018-2, 2019-1)
 
 ---
 
