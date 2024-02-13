@@ -9,4 +9,20 @@ links:
   email: ikc412@o365.skku.edu
 ---
 
-Department: School of Medicine
+---
+
+## **Education**
+
+* **B.S.**, Biological Science, GIST, 2010
+* **M.S.**, Biological Science, GIST, 2014
+
+## **Research Interests**
+
+* Immunology
+  
+## **Contact**
+
+* **Email**: ikc412@skku.edu
+
+---
+
