@@ -25,5 +25,4 @@ links:
 * **In vitro and in vivo experiments**
     - CRISPR  screening 
 
-## **Contact**
-* **Email**: talbot05@naver.com
+---
