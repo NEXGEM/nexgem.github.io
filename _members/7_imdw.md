@@ -18,8 +18,8 @@ links:
 
 ## **Awards and Honors**
 
-* 2024년 제4회 성의학술제 대상
-* 2018년 국제물리올림피아드 (IPhO) 금메달
+* Grand Prize at the 4th Sung-Ui Academic Festival, 2024
+* Gold Medal at the International Physics Olympiad (IPhO), 2018
 
 ---
 
