@@ -6,8 +6,7 @@ aliases:
   - Joo
 links:
   email: lee.joosang@gmail.com
-  home-page: https://leejoosang.wixsite.com/ngml
-  orcid: 0000-0000-0000-0000
+  twitter: joo_sang_lee
 ---
 
 ---
@@ -27,10 +26,5 @@ links:
 
 * POSCO Science Fellowship, 2023-2025
 * Samsung Future Science and Technology Foundation Fellow, 2021-2026
-
-## **Contact**
-
-* **Email**: joosang.lee@skku.edu
-* **Twitter**: https://twitter.com/joo_sang_lee
 
 ---
