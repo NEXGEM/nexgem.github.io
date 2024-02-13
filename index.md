@@ -9,7 +9,7 @@
 
 {% include section.html full=true %}
 
-{% include figure.html image="images/main/sumok2.jpeg" %}
+{% include banner.html figure.html image="images/main/sumok2.jpeg" %}
 
 {% include section.html %}
 
