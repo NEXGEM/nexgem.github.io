@@ -15,7 +15,7 @@ links:
 
 * **Bioinformatics and cancer genomics**
     - scRNA-seq analysis
-    - RNA velocity analysis
+    - RNA velocity
 
 ## **Awards and Honors**
 
