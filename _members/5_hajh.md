@@ -1,5 +1,5 @@
 ---
-name: Ji Hun Ha
+name: Jihun Ha
 image: images/team/hajh_resized.jpg
 role: phd
 description: Integrated MS/PhD Student
