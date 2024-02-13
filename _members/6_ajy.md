@@ -1,6 +1,6 @@
 ---
 name: Jae Young Ahn
-image: images/team/ajy_resized.jpg
+image: images/team/jaeng.jpg
 role: phd
 description: Integrated MS/PhD Student
 department: School of Medicine
