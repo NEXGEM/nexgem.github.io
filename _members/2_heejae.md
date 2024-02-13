@@ -9,8 +9,6 @@ links:
 
 ---
 
----
-
 ## **Education**
 
 * **Ph.D.**, Medical Science, University of Ulsan College of Medicine, 2019
