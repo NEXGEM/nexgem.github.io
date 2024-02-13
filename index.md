@@ -18,6 +18,9 @@ Explore the cutting-edge projects and scientific inquiries our team is currently
 
 {%  include feature.html image="images/main/select4.jpg" link="research" headline="Our Research" text=text %}
 
+
+{% include feature.html image="images/main/JACR2.jpg" link="team" headline="Our Team" text=text %}
+
 {% capture text %}
 
 ## **Team**
@@ -25,7 +28,6 @@ Explore the cutting-edge projects and scientific inquiries our team is currently
 Meet the brilliant minds behind our research. Learn about the expertise and passions of each team member driving innovation in our lab.
 {% endcapture %}
 
-{% include feature.html image="images/main/JACR2.jpg" link="team" headline="Our Team" text=text %}
 
 {% capture text %}
 
@@ -36,6 +38,8 @@ Stay updated with the latest news, insights, and breakthroughs from our lab. Our
 
 {% include feature.html image="images/main/sumok3.jpeg" link="blog" headline="Our Blog" text=text %}
 
+{% include feature.html image="images/성균관대의대.jpg" link="contact" headline="Contact" text=text %}
+
 {% capture text %}
 
 ## **Contact**
@@ -43,7 +47,6 @@ Stay updated with the latest news, insights, and breakthroughs from our lab. Our
 Reach out to us for collaborations, inquiries, or more information about our research. Find how to connect with our team and stay engaged with our work.
 {% endcapture %}
 
-{% include feature.html image="images/성균관대의대.jpg" link="contact" headline="Contact" text=text %}
 
 {% include twitter.html %}
 
