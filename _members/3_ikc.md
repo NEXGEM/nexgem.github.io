@@ -13,8 +13,8 @@ links:
 
 ## **Education**
 
-* **B.S.**, Biological Science, GIST, 2012
-* **M.S.**, Biological Science, GIST, 2014
+* **B.S.**, Biological Science, GIST, 2017
+* **M.S.**, Biological Science, GIST, 2021
 
 ## **Research Interests**
 
