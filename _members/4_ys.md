@@ -23,6 +23,4 @@ links:
 * **In vitro and in vivo experiments**
     - Synthetic lethality for cancer treatment
 
-## **Contact**
-
-* **Email**: yoos0728@naver.com
+---
