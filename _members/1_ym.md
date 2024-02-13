@@ -29,7 +29,7 @@ links:
 
 ## **Awards and Honors**
 
-* Kwanjeong Educational Foundation 17th Domestic Graduate School Scholarship 
+* Kwanjeong Educational Foundation 17th Domestic Graduate Scholarship 
 * Sungkyunkwan University Graduate Scholarship, 2021-2024
 * Konkuk University Dean's List, (2018-2, 2019-1)
 
