@@ -8,7 +8,7 @@ status: current
 
 links:
   email: gkwlgns323@naver.com
- 
+  twitter: gkwlgns323
 ---
 
 ---
@@ -30,9 +30,6 @@ links:
 
 * 성균관대학교 대학원우수장학금
 
-## **Contact**
-
-* **Email**: gkwlgns323@gmail.com
-* **Twitter**: https://twitter.com/gkwlgns323
+---
 
 
