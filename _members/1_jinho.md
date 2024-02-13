@@ -8,3 +8,21 @@ links:
   email: infernalgate@naver.com
 
 ---
+
+---
+
+## **Education**
+
+* **B.S.**, Biological Science, SungKyunKwan University, 2014
+* **Ph.D.**, Translational Medicine, Seoul National University, 2021
+
+## **Research Interests**
+
+* Tumor microenvironment
+* Tumor-Neuron interations
+  
+## **Contact**
+
+* **Email**: hellgate84@skku.edu
+
+---
