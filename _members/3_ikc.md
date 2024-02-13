@@ -9,8 +9,6 @@ links:
   email: ikc412@skku.edu
 ---
 
----
-
 ## **Education**
 
 * **B.S.**, Biological Science, GIST, 2017
