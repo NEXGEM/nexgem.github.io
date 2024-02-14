@@ -1,8 +1,8 @@
 ---
 name: Youngmin Chung
 image: images/team/ym_resized.jpg
-role: phd
-description: Integrated MS/PhD Student
+role: ms/phd
+description: Department of Artificial Intelligence
 department: Department of Artificial Intelligence
 status: current
 
