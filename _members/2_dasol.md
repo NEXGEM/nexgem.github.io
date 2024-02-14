@@ -14,7 +14,7 @@ links:
   
 ## **Education**
 
-* Artificial Intelligence, SungKyunKwan University, 2021-current
+* Artificial Intelligence, SungKyunKwan University, 2022-current
 * **B.S.**, Data Science, Sungkyunkwan University, 2022
 
 ## **Research Interests**
