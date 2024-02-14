@@ -9,12 +9,9 @@ status: current
 links:
   email: yoos0728@naver.com
 ---
-
-## **Department**
-* Medicine
   
 ## **Education**
-
+* Medicine, SungKyunKwan University, 2022-current
 * **B.S.**, Biological Science, Sungkyunkwan University, 2022
 
 ## **Research Interests**
