@@ -11,11 +11,8 @@ links:
   twitter: ChungYoungmin
 ---
 
-## **Department**
-* Artificial Intelligence
-
 ## **Education**
-
+* Artificial Intelligence, SungKyunKwan University, 2021-current
 * **B.S.**, Integrated biotechnology, Konkuk University, 2021
 
 ## **Research Interests**
