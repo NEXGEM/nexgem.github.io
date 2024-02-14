@@ -49,7 +49,7 @@ nav:
 
 {:.center}
 
-{% include section.html background="images/share.jpg" dark=true%}
+{% include section.html background="images/banner.png" dark=true%}
 
 
 {% include section.html %}
