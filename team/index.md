@@ -46,10 +46,11 @@ nav:
   component="portrait"
   filters="role: undergrad"
 %}
-
 {:.center}
 
 {% include section.html background="images/banner.png" dark=true%}
+
+{% include link.html icon="fas fa-hands-helping" text="Join the Team" link="contact" style="button" %} {:.center}
 
 
 {% include section.html %}
