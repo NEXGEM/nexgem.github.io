@@ -52,7 +52,7 @@ nav:
 
 Our lab is looking for ambitious individuals eager to advance scientific research. Join a team where innovation meets impact, in an environment fostering collaboration and diversity. Make your mark in a place where every contribution propels us forward. Apply now to be part of the change!
 
-% include button.html icon="fas fa-hands-helping" text="Join the Team" link="contact" %} {:.center}
+{% include button.html icon="fas fa-hands-helping" text="Join the Team" link="contact" %} {:.center}
 
 {% include section.html %}
 
