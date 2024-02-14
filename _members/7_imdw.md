@@ -9,7 +9,9 @@ links:
   email: dowonim323@gmail.com
 ---
 
-  
+## **Department**
+* Medicine
+
 ## **Research Interests**
 
 * **Bioinformatics and cancer genomics**
