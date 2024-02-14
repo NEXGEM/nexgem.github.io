@@ -123,7 +123,6 @@ header[data-big] {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 100px 10px;
   top: unset;
 }
 header[data-big] .home {
