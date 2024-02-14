@@ -25,7 +25,7 @@ Meet the brilliant minds behind our research. Learn about the expertise and pass
 
 {% capture text %}
 ## **Blog**
-Stay updated with the latest news, insights, and breakthroughs from our lab. Our blog features articles, updates, and discussions on our ongoing research and scientific interests.
+Our Blog is your window into the daily life of our lab. It's where we share stories, experiences, and the smaller, yet significant, moments of our research journey. Dive in to see our work in action.
 
 [Explore our blog &nbsp;→](blog)
 {% endcapture %}
