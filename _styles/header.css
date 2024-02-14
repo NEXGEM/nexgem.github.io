@@ -64,7 +64,6 @@ header a {
   -webkit-appearance: none;
   appearance: none;
   transition-property: background;
-  font-weight: var(--bold);
 }
 
 .nav-toggle:after {
@@ -91,6 +90,7 @@ nav {
   gap: 10px;
   font-family: var(--heading);
   text-transform: uppercase;
+  font-weight: var(--bold);
 }
 
 nav > a {
