@@ -11,11 +11,9 @@ links:
  
 ---
 
-## **Department**
-* Medicine
-
 ## **Education**
 
+* Medicine, SungKyunKwan University, 2023-current
 * **B.S**, Pharmacy, Chung-Ang University, 2023
 
 ## **Research Interests**
