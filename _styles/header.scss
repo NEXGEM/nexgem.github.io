@@ -91,7 +91,7 @@ header a {
   color: var(--text);
   font-size: 15px;
   font-family: "Font Awesome 6 Free";
-  font-weight: 900;
+  font-weight: var(--bold);
   transform: translate(-50%, -50%);
 }
 
