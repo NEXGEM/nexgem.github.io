@@ -12,6 +12,9 @@ links:
   
 ---
 
+## **Department**
+* Artificial Intelligence
+  
 ## **Education**
 
 * **B.S.**, Data Science, Sungkyunkwan University, 2022
