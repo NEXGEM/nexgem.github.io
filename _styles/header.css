@@ -139,11 +139,11 @@ header[data-big] .title {
   text-align: center;
 }
 header[data-big] .title > *:first-child {
-  font-size: var(--large);
+  font-size: var(--xxl);
   font-weight: var(--bold);
 }
 header[data-big] .title > *:last-child {
-  font-size: var(--medium);
+  font-size: var(--large);
   font-weight: var(--bold);
 }
 
