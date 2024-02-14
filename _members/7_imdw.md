@@ -9,8 +9,8 @@ links:
   email: dowonim323@gmail.com
 ---
 
-## **Department**
-* Medicine
+## **Education**
+* Medicine, SungKyunKwan University, 2019-current
 
 ## **Research Interests**
 
