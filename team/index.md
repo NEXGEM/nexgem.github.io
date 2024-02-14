@@ -49,6 +49,8 @@ nav:
 
 {:.center}
 
+{% include section.html background="images/share.jpg" dark=true%}
+
 ## **Funding**
 
 Our work is made possible by funding from the following organizations.
