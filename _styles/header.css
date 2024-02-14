@@ -45,12 +45,12 @@ header a {
 }
 
 .title > *:first-child {
-  font-size: 1.5rem;
+  font-size: var(--xxl);
   font-weight: var(--bold);
 }
 
 .title > *:last-child {
-  font-size: 1.5rem;
+  font-size: var(--xxl);
   font-weight: var(--bold);
 }
 
