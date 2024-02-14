@@ -50,10 +50,7 @@ nav:
 
 {% include section.html background="images/banner.png" dark=true%}
 
-Whether you are a scientist looking to step into an emerging field with your data, an organization interested in investing in this work, or if you are simply curious and would like to stay informed about how translational science will evolve, we welcome your partnership. We work with leading scientists around the world and are funded by large national grants and institutions with new discoveries emerging every day.
-
-{% include button.html icon="fas fa-hands-helping" text="Join the Team" link="contact" %} {:.center}
-
+Our lab is looking for ambitious individuals eager to advance scientific research. Join a team where innovation meets impact, in an environment fostering collaboration and diversity. Make your mark in a place where every contribution propels us forward. Apply now to be part of the change!
 
 {% include section.html %}
 
