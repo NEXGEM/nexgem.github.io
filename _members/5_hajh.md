@@ -11,6 +11,9 @@ links:
   twitter: gkwlgns323
 ---
 
+## **Department**
+* Medicine
+
 ## **Education**
 
 * **B.S**, Pharmacy, Chung-Ang University, 2023
