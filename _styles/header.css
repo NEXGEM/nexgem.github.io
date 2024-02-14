@@ -123,6 +123,7 @@ header[data-big] {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 100px 20px;
   top: unset;
 }
 header[data-big] .home {
@@ -138,11 +139,11 @@ header[data-big] .title {
   text-align: center;
 }
 header[data-big] .title > *:first-child {
-  font-size: var(--xxl);
+  font-size: var(--large);
   font-weight: var(--bold);
 }
 header[data-big] .title > *:last-child {
-  font-size: var(--large);
+  font-size: var(--medium);
   font-weight: var(--bold);
 }
 
