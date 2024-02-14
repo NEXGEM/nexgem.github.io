@@ -10,6 +10,9 @@ links:
   email: yoos0728@naver.com
 ---
 
+## **Department**
+* Medicine
+  
 ## **Education**
 
 * **B.S.**, Biological Science, Sungkyunkwan University, 2022
