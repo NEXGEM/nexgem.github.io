@@ -58,16 +58,17 @@ header a {
 
 // main title
 .title > *:first-child {
-  // font-size: var(--large);
-  font-size: 1.5rem;
+  font-size: var(--xxl);
+  // font-size: 1.5rem;
   font-weight: var(--bold);
 }
 
 // subtitle
 .title > *:last-child {
+  font-size: var(--xxl);
   // color: var(--gray);
   // font-weight: var(--thin);
-  font-size: 1.5rem;
+  // font-size: 1.5rem;
   font-weight: var(--bold);
 }
 
