@@ -11,12 +11,10 @@ links:
   email: gratia__@naver.com
   
 ---
-
-## **Department**
-* Artificial Intelligence
   
 ## **Education**
 
+* Artificial Intelligence, SungKyunKwan University, 2021-current
 * **B.S.**, Data Science, Sungkyunkwan University, 2022
 
 ## **Research Interests**
