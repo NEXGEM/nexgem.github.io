@@ -9,11 +9,8 @@ links:
   email: ikc412@skku.edu
 ---
 
-## **Department**
-* Medicine
-
 ## **Education**
-
+* Medicine, SungKyunKwan University, 2022-current
 * **B.S.**, Biological Science, GIST, 2017
 * **M.S.**, Biological Science, GIST, 2021
 
