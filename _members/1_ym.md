@@ -11,6 +11,8 @@ links:
   twitter: ChungYoungmin
 ---
 
+## **Department**
+* Artificial Intelligence
 
 ## **Education**
 
