@@ -13,7 +13,7 @@ links:
 ## **Education**
 
 * **Ph.D.**, Translational Medicine, Seoul National University, 2021
-* **B.S.**, Biological Science, SungKyunKwan University, 2014
+* **B.S.**, Biological Science, Sungkyunkwan University, 2014
 
 
 ## **Research Interests**
