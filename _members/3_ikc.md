@@ -10,9 +10,9 @@ links:
 ---
 
 ## **Education**
-* Medicine, SungKyunKwan University, 2022-current
-* **M.S.**, Biological Science, GIST, 2021
-* **B.S.**, Biological Science, GIST, 2017
+* Medicine, Sungkyunkwan University, 2022-current
+* **M.S.**, Biological Science, GIST, 2022
+* **B.S.**, Biological Science, GIST, 2018
 
 
 ## **Research Interests**
