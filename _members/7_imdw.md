@@ -10,7 +10,7 @@ links:
 ---
 
 ## **Education**
-* Medicine, SungKyunKwan University, 2019-current
+* Medicine, Sungkyunkwan University, 2019-current
 
 ## **Research Interests**
 
