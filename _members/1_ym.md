@@ -12,7 +12,7 @@ links:
 ---
 
 ## **Education**
-* Artificial Intelligence, SungKyunKwan University, 2021-current
+* Artificial Intelligence, Sungkyunkwan University, 2021-current
 * **B.S.**, Integrated biotechnology, Konkuk University, 2021
 
 ## **Research Interests**
