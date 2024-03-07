@@ -15,8 +15,8 @@ links:
 * **B.S.**, Physics, KAIST, 2006
 
 ## **Experience**
-* **Associate Professor**, SungKyunKwan University, 2023-current
-* **Assistant Professor**, SungKyunKwan University, 2019-2023
+* **Associate Professor**, Sungkyunkwan University, 2023-current
+* **Assistant Professor**, Sungkyunkwan University, 2019-2023
 * **Staff Scientist**, National Cancer Institute, 2018-2019
 * **Research Associate**, University of Maryland, 2014-2018
 * **Postdoc. Scholar**, Tel Aviv University, 2014
