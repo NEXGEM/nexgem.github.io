@@ -20,7 +20,6 @@ links:
 * **Deep learning for cancer biology**
   - Computational pathology
   - Genomic deep learning
-  - LLM for biomedical data
   - Multi-modal deep learning in medicine
 * **Data science and bioinformatics**
   - Synthetic lethality for cancer treatment
