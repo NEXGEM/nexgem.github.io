@@ -2,7 +2,7 @@
 name: Shin Yoo
 image: images/team/ysys.jpg
 role: phd
-description: MS Student
+description: PhD Student
 department: School of Medicine
 status: current
 
