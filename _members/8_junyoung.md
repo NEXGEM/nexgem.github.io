@@ -10,7 +10,7 @@ links:
 ---
 
 ## **Education**
-* Biomedical Sciences, The Catholic University of Korea, 2022-current
+* **B.S.**, Biomedical Sciences, The Catholic University of Korea, 2022-current
 
 ---
 
