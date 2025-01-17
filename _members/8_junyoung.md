@@ -12,6 +12,11 @@ links:
 ## **Education**
 * **B.S.**, Biomedical Sciences, The Catholic University of Korea, 2022-current
 
+## **Research Interests**
+- Precision oncology
+- Immunology
+- Synthetic lethality for cancer treatment
+
 ---
 
 
