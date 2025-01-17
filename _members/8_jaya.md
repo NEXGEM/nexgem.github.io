@@ -11,7 +11,7 @@ links:
 ---
   
 ## **Education**
-* Medicine, SungKyunKwan University, 2022-current
-* **B.S.**, Biological Science, Sungkyunkwan University, 2022
-
+* **PhD**, Medicine, Sungkyunkwan University, 2022-current
+* **M.S.**, M.Eng Bionano Technology, Gachon University, 2018-2020
+* **B.S.**, B.Tech Instrumentation and Control Engineering, Calcutta Institute Of Engineering And Management, 2013-2017
 ---
