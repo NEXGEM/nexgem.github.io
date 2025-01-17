@@ -6,7 +6,7 @@ department: Biomedical Sciences
 status: current
 
 links:
-  email: dowonim323@gmail.com
+  email: roadjun02@gmail.com 
 ---
 
 ## **Education**
