@@ -11,7 +11,7 @@ links:
 ---
   
 ## **Education**
-* **P.D.**, Medicine, SungKyunKwan University, 2024-current
+* **Ph.D.**, Medicine, SungKyunKwan University, 2024-current
 * **M.S.**, Medicine, SungKyunKwan University, 2022-2024
 * **B.S.**, Biological Science, Sungkyunkwan University, 2022
 
