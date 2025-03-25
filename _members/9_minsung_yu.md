@@ -1,6 +1,6 @@
 ---
 name: Minsung Yu
-image: images/team/yms.jpg
+image: images/team/yms.png
 role: undergrad
 department: School of Medicine
 status: current
