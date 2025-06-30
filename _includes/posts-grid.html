@@ -1,15 +1,18 @@
 {% for year_group in posts_by_year %}
   <h2>{{ year_group.name }}</h2>
   <div class="posts-grid">
-  {% for post in year_group.items %}
-    <div class='blog-post'>
-      <a href="{{ post.url }}">
-        {% if post.image %}
-          <img src="{{ post.image }}" alt="{{ post.title }}">
-        {% endif %}
-        <h3>{{ post.title }}</h3>
-      </a>
-    </div>
-  {% endfor %}
+    {% for post in year_group.items %}
+      <div class='blog-post'>
+        <a href="{{ post.url }}">
+          {% if post.image %}
+            <img 
+              src="{{ post.image }}" 
+              alt="{{ post.title }}"
+              loading="{% if forloop.index <= 3 %}eager{% else %}lazy{% endif %}">
+          {% endif %}
+          <h3>{{ post.title }}</h3>
+        </a>
+      </div>
+    {% endfor %}
   </div>
 {% endfor %}
