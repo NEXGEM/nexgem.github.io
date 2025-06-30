@@ -4,7 +4,12 @@
   <div class="posts-grid">
   {% for post in year_group.items %}
     <div class='blog-post'>
-      <p><a href="{{post.url}}">{{ post.excerpt }}</a></p>
+      <a href="{{ post.url }}">
+        {% if post.image %}
+          <img src="{{ post.image }}" alt="{{ post.title }}">
+        {% endif %}
+        <h3>{{ post.title }}</h3>
+      </a>
     </div>
   {% endfor %}
   </div>
