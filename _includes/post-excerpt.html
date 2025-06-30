@@ -22,7 +22,6 @@
     | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->"
     | default: post.excerpt
     | default: ""
-    | strip_html
   %}
   <p data-search="{{ post.content | strip_html | strip_newlines }}"> 
    {{ excerpt }}
