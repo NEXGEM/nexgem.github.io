@@ -23,7 +23,7 @@
     | default: post.excerpt
     | default: ""
   %}
-  <p data-search="{{ post.content | strip_html | strip_newlines }}"> 
-   {{ excerpt }}
-  </p>
+  <div class="post-excerpt-content" data-search="{{ post.content | strip_html | strip_newlines }}">
+    {{ excerpt }}
+  </div>
 </div>
