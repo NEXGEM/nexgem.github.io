@@ -21,3 +21,11 @@
 .blog-post p {
   font-size: 14px;
 }
+.blog-post img {
+  width: 100%;           /* 타일의 폭에 꽉 차게 */
+  height: 200px;         /* 원하는 정사각형 또는 고정 높이로 */
+  object-fit: cover;     /* 비율 상관없이 영역에 꽉 차게 잘림 */
+  object-position: center;
+  border-radius: 5px;    /* 타일과 어울리도록 이미지도 모서리 둥글게 */
+  display: block;        /* 줄간격 여백 방지 */
+}
