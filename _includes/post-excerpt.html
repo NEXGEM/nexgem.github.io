@@ -22,8 +22,9 @@
     | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->"
     | default: post.excerpt
     | default: ""
+    | strip_html
   %}
-  <div class="post-excerpt-content" data-search="{{ post.content | strip_html | strip_newlines }}">
-    {{ excerpt }}
-  </div>
+  <p data-search="{{ post.content | strip_html | strip_newlines }}"> 
+   {{ excerpt }}
+  </p>
 </div>
