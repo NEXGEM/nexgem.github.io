@@ -25,12 +25,3 @@
 .post-excerpt > div {
   justify-content: flex-start;
 }
-
-.post-excerpt img {
-  width: 200px;        // 원하는 정사각형 한 변의 크기
-  height: 200px;
-  object-fit: cover;   // 비율에 상관없이 정사각형 영역에 꽉 차도록 자름
-  object-position: center;
-  flex-shrink: 0;      // 이미지 크기가 flex 레이아웃에 의해 줄어드는 것 방지
-  border-radius: var(--rounded); // 필요하면 기존 디자인과 일관되게 둥근 모서리 적용
-}
