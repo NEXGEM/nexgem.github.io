@@ -2,7 +2,7 @@
 title: Research
 nav:
   order: 1
-  tooltip: Published works
+  tooltip: Research Summary
 ---
 
 # {% include icon.html icon="fa-solid fa-microscope" %}**Research**
@@ -37,20 +37,3 @@ By integrating these layers of information, we can better understand how cancer 
 
 We have been developing AI models to robustly predict spatial omics data and extend it from 2D to 3D. Imagine we are building a virtual tissue that resembles the tumor tissue given a few histopathology slides. With the virtual 3D tissue sections, we foresee that we can dramatically improve the diagnosis and treatment outcome prediction of cancer patients. 
 The ultimate goal is **precision cancer medicine**—using detailed maps of tumors, both structural and molecular, to design the right treatment for the right patient at the right time. What started as a pathologist’s slide under a microscope is now evolving into a powerful multi-dimensional view of cancer that may transform care in the years ahead.
-
-
-{% include section.html %}
-
-## **Highlighted**
-
-{% include citation.html lookup="Synthetic lethality-mediated precision oncology via the tumor transcriptome" style="rich" %}
-
-{% include section.html %}
-
-## **All**
-
-{% include search-box.html %}
-
-{% include search-info.html %}
-
-{% include list.html data="citations" component="citation" style="rich" %}
