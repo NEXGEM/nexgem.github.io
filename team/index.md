@@ -54,31 +54,3 @@ Our lab is looking for ambitious individuals eager to advance scientific researc
 
 {% include button.html icon="fas fa-hands-helping" text="Join the Team" link="contact" %} {:.center}
 
-{% include section.html %}
-
-## **Funding**
-
-Our work is made possible by funding from the following organizations.
-{:.center}
-
-{%
-  include gallery.html
-
-  image1="images/funding/skku.jpeg"
-  link1="https://www.skku.edu/"
-  tooltip1="SungKyunKwan university"
-  
-  image2="images/funding/samsung_미래2.png"
-  link2="https://www.samsungstf.org/"
-  tooltip2="Samsung Science & Technology"
-
-  image3="images/funding/posco_청암.png"
-  link3="https://www.postf.org/"
-  tooltip3="POSCO TJ Park Foundation"
-
-  image4="images/funding/NRF.png"
-  link4="https://www.nrf.re.kr/"
-  tooltip4="National Research Foundation of Korea"
-
-%}
-{:.center}

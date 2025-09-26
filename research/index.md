@@ -37,3 +37,32 @@ By integrating these layers of information, we can better understand how cancer 
 
 We have been developing AI models to robustly predict spatial omics data and extend it from 2D to 3D. Imagine we are building a virtual tissue that resembles the tumor tissue given a few histopathology slides. With the virtual 3D tissue sections, we foresee that we can dramatically improve the diagnosis and treatment outcome prediction of cancer patients. 
 The ultimate goal is **precision cancer medicine**—using detailed maps of tumors, both structural and molecular, to design the right treatment for the right patient at the right time. What started as a pathologist’s slide under a microscope is now evolving into a powerful multi-dimensional view of cancer that may transform care in the years ahead.
+
+{% include section.html %}
+
+## **Funding**
+
+Our work is made possible by funding from the following organizations.
+{:.center}
+
+{%
+  include gallery.html
+
+  image1="images/funding/skku.jpeg"
+  link1="https://www.skku.edu/"
+  tooltip1="SungKyunKwan university"
+  
+  image2="images/funding/samsung_미래2.png"
+  link2="https://www.samsungstf.org/"
+  tooltip2="Samsung Science & Technology"
+
+  image3="images/funding/posco_청암.png"
+  link3="https://www.postf.org/"
+  tooltip3="POSCO TJ Park Foundation"
+
+  image4="images/funding/NRF.png"
+  link4="https://www.nrf.re.kr/"
+  tooltip4="National Research Foundation of Korea"
+
+%}
+{:.center}
