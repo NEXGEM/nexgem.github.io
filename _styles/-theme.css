@@ -25,10 +25,10 @@
   --heading: "Barlow", sans-serif;
   --body: "Barlow", sans-serif;
   --code: "Roboto Mono", monospace;
-  --medium: 1.1rem;
-  --large: 1.3rem;
-  --xl: 1.5rem;
-  --xxl: 1.7rem;
+  --medium: 2rem;
+  --large: 3rem;
+  --xl: 4rem;
+  --xxl: 5rem;
   --thin: 200;
   --regular: 400;
   --semi-bold: 500;
