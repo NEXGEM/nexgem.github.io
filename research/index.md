@@ -64,5 +64,13 @@ Our work is made possible by funding from the following organizations.
   link4="https://www.nrf.re.kr/"
   tooltip4="National Research Foundation of Korea"
 
+  image5="images/funding/kucrf_logo_white.png"
+  link5="https://kucrf.org/"
+  tooltip5="Korea US Collaborative Research Fund"
+
+  image6="images/funding/yuhan.jpg"
+  link6="https://www.yuhan.co.kr/Main/"
+  tooltip6="YUHAN"
+
 %}
 {:.center}
