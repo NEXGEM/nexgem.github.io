@@ -11,7 +11,7 @@
 }
 
 .blog-post h2 {
-  font-size: 18px;
+  font-size: var(--large);
 }
 .blog-post h3 {
   text-align: center;
@@ -19,7 +19,7 @@
   text-decoration: none; /* Remove underline */
 }
 .blog-post p {
-  font-size: 14px;
+  font-size: var(--medium);
 }
 .blog-post img {
   width: 300px;           /* 타일의 폭에 꽉 차게 */
