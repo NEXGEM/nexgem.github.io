@@ -9,7 +9,7 @@
 }
 
 .blog-post h2 {
-  font-size: 18px;
+  font-size: var(--large);
 }
 
 .blog-post h3 {
@@ -19,7 +19,7 @@
 }
 
 .blog-post p {
-  font-size: 14px;
+  font-size: var(--medium);
 }
 
 .blog-post img {
