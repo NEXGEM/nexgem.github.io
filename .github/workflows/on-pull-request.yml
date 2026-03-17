@@ -15,8 +15,10 @@ permissions:
 
 jobs:
   update-citations:
+    if: false # Disable this job temporarily
     uses: ./.github/workflows/update-citations.yaml
 
   build-preview:
+    if: false # Disable this job temporarily
     needs: update-citations
     uses: ./.github/workflows/build-preview.yaml
