@@ -1,0 +1,44 @@
+name: Sync Google Drive Blog
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
+
+jobs:
+  sync-drive-photos:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Sync Google Drive images into blog posts
+        env:
+          GOOGLE_DRIVE_API_KEY: ${{ secrets.GOOGLE_DRIVE_API_KEY }}
+          GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
+          BLOG_SYNC_AUTHOR: ${{ vars.BLOG_SYNC_AUTHOR }}
+          BLOG_SYNC_TAGS: ${{ vars.BLOG_SYNC_TAGS }}
+          BLOG_SYNC_TITLE_PREFIX: ${{ vars.BLOG_SYNC_TITLE_PREFIX }}
+          BLOG_SYNC_POST_PREFIX: ${{ vars.BLOG_SYNC_POST_PREFIX }}
+        run: node tools/sync-google-drive-blog.mjs
+
+      - name: Commit synced posts
+        run: |
+          if git diff --quiet; then
+            echo "No blog changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _posts
+          git commit -m "Sync blog posts from Google Drive"
+          git push

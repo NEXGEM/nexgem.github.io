@@ -5,15 +5,14 @@ nav:
   tooltip: Musings and miscellany
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %} **Blog**
+# {% include icon.html icon="fa-solid fa-feather-pointed" %} **NEXGEM Blog**
 
-## Explore diverse experiences in NEXGEM Lab
+Snapshots, milestones, conferences, and the people behind our work.
+Search by event name, year, or keywords to quickly find moments from the lab.
 
 {% include section.html %}
 
 {% include search-box.html %}
-
-<!-- {% include tags.html tags=site.tags %} -->
 
 {% include search-info.html %}
 

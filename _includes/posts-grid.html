@@ -1,11 +1,67 @@
-{% assign posts_by_year = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
-{% for year_group in posts_by_year %}
-  <h2>{{ year_group.name }}</h2>
-  <div class="posts-grid">
-  {% for post in year_group.items %}
-    <div class='blog-post'>
-      <p><a href="{{post.url}}">{{ post.excerpt }}</a></p>
-    </div>
+{% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+
+<div class="blog-collection">
+  {% for year_group in posts_by_year %}
+    {% assign posts = year_group.items | sort: "date" | reverse %}
+
+    <section class="blog-year-group">
+      <div class="blog-year-heading">
+        <h2>{{ year_group.name }}</h2>
+        <span>{{ posts.size }} stories</span>
+      </div>
+
+      <div class="posts-grid">
+        {% for post in posts %}
+          {% assign image = post.content | regex_scan: 'src="([^"]+)"' %}
+          {% if image == "" %}
+            {% assign image = post.content | regex_scan: "!\[[^\]]*\]\(([^)\s]+)" %}
+          {% endif %}
+          {% if image == "" %}
+            {% assign image = post.image %}
+          {% endif %}
+          {% assign excerpt = post.content
+            | default: ""
+            | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->"
+            | default: post.excerpt
+            | default: ""
+            | strip_html
+            | strip_newlines
+          %}
+
+          <article class="blog-post post-excerpt" data-search="{{ post.content | strip_html | strip_newlines }}">
+            <a href="{{ post.url | relative_url }}" class="blog-post-media">
+              {% if image %}
+                <img
+                  src="{{ image }}"
+                  class="blog-post-image"
+                  alt="{{ post.title | default: 'Blog image' }}"
+                  loading="lazy"
+                >
+              {% else %}
+                <div class="blog-post-placeholder">
+                  {% include icon.html icon="fa-regular fa-image" %}
+                </div>
+              {% endif %}
+            </a>
+
+            <div class="blog-post-body">
+              <div class="blog-post-meta">
+                <span class="blog-post-date">
+                  {{ post.date | date: "%B %d, %Y" }}
+                </span>
+              </div>
+
+              <a href="{{ post.url | relative_url }}" class="blog-post-title">
+                {{ post.title }}
+              </a>
+
+              {% if excerpt and excerpt != "" %}
+                <p class="blog-post-summary">{{ excerpt }}</p>
+              {% endif %}
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
   {% endfor %}
-  </div>
-{% endfor %}
+</div>
