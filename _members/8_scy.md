@@ -19,7 +19,9 @@ links:
 ## **Research Interests**
 
 * **AI for Virtual Cell Modeling**
-    - Foundation models for single-cell and spatial omics
-    - Multi-modal integration (gene expression, imaging, mutation)
+    - Foundation models for single-cell and spatial omics
+    - Multi-modal integration (gene expression, imaging, mutation)
+
+*
 
 ---
