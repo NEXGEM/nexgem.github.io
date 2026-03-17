@@ -66,11 +66,23 @@ const imageUrlFor = (fileId) =>
 
 const unique = (values) => [...new Set(values.filter(Boolean))];
 
+const normalizeDate = (value) => {
+  const candidate = String(value || "").trim();
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(candidate)) {
+    return "";
+  }
+
+  const parsed = new Date(`${candidate}T00:00:00Z`);
+  return Number.isNaN(parsed.getTime()) ? "" : candidate;
+};
+
 const parseDescriptionMetadata = (input) => {
   const lines = String(input || "").split(/\r?\n/);
   const metadata = {
     title: "",
+    date: "",
     summary: "",
+    summaryProvided: false,
     category: "",
     tags: [],
   };
@@ -90,9 +102,18 @@ const parseDescriptionMetadata = (input) => {
       continue;
     }
 
-    const summaryMatch = line.match(/^summary:\s*(.+)$/i);
+    const dateMatch = line.match(/^date:\s*(.+)$/i);
+    if (dateMatch) {
+      metadata.date = normalizeDate(dateMatch[1]);
+      continue;
+    }
+
+    const summaryMatch = line.match(/^summary:\s*(.*)$/i);
     if (summaryMatch) {
-      metadata.summary = summaryMatch[1].trim();
+      const summaryValue = summaryMatch[1].trim();
+      metadata.summary =
+        summaryValue === '""' || summaryValue === "''" ? "" : summaryValue;
+      metadata.summaryProvided = true;
       continue;
     }
 
@@ -183,17 +204,15 @@ const loadExistingGeneratedPosts = async () => {
 
 const renderPost = (file) => {
   const createdAt = new Date(file.createdTime || file.modifiedTime || Date.now());
-  const isoDate = createdAt.toISOString().slice(0, 10);
   const descriptionMeta = parseDescriptionMetadata(file.description);
+  const isoDate = descriptionMeta.date || createdAt.toISOString().slice(0, 10);
   const derivedTitle = descriptionMeta.title || toTitle(file.name);
   const safeTitle = `${config.titlePrefix}${derivedTitle}`.trim();
   const title = safeTitle || "Lab Photo";
-  const bodyCopy =
-    descriptionMeta.body || `${title} captured in the NEXGEM photo archive.`;
-  const summary =
-    descriptionMeta.summary ||
-    bodyCopy.split(/\n{2,}/)[0].trim() ||
-    `${title} captured in the NEXGEM photo archive.`;
+  const bodyCopy = descriptionMeta.body || "";
+  const summary = descriptionMeta.summaryProvided
+    ? descriptionMeta.summary
+    : bodyCopy.split(/\n{2,}/)[0].trim();
   const category = descriptionMeta.category || config.category;
   const tags = unique([
     category,
@@ -221,16 +240,11 @@ const renderPost = (file) => {
   const content = [
     frontMatter,
     "",
-    "<!-- excerpt start -->",
-    summary,
-    "<!-- excerpt end -->",
-    "",
     `![${title}](${imageUrlFor(file.id)})`,
-    "",
-    bodyCopy,
-    "",
-    file.webViewLink ? `[Open in Google Drive](${file.webViewLink})` : "",
-    "",
+    ...(summary
+      ? ["", "<!-- excerpt start -->", summary, "<!-- excerpt end -->"]
+      : []),
+    ...(bodyCopy ? ["", bodyCopy] : []),
   ]
     .filter(Boolean)
     .join("\n");

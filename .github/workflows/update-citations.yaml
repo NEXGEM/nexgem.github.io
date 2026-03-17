@@ -48,7 +48,35 @@ jobs:
         run: |
           python -m pip install --upgrade --requirement ./_cite/requirements.txt
 
+      - name: Detect citation-related changes
+        id: citation-inputs
+        uses: tj-actions/changed-files@v45
+        with:
+          files: |
+            _cite/**
+            _data/sources.yaml
+            _data/sources.yml
+            _data/sources.json
+            _data/google-scholar*.*
+            _data/pubmed*.*
+            _data/orcid*.*
+            .github/workflows/update-citations.yaml
+
+      - name: Restore citation cache
+        if: |
+          github.event_name == 'workflow_dispatch' ||
+          steps.citation-inputs.outputs.any_changed == 'true'
+        uses: actions/cache@v4
+        with:
+          path: _cite/.cache
+          key: ${{ runner.os }}-cite-${{ hashFiles('_cite/**/*.py', '_cite/requirements.txt', '_data/sources.*', '_data/google-scholar*.*', '_data/pubmed*.*', '_data/orcid*.*') }}
+          restore-keys: |
+            ${{ runner.os }}-cite-
+
       - name: Build updated citations
+        if: |
+          github.event_name == 'workflow_dispatch' ||
+          steps.citation-inputs.outputs.any_changed == 'true'
         run: python _cite/cite.py
         timeout-minutes: 15
 
