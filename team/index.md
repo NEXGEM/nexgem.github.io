@@ -17,7 +17,7 @@ nav:
 
 {% include section.html %}
 
-# <i class="fas fa-microscope"></i> **Postdoctoral researchers**
+# <i class="fas fa-microscope"></i> **Postdoctoral Researchers**
 {%
   include list.html
   data="members"
@@ -25,7 +25,7 @@ nav:
   filters="role: postdoc"
 %}
 
-# <i class="fas fa-users"></i> **Student researchers**
+# <i class="fas fa-users"></i> **Student Researchers**
 {%
   include list.html
   data="members"
