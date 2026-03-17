@@ -1,7 +1,7 @@
 ---
 name: Song Sieun
 image: images/team/Sieun.jpg
-role: ra
+role: rast
 description: Research Assistant
 status: current
 

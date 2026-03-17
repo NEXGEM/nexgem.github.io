@@ -14,7 +14,7 @@ postdoc:
   icon: fa-solid fa-glasses
   description: Postdoctoral Researcher
 
-ra:
+rast:
   icon: fa-solid fa-graduation-cap
   description: Research Assistant
 

@@ -1,7 +1,7 @@
 ---
 name: Yeori Kim
 image: images/team/Yeori.jpg
-role: ra
+role: rast
 description: Research Assistant
 status: current
 

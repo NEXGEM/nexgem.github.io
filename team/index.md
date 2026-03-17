@@ -44,7 +44,7 @@ nav:
   include list.html
   data="members"
   component="portrait"
-  filters="role: ra"
+  filters="role: rast"
 %}
 
 # <i class="fas fa-users"></i> **Administrative Assistants**
