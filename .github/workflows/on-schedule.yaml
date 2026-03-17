@@ -15,13 +15,15 @@ permissions:
 
 jobs:
   update-citations:
+    if: false # --- IGNORE ---
     # only run on user instance of template, not template itself
-    if: github.repository != 'greenelab/lab-website-template'
+    # if: github.repository != 'greenelab/lab-website-template'
     uses: ./.github/workflows/update-citations.yaml
     with:
       open-pr: true
 
   build-preview:
-    needs: update-citations
-    if: needs.update-citations.outputs.changed == 'true'
+    if: false # --- IGNORE ---
+    # needs: update-citations
+    # if: needs.update-citations.outputs.changed == 'true'
     uses: ./.github/workflows/build-preview.yaml

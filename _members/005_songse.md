@@ -1,8 +1,8 @@
 ---
 name: Song Sieun
 image: images/team/Sieun.jpg
-role: bs
-department: 
+role: ra
+description: Research Assistant
 status: current
 
 links:
