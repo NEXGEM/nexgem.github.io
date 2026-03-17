@@ -131,26 +131,31 @@ for index, source in enumerate(sources):
 
     # Manubot doesn't work without an id
     if id:
-        log("Using Manubot to generate citation", 1)
+        fallback = existing_citations.get(id, {}).copy()
 
-        try:
-            # run Manubot and set citation
-            citation = cite_with_manubot(source)
+        if source.get("plugin") == "sources.py" and fallback:
+            log("Using existing stored citation", 1, "INFO")
+            citation = fallback
+        else:
+            log("Using Manubot to generate citation", 1)
 
-        except Exception as e:
-            fallback = existing_citations.get(id, {}).copy()
-            if fallback:
-                log(e, 3, "WARNING")
-                log("Using existing citation as fallback", 3, "INFO")
-                citation = fallback
-            # if manually-entered source, throw error on cite failure
-            elif source.get("plugin") == "sources.py":
-                log(e, 3, "ERROR")
-                error = True
-            # otherwise, just warn
-            # (Manubot might not know how to cite every type of source from orcid, e.g.)
-            else:
-                log(e, 3, "WARNING")
+            try:
+                # run Manubot and set citation
+                citation = cite_with_manubot(source)
+
+            except Exception as e:
+                if fallback:
+                    log(e, 3, "WARNING")
+                    log("Using existing citation as fallback", 3, "INFO")
+                    citation = fallback
+                # if manually-entered source, throw error on cite failure
+                elif source.get("plugin") == "sources.py":
+                    log(e, 3, "ERROR")
+                    error = True
+                # otherwise, just warn
+                # (Manubot might not know how to cite every type of source from orcid, e.g.)
+                else:
+                    log(e, 3, "WARNING")
 
     # preserve fields from input source, overriding existing fields
     citation.update(source)
