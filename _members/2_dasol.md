@@ -24,5 +24,5 @@ links:
     - Drug response prediction
 * **Data science and bioinformatics**
     - Synthetic lethality for cancer treatment
-
+* **Homepage Manager**
 ---

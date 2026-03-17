@@ -46,12 +46,6 @@ nav:
   component="portrait"
   filters="role: administrative"
 %}
-{%
-  include list.html
-  data="members"
-  component="portrait"
-  filters="role: administrative"
-%}
 
 # <i class="fas fa-users"></i> **Intern**
 {%
