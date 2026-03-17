@@ -1,8 +1,8 @@
 ---
 name: Yeori Kim
 image: images/team/Yeori.jpg
-role: phd
-department: Research Assistant
+role: bs
+department: Computer Science
 status: current
 
 links:

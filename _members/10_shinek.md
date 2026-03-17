@@ -1,5 +1,5 @@
 ---
-name: Sophie
+name: Eun Kyung Shin 
 image: images/team/Eunkyoung.jpg
 role: administrative
 department: Administrative Assistant
