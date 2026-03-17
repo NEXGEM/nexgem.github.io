@@ -2,6 +2,10 @@
 
 # team member roles
 
+administrative: 
+  icon: fa-solid fa-user-tie
+  description: Administrative Assistant
+
 pi:
   icon: fa-solid fa-microscope
   description: Principal Investigator

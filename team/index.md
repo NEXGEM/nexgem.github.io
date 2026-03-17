@@ -39,6 +39,20 @@ nav:
   filters="role: mdphd"
 %}
 
+# <i class="fas fa-users"></i> **Administrative Assistants**
+{%
+  include list.html
+  data="members"
+  component="portrait"
+  filters="role: administrative"
+%}
+{%
+  include list.html
+  data="members"
+  component="portrait"
+  filters="role: administrative"
+%}
+
 # <i class="fas fa-users"></i> **Intern**
 {%
   include list.html
