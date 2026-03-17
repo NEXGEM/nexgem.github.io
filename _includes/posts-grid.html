@@ -1,54 +1,68 @@
 {% assign sorted_posts = site.posts | sort: "date" | reverse %}
+{% assign posts_by_year = sorted_posts | group_by_exp: "post", "post.date | date: '%Y'" %}
 <section class="blog-gallery-intro">
   <div class="blog-gallery-count">{{ sorted_posts.size }} moments archived</div>
 </section>
 
-<div class="blog-gallery">
-  {% for post in sorted_posts %}
-    {% assign image = post.content | regex_scan: 'src="([^"]+)"' %}
-    {% if image == "" %}
-      {% assign image = post.content | regex_scan: "!\[[^\]]*\]\(([^)\s]+)" %}
-    {% endif %}
-    {% if image == "" %}
-      {% assign image = post.image %}
-    {% endif %}
-    {% assign excerpt = post.content
-      | default: ""
-      | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->"
-      | default: post.excerpt
-      | default: ""
-      | strip_html
-      | strip_newlines
-    %}
+<div class="blog-year-archive">
+  {% for year_group in posts_by_year %}
+    {% assign posts = year_group.items | sort: "date" | reverse %}
 
-    <article class="blog-photo-card">
-      <a href="{{ post.url | relative_url }}" class="blog-photo-link">
-        {% if image %}
-          <img
-            src="{{ image }}"
-            class="blog-photo-image"
-            alt="{{ post.title | default: 'Blog image' }}"
-            loading="lazy"
-          >
-        {% else %}
-          <div class="blog-photo-placeholder">
-            {% include icon.html icon="fa-regular fa-image" %}
-          </div>
-        {% endif %}
+    <section class="blog-year-section">
+      <div class="blog-year-heading">
+        <h2>{{ year_group.name }}</h2>
+        <span>{{ posts.size }} moments</span>
+      </div>
 
-        <div class="blog-photo-overlay">
-          <div class="blog-photo-meta">
-            <span class="blog-photo-date">{{ post.date | date: "%Y" }}</span>
-          </div>
+      <div class="blog-gallery">
+        {% for post in posts %}
+          {% assign image = post.content | regex_scan: 'src="([^"]+)"' %}
+          {% if image == "" %}
+            {% assign image = post.content | regex_scan: "!\[[^\]]*\]\(([^)\s]+)" %}
+          {% endif %}
+          {% if image == "" %}
+            {% assign image = post.image %}
+          {% endif %}
+          {% assign excerpt = post.content
+            | default: ""
+            | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->"
+            | default: post.excerpt
+            | default: ""
+            | strip_html
+            | strip_newlines
+          %}
 
-          <div class="blog-photo-copy">
-            <div class="blog-photo-title">{{ post.title }}</div>
-            {% if excerpt and excerpt != "" %}
-              <p class="blog-photo-summary">{{ excerpt }}</p>
-            {% endif %}
-          </div>
-        </div>
-      </a>
-    </article>
+          <article class="blog-photo-card">
+            <a href="{{ post.url | relative_url }}" class="blog-photo-link">
+              {% if image %}
+                <img
+                  src="{{ image }}"
+                  class="blog-photo-image"
+                  alt="{{ post.title | default: 'Blog image' }}"
+                  loading="lazy"
+                >
+              {% else %}
+                <div class="blog-photo-placeholder">
+                  {% include icon.html icon="fa-regular fa-image" %}
+                </div>
+              {% endif %}
+
+              <div class="blog-photo-overlay">
+                <div class="blog-photo-meta">
+                  <span class="blog-photo-date">{{ post.date | date: "%b %d" }}</span>
+                </div>
+
+                <div class="blog-photo-copy">
+                  <div class="blog-photo-title">{{ post.title }}</div>
+                  {% if excerpt and excerpt != "" %}
+                    <p class="blog-photo-summary">{{ excerpt }}</p>
+                  {% endif %}
+                </div>
+              </div>
+            </a>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
   {% endfor %}
 </div>
