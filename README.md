@@ -19,10 +19,22 @@ The Blog landing page now renders image-first cards from `_posts`, and the repos
    - `GOOGLE_DRIVE_FOLDER_ID`
 5. Optionally add these repository variables:
    - `BLOG_SYNC_AUTHOR`
+   - `BLOG_SYNC_CATEGORY`
    - `BLOG_SYNC_TAGS`
    - `BLOG_SYNC_TITLE_PREFIX`
    - `BLOG_SYNC_POST_PREFIX`
 6. Run the `Sync Google Drive Blog` workflow manually once, or wait for the scheduled sync.
+
+You can also add metadata in each Google Drive file description:
+
+```text
+Title: AACR 2026 Poster Session
+Category: conference
+Tags: aacr, poster, chicago
+Summary: Highlights from our poster session and team meetup.
+
+Full caption or story goes here.
+```
 
 For local testing:
 

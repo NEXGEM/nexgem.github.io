@@ -8,7 +8,7 @@ nav:
 # {% include icon.html icon="fa-solid fa-feather-pointed" %} **NEXGEM Blog**
 
 Snapshots, milestones, conferences, and the people behind our work.
-Search by event name, year, or keywords to quickly find moments from the lab.
+Discover the latest featured story first, then browse the archive like a curated lab magazine.
 
 {% include section.html %}
 
