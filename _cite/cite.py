@@ -14,6 +14,20 @@ error = False
 # output citations file
 output_file = "_data/citations.yaml"
 
+# previously generated citations, used as fallback when external providers fail
+existing_citations = {}
+if Path(output_file).is_file():
+    try:
+        existing_data = load_data(output_file) or []
+        if list_of_dicts(existing_data):
+            existing_citations = {
+                entry.get("id", "").strip(): entry
+                for entry in existing_data
+                if entry.get("id", "").strip()
+            }
+    except Exception as e:
+        log(f"Couldn't load existing citations for fallback: {e}", level="WARNING")
+
 
 log()
 
@@ -124,8 +138,13 @@ for index, source in enumerate(sources):
             citation = cite_with_manubot(source)
 
         except Exception as e:
+            fallback = existing_citations.get(id, {}).copy()
+            if fallback:
+                log(e, 3, "WARNING")
+                log("Using existing citation as fallback", 3, "INFO")
+                citation = fallback
             # if manually-entered source, throw error on cite failure
-            if source.get("plugin") == "sources.py":
+            elif source.get("plugin") == "sources.py":
                 log(e, 3, "ERROR")
                 error = True
             # otherwise, just warn
