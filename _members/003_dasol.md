@@ -24,4 +24,5 @@ links:
     - Drug response prediction
 * **Data science and bioinformatics**
     - Synthetic lethality for cancer treatment
+    - 3D Pathology Reconstruction from Pathology Images
 ---
