@@ -1,4 +1,108 @@
-{% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+{% assign sorted_posts = site.posts | sort: "date" | reverse %}
+{% assign featured_post = sorted_posts | first %}
+{% assign archive_posts = sorted_posts | where_exp: "post", "post.url != featured_post.url" %}
+{% assign posts_by_year = archive_posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+{% assign all_topics = site.tags | hash_keys | sort %}
+
+{% if all_topics.size > 0 %}
+  <section class="blog-topic-strip">
+    <div class="blog-topic-label">Browse Topics</div>
+    <div class="blog-badges">
+      {% for topic in all_topics %}
+        <a
+          href="{{ '/blog/' | relative_url }}?search=&quot;tag: {{ topic }}&quot;"
+          class="blog-badge"
+        >
+          {{ topic }}
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}
+
+{% if featured_post %}
+  {% assign featured_image = featured_post.content | regex_scan: 'src="([^"]+)"' %}
+  {% if featured_image == "" %}
+    {% assign featured_image = featured_post.content | regex_scan: "!\[[^\]]*\]\(([^)\s]+)" %}
+  {% endif %}
+  {% if featured_image == "" %}
+    {% assign featured_image = featured_post.image %}
+  {% endif %}
+  {% assign featured_excerpt = featured_post.content
+    | default: ""
+    | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->"
+    | default: featured_post.excerpt
+    | default: ""
+    | strip_html
+    | strip_newlines
+  %}
+  {% assign featured_tags = featured_post.tags
+    | array_hash
+    | join: ","
+    | split: ","
+    | array_filter
+    | uniq
+  %}
+  {% assign featured_labels = "" | split: "," %}
+  {% if featured_post.category %}
+    {% assign featured_labels = featured_labels | push: featured_post.category %}
+  {% endif %}
+  {% for tag in featured_tags %}
+    {% assign featured_labels = featured_labels | push: tag %}
+  {% endfor %}
+  {% assign featured_labels = featured_labels | uniq %}
+
+  <section class="blog-feature">
+    <div class="blog-feature-copy">
+      <div class="blog-kicker">Featured Story</div>
+
+      {% if featured_labels.size > 0 %}
+        <div class="blog-badges">
+          {% for label in featured_labels limit: 3 %}
+            <a
+              href="{{ '/blog/' | relative_url }}?search=&quot;tag: {{ label }}&quot;"
+              class="blog-badge"
+            >
+              {{ label }}
+            </a>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      <a href="{{ featured_post.url | relative_url }}" class="blog-feature-title">
+        {{ featured_post.title }}
+      </a>
+
+      <p class="blog-feature-summary">
+        {% if featured_excerpt and featured_excerpt != "" %}
+          {{ featured_excerpt }}
+        {% else %}
+          A highlighted moment from the latest chapter of the NEXGEM story archive.
+        {% endif %}
+      </p>
+
+      <div class="blog-feature-meta">
+        <span>{{ featured_post.date | date: "%B %d, %Y" }}</span>
+        <a href="{{ featured_post.url | relative_url }}" class="blog-feature-link">Read story</a>
+      </div>
+    </div>
+
+    <a href="{{ featured_post.url | relative_url }}" class="blog-feature-media">
+      {% if featured_image %}
+        <img
+          src="{{ featured_image }}"
+          class="blog-feature-image"
+          alt="{{ featured_post.title | default: 'Featured blog image' }}"
+          loading="lazy"
+        >
+      {% else %}
+        <div class="blog-feature-placeholder">
+          {% include icon.html icon="fa-regular fa-image" %}
+        </div>
+      {% endif %}
+    </a>
+  </section>
+{% endif %}
 
 <div class="blog-collection">
   {% for year_group in posts_by_year %}
@@ -27,6 +131,21 @@
             | strip_html
             | strip_newlines
           %}
+          {% assign post_tags = post.tags
+            | array_hash
+            | join: ","
+            | split: ","
+            | array_filter
+            | uniq
+          %}
+          {% assign post_labels = "" | split: "," %}
+          {% if post.category %}
+            {% assign post_labels = post_labels | push: post.category %}
+          {% endif %}
+          {% for tag in post_tags %}
+            {% assign post_labels = post_labels | push: tag %}
+          {% endfor %}
+          {% assign post_labels = post_labels | uniq %}
 
           <article class="blog-post post-excerpt" data-search="{{ post.content | strip_html | strip_newlines }}">
             <a href="{{ post.url | relative_url }}" class="blog-post-media">
@@ -45,6 +164,19 @@
             </a>
 
             <div class="blog-post-body">
+              {% if post_labels.size > 0 %}
+                <div class="blog-badges">
+                  {% for label in post_labels limit: 2 %}
+                    <a
+                      href="{{ '/blog/' | relative_url }}?search=&quot;tag: {{ label }}&quot;"
+                      class="blog-badge"
+                    >
+                      {{ label }}
+                    </a>
+                  {% endfor %}
+                </div>
+              {% endif %}
+
               <div class="blog-post-meta">
                 <span class="blog-post-date">
                   {{ post.date | date: "%B %d, %Y" }}

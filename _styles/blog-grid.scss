@@ -6,6 +6,165 @@
   gap: 48px;
 }
 
+.blog-topic-strip {
+  display: grid;
+  gap: 14px;
+  margin: 0 0 28px;
+  padding: 20px 22px;
+  border: 1px solid color-mix(in srgb, var(--light-gray) 78%, transparent);
+  border-radius: 22px;
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--background-alt) 95%, white), var(--background));
+}
+
+.blog-topic-label {
+  color: var(--gray);
+  font-size: 0.84rem;
+  font-weight: var(--bold);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.blog-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+  gap: 28px;
+  align-items: stretch;
+  margin: 0 0 44px;
+  padding: 28px;
+  border: 1px solid color-mix(in srgb, var(--light-gray) 78%, transparent);
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at top left, color-mix(in srgb, var(--secondary) 26%, transparent), transparent 38%),
+    linear-gradient(135deg, color-mix(in srgb, var(--background-alt) 94%, white), var(--background));
+  box-shadow:
+    0 26px 54px -34px color-mix(in srgb, var(--text) 22%, transparent),
+    0 10px 24px -20px color-mix(in srgb, var(--text) 12%, transparent);
+}
+
+.blog-feature-copy {
+  display: grid;
+  align-content: start;
+  gap: 18px;
+  min-width: 0;
+}
+
+.blog-kicker {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  min-height: 34px;
+  padding: 0 14px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--primary) 14%, transparent);
+  color: var(--primary);
+  font-size: 0.82rem;
+  font-weight: var(--bold);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.blog-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.blog-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 0 12px;
+  border: 1px solid color-mix(in srgb, var(--light-gray) 75%, transparent);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--background) 88%, white);
+  color: color-mix(in srgb, var(--text) 88%, var(--primary));
+  font-size: 0.84rem;
+  font-weight: var(--semi-bold);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.blog-badge:hover,
+.blog-badge:focus {
+  border-color: color-mix(in srgb, var(--primary) 30%, transparent);
+  color: var(--primary);
+}
+
+.blog-feature-title {
+  color: var(--text);
+  font-family: var(--heading);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: var(--bold);
+  line-height: 1.08;
+  text-decoration: none;
+}
+
+.blog-feature-title:hover,
+.blog-feature-title:focus {
+  color: var(--primary);
+}
+
+.blog-feature-summary {
+  margin: 0;
+  max-width: 58ch;
+  color: color-mix(in srgb, var(--text) 80%, var(--gray));
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.blog-feature-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px 18px;
+  color: var(--gray);
+  font-size: 0.95rem;
+}
+
+.blog-feature-link {
+  color: var(--text);
+  font-weight: var(--semi-bold);
+  text-decoration: none;
+}
+
+.blog-feature-link:hover,
+.blog-feature-link:focus {
+  color: var(--primary);
+}
+
+.blog-feature-media {
+  display: block;
+  min-width: 0;
+}
+
+.blog-feature-image,
+.blog-feature-placeholder {
+  width: 100%;
+  height: 100%;
+  min-height: 360px;
+  border-radius: 22px;
+}
+
+.blog-feature-image {
+  display: block;
+  object-fit: contain;
+  object-position: center;
+  background:
+    radial-gradient(circle at top, color-mix(in srgb, var(--secondary) 24%, transparent), transparent 62%),
+    linear-gradient(180deg, color-mix(in srgb, var(--background-alt) 92%, white), var(--background-alt));
+}
+
+.blog-feature-placeholder {
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(circle at top left, color-mix(in srgb, var(--secondary) 28%, transparent), transparent 45%),
+    linear-gradient(135deg, var(--background-alt), var(--background));
+  color: var(--gray);
+  font-size: 2.4rem;
+}
+
 .blog-year-group {
   display: grid;
   gap: 18px;
@@ -130,6 +289,20 @@
 }
 
 @media (max-width: 700px) {
+  .blog-topic-strip {
+    padding: 18px;
+  }
+
+  .blog-feature {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .blog-feature-image,
+  .blog-feature-placeholder {
+    min-height: 260px;
+  }
+
   .blog-year-heading {
     flex-direction: column;
     align-items: flex-start;
