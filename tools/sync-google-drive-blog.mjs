@@ -82,6 +82,7 @@ const parseDescriptionMetadata = (input) => {
     title: "",
     date: "",
     summary: "",
+    summaryProvided: false,
     category: "",
     tags: [],
   };
@@ -107,9 +108,12 @@ const parseDescriptionMetadata = (input) => {
       continue;
     }
 
-    const summaryMatch = line.match(/^summary:\s*(.+)$/i);
+    const summaryMatch = line.match(/^summary:\s*(.*)$/i);
     if (summaryMatch) {
-      metadata.summary = summaryMatch[1].trim();
+      const summaryValue = summaryMatch[1].trim();
+      metadata.summary =
+        summaryValue === '""' || summaryValue === "''" ? "" : summaryValue;
+      metadata.summaryProvided = true;
       continue;
     }
 
@@ -206,7 +210,9 @@ const renderPost = (file) => {
   const safeTitle = `${config.titlePrefix}${derivedTitle}`.trim();
   const title = safeTitle || "Lab Photo";
   const bodyCopy = descriptionMeta.body || "";
-  const summary = descriptionMeta.summary || bodyCopy.split(/\n{2,}/)[0].trim();
+  const summary = descriptionMeta.summaryProvided
+    ? descriptionMeta.summary
+    : bodyCopy.split(/\n{2,}/)[0].trim();
   const category = descriptionMeta.category || config.category;
   const tags = unique([
     category,
