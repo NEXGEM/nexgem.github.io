@@ -19,6 +19,7 @@ const config = {
   apiKey: process.env.GOOGLE_DRIVE_API_KEY,
   folderId: process.env.GOOGLE_DRIVE_FOLDER_ID,
   author: process.env.BLOG_SYNC_AUTHOR || "nexgem-drive",
+  category: process.env.BLOG_SYNC_CATEGORY || "lab-life",
   tags: (process.env.BLOG_SYNC_TAGS || "lab, photos")
     .split(",")
     .map((value) => value.trim())
@@ -62,6 +63,63 @@ const yamlQuote = (value) => `"${String(value).replace(/\\/g, "\\\\").replace(/"
 
 const imageUrlFor = (fileId) =>
   `https://lh3.googleusercontent.com/d/${fileId}=w2200`;
+
+const unique = (values) => [...new Set(values.filter(Boolean))];
+
+const parseDescriptionMetadata = (input) => {
+  const lines = String(input || "").split(/\r?\n/);
+  const metadata = {
+    title: "",
+    summary: "",
+    category: "",
+    tags: [],
+  };
+  const body = [];
+
+  for (const rawLine of lines) {
+    const line = rawLine.trim();
+
+    if (!line) {
+      body.push("");
+      continue;
+    }
+
+    const titleMatch = line.match(/^title:\s*(.+)$/i);
+    if (titleMatch) {
+      metadata.title = titleMatch[1].trim();
+      continue;
+    }
+
+    const summaryMatch = line.match(/^summary:\s*(.+)$/i);
+    if (summaryMatch) {
+      metadata.summary = summaryMatch[1].trim();
+      continue;
+    }
+
+    const categoryMatch = line.match(/^category:\s*(.+)$/i);
+    if (categoryMatch) {
+      metadata.category = slugify(categoryMatch[1]);
+      continue;
+    }
+
+    const tagsMatch = line.match(/^tags:\s*(.+)$/i);
+    if (tagsMatch) {
+      metadata.tags = tagsMatch[1]
+        .split(",")
+        .map((value) => slugify(value))
+        .filter(Boolean);
+      continue;
+    }
+
+    body.push(rawLine);
+  }
+
+  const normalizedBody = body.join("\n").trim();
+  return {
+    ...metadata,
+    body: normalizedBody,
+  };
+};
 
 const listDriveImages = async () => {
   const files = [];
@@ -126,12 +184,22 @@ const loadExistingGeneratedPosts = async () => {
 const renderPost = (file) => {
   const createdAt = new Date(file.createdTime || file.modifiedTime || Date.now());
   const isoDate = createdAt.toISOString().slice(0, 10);
-  const safeTitle = `${config.titlePrefix}${toTitle(file.name)}`.trim();
+  const descriptionMeta = parseDescriptionMetadata(file.description);
+  const derivedTitle = descriptionMeta.title || toTitle(file.name);
+  const safeTitle = `${config.titlePrefix}${derivedTitle}`.trim();
   const title = safeTitle || "Lab Photo";
-  const description = (file.description || "").trim();
-  const summary = description || `${title} captured in the NEXGEM photo archive.`;
-  const bodyCopy = description || summary;
-  const tags = [...new Set(config.tags)];
+  const bodyCopy =
+    descriptionMeta.body || `${title} captured in the NEXGEM photo archive.`;
+  const summary =
+    descriptionMeta.summary ||
+    bodyCopy.split(/\n{2,}/)[0].trim() ||
+    `${title} captured in the NEXGEM photo archive.`;
+  const category = descriptionMeta.category || config.category;
+  const tags = unique([
+    category,
+    ...config.tags.map((value) => slugify(value)),
+    ...descriptionMeta.tags,
+  ]);
   const filename = `${isoDate}-${config.postPrefix}-${slugify(file.name || file.id || title)}-${file.id}.md`;
 
   const frontMatter = [
@@ -139,6 +207,7 @@ const renderPost = (file) => {
     `title: ${yamlQuote(title)}`,
     `author: ${yamlQuote(config.author)}`,
     `date: ${isoDate}`,
+    `category: ${yamlQuote(category)}`,
     `tags: [${tags.map(yamlQuote).join(", ")}]`,
     `image: ${yamlQuote(imageUrlFor(file.id))}`,
     "source: google-drive",
@@ -153,7 +222,7 @@ const renderPost = (file) => {
     frontMatter,
     "",
     "<!-- excerpt start -->",
-    bodyCopy,
+    summary,
     "<!-- excerpt end -->",
     "",
     `![${title}](${imageUrlFor(file.id)})`,
