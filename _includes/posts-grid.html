@@ -23,18 +23,9 @@
           {% if image == "" %}
             {% assign image = post.image %}
           {% endif %}
-          {% assign excerpt = post.content
-            | default: ""
-            | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->"
-            | default: post.excerpt
-            | default: ""
-            | strip_html
-            | strip_newlines
-          %}
-
-          <article class="blog-photo-card">
-            <a href="{{ post.url | relative_url }}" class="blog-photo-link">
-              {% if image %}
+    <article class="blog-photo-card">
+      <a href="{{ post.url | relative_url }}" class="blog-photo-link">
+        {% if image %}
                 <img
                   src="{{ image }}"
                   class="blog-photo-image"
@@ -54,9 +45,6 @@
 
                 <div class="blog-photo-copy">
                   <div class="blog-photo-title">{{ post.title }}</div>
-                  {% if excerpt and excerpt != "" %}
-                    <p class="blog-photo-summary">{{ excerpt }}</p>
-                  {% endif %}
                 </div>
               </div>
             </a>

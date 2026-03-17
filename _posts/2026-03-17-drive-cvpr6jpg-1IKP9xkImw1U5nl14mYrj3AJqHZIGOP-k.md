@@ -8,12 +8,11 @@ image: "https://lh3.googleusercontent.com/d/1IKP9xkImw1U5nl14mYrj3AJqHZIGOP-k=w2
 source: google-drive
 drive_file_id: 1IKP9xkImw1U5nl14mYrj3AJqHZIGOP-k
 drive_web_view_link: "https://drive.google.com/file/d/1IKP9xkImw1U5nl14mYrj3AJqHZIGOP-k/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBPmkxlCMPUgltH92AR3h3xdzQvk6_vOQRoXYo68p2g7BcKMh1NGwizv0T8c-nDsBxzppWA-Z_pFjrIeHuAeHbWISJhCCMxN_P-tack=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBM4uvvWRmeGz_NMluGsJgU7sjKFGDISRtCQ_L7XIC15MpFIBi0RNb_oxEQkD7F0TwrIvxU8ul6RKpQPTxz5EZqigfcg_l2DzBDGpb_e=s220"
 description: "Summary:"
 ---
+![CVPR 2024](https://lh3.googleusercontent.com/d/1IKP9xkImw1U5nl14mYrj3AJqHZIGOP-k=w2200)
 <!-- excerpt start -->
 Summary:
 <!-- excerpt end -->
-![CVPR 2024](https://lh3.googleusercontent.com/d/1IKP9xkImw1U5nl14mYrj3AJqHZIGOP-k=w2200)
 Summary:
-[Open in Google Drive](https://drive.google.com/file/d/1IKP9xkImw1U5nl14mYrj3AJqHZIGOP-k/view?usp=drivesdk)

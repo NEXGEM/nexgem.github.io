@@ -205,12 +205,8 @@ const renderPost = (file) => {
   const derivedTitle = descriptionMeta.title || toTitle(file.name);
   const safeTitle = `${config.titlePrefix}${derivedTitle}`.trim();
   const title = safeTitle || "Lab Photo";
-  const bodyCopy =
-    descriptionMeta.body || `${title} captured in the NEXGEM photo archive.`;
-  const summary =
-    descriptionMeta.summary ||
-    bodyCopy.split(/\n{2,}/)[0].trim() ||
-    `${title} captured in the NEXGEM photo archive.`;
+  const bodyCopy = descriptionMeta.body || "";
+  const summary = descriptionMeta.summary || bodyCopy.split(/\n{2,}/)[0].trim();
   const category = descriptionMeta.category || config.category;
   const tags = unique([
     category,
@@ -238,16 +234,11 @@ const renderPost = (file) => {
   const content = [
     frontMatter,
     "",
-    "<!-- excerpt start -->",
-    summary,
-    "<!-- excerpt end -->",
-    "",
     `![${title}](${imageUrlFor(file.id)})`,
-    "",
-    bodyCopy,
-    "",
-    file.webViewLink ? `[Open in Google Drive](${file.webViewLink})` : "",
-    "",
+    ...(summary
+      ? ["", "<!-- excerpt start -->", summary, "<!-- excerpt end -->"]
+      : []),
+    ...(bodyCopy ? ["", bodyCopy] : []),
   ]
     .filter(Boolean)
     .join("\n");

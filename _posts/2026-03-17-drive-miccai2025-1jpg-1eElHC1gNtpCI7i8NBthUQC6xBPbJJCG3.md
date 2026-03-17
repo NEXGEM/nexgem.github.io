@@ -8,12 +8,10 @@ image: "https://lh3.googleusercontent.com/d/1eElHC1gNtpCI7i8NBthUQC6xBPbJJCG3=w2
 source: google-drive
 drive_file_id: 1eElHC1gNtpCI7i8NBthUQC6xBPbJJCG3
 drive_web_view_link: "https://drive.google.com/file/d/1eElHC1gNtpCI7i8NBthUQC6xBPbJJCG3/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBPt9ONyTGhSEB42juXEcn6tquX3u7MJW-ALKjNeLou60_kuaWDICi0xjRYll2e6Ar0zPbcQrJVaQ3otWYNWDaQpbezx_aGwpEI4xaY=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBOOqSJFYCgXZnxAsVBY_JhLSeYfh5fEHPYtSWt4qCNO2qsLj08yKXnOmgDNyzyqnygEKhayOysCxCovi8idN624nqP4T629L2DxWsJ7=s220"
 description: "MICCAI conference in 2025, at Daejeon"
 ---
+![MICCAI2025](https://lh3.googleusercontent.com/d/1eElHC1gNtpCI7i8NBthUQC6xBPbJJCG3=w2200)
 <!-- excerpt start -->
 MICCAI conference in 2025, at Daejeon
 <!-- excerpt end -->
-![MICCAI2025](https://lh3.googleusercontent.com/d/1eElHC1gNtpCI7i8NBthUQC6xBPbJJCG3=w2200)
-MICCAI2025 captured in the NEXGEM photo archive.
-[Open in Google Drive](https://drive.google.com/file/d/1eElHC1gNtpCI7i8NBthUQC6xBPbJJCG3/view?usp=drivesdk)
