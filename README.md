@@ -29,6 +29,7 @@ You can also add metadata in each Google Drive file description:
 
 ```text
 Title: AACR 2026 Poster Session
+Date: 2026-04-16
 Category: conference
 Tags: aacr, poster, chicago
 Summary: Highlights from our poster session and team meetup.

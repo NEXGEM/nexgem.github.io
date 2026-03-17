@@ -66,10 +66,21 @@ const imageUrlFor = (fileId) =>
 
 const unique = (values) => [...new Set(values.filter(Boolean))];
 
+const normalizeDate = (value) => {
+  const candidate = String(value || "").trim();
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(candidate)) {
+    return "";
+  }
+
+  const parsed = new Date(`${candidate}T00:00:00Z`);
+  return Number.isNaN(parsed.getTime()) ? "" : candidate;
+};
+
 const parseDescriptionMetadata = (input) => {
   const lines = String(input || "").split(/\r?\n/);
   const metadata = {
     title: "",
+    date: "",
     summary: "",
     category: "",
     tags: [],
@@ -87,6 +98,12 @@ const parseDescriptionMetadata = (input) => {
     const titleMatch = line.match(/^title:\s*(.+)$/i);
     if (titleMatch) {
       metadata.title = titleMatch[1].trim();
+      continue;
+    }
+
+    const dateMatch = line.match(/^date:\s*(.+)$/i);
+    if (dateMatch) {
+      metadata.date = normalizeDate(dateMatch[1]);
       continue;
     }
 
@@ -183,8 +200,8 @@ const loadExistingGeneratedPosts = async () => {
 
 const renderPost = (file) => {
   const createdAt = new Date(file.createdTime || file.modifiedTime || Date.now());
-  const isoDate = createdAt.toISOString().slice(0, 10);
   const descriptionMeta = parseDescriptionMetadata(file.description);
+  const isoDate = descriptionMeta.date || createdAt.toISOString().slice(0, 10);
   const derivedTitle = descriptionMeta.title || toTitle(file.name);
   const safeTitle = `${config.titlePrefix}${derivedTitle}`.trim();
   const title = safeTitle || "Lab Photo";
