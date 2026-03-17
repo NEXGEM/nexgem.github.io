@@ -1,0 +1,25 @@
+---
+name: Chaeyoung Seo
+image: images/team/chaeyoung_resized.jpg
+role: phd
+description: PhD Student
+department: Department of Artificial Intelligence
+status: current
+
+links:
+  email: signer@skku.edu
+ 
+---
+
+## **Education**
+
+* **M.S**, Bio-AI Convergence, Chungnam National University, 2024–2026
+* **B.S**, Biotechnology, Kyungpook National University, 2020–2023
+
+## **Research Interests**
+
+* **AI for Virtual Cell Modeling**
+    - Foundation models for single-cell and spatial omics
+    - Multi-modal integration (gene expression, imaging, mutation)
+
+---
