@@ -151,6 +151,10 @@ def cite_with_manubot(source):
 
     # source id
     id = source.get("id")
+    
+    # auto-correct incorrect doi.org prefix to standard doi: prefix
+    if id and id.startswith("doi.org/"):
+        id = id.replace("doi.org/", "doi:")
 
     # run Manubot
     try:
