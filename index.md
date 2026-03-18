@@ -153,6 +153,6 @@ title: Home
         We welcome opportunities to connect around computational oncology, cancer biology, and translational data science.
       </p>
     </div>
-    <a class="home-button" href="{{ '/contact' | relative_url }}">Get in Touch</a>
+    <a class="home-button" href="{{ '/contact' | relative_url }}">Get in&nbsp;Touch</a>
   </div>
 </section>
