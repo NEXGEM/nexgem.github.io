@@ -171,6 +171,10 @@ def cite_with_manubot(source):
 
     # original id
     citation["id"] = id
+    # auto-correct incorrect doi.org prefix to standard doi: prefix
+    if id and id.startswith("doi.org/"):
+        id = id.replace("doi.org/", "doi:")
+        source["id"] = id # update the original source dict
 
     # title
     citation["title"] = manubot.get("title", "")
