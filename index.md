@@ -7,26 +7,24 @@ title: Home
 {% assign post_count = site.posts | size %}
 
 <section class="home-hero">
-  <div class="home-hero-grid">
-    <div class="home-hero-copy">
-      <p class="home-kicker">Next Generation Medicine Lab</p>
-      <h1>AI-driven precision oncology for translational cancer research.</h1>
-      <p class="home-lead">
-        NEXGEM develops computational and experimental strategies that connect biological big data with clinically meaningful cancer treatment decisions.
-      </p>
-      <div class="home-actions">
-        <a class="home-button" href="{{ '/research' | relative_url }}">Explore Research</a>
-        <a class="home-button home-button-secondary" href="{{ '/publications' | relative_url }}">View Publications</a>
-      </div>
+  <div class="home-hero-copy">
+    <p class="home-kicker">Next Generation Medicine Lab</p>
+    <h1>AI-driven precision oncology for translational cancer research.</h1>
+    <p class="home-lead">
+      NEXGEM develops computational and experimental strategies that connect biological big data with clinically meaningful cancer treatment decisions.
+    </p>
+    <div class="home-actions">
+      <a class="home-button" href="{{ '/research' | relative_url }}">Explore Research</a>
+      <a class="home-button home-button-secondary" href="{{ '/publications' | relative_url }}">View Publications</a>
     </div>
-    <div class="home-hero-panel">
-      <img
-        src="{{ 'images/main/DSC02964.jpg' | relative_url }}"
-        alt="NEXGEM research overview"
-        loading="eager"
-        {% include fallback.html %}
-      >
-    </div>
+  </div>
+  <div class="home-hero-panel">
+    <img
+      src="{{ 'images/main/DSC02964.jpg' | relative_url }}"
+      alt="NEXGEM research overview"
+      loading="eager"
+      {% include fallback.html %}
+    >
   </div>
   <div class="home-stats">
     <article>

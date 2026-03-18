@@ -12,13 +12,6 @@ $phone: 560px;
   text-align: left;
 }
 
-.home-hero-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(300px, 0.9fr);
-  gap: 36px;
-  align-items: center;
-}
-
 .home-kicker {
   margin: 0 0 10px;
   color: var(--primary);
@@ -39,8 +32,14 @@ $phone: 560px;
 }
 
 .home-hero-copy h1 {
-  max-width: 13ch;
+  max-width: 14ch;
   font-size: clamp(2rem, 4.6vw, 3.4rem);
+}
+
+.home-hero-copy {
+  display: grid;
+  gap: 18px;
+  max-width: 760px;
 }
 
 .home-lead,
@@ -89,8 +88,8 @@ $phone: 560px;
 
 .home-hero-panel {
   position: relative;
-  min-height: 420px;
-  padding: 16px;
+  min-height: 560px;
+  padding: 18px;
   border: 1px solid color-mix(in srgb, var(--text) 10%, transparent);
   border-radius: calc(var(--rounded) * 1.6);
   background:
@@ -102,9 +101,10 @@ $phone: 560px;
 .home-hero-panel img {
   width: 100%;
   height: 100%;
-  min-height: 388px;
+  min-height: 524px;
   border-radius: calc(var(--rounded) * 1.2);
   object-fit: cover;
+  object-position: center 36%;
 }
 
 .home-stats {
@@ -238,7 +238,6 @@ $phone: 560px;
 }
 
 @media (max-width: $tablet) {
-  .home-hero-grid,
   .home-pillars,
   .home-pathways,
   .home-updates,
@@ -251,11 +250,11 @@ $phone: 560px;
   }
 
   .home-hero-panel {
-    min-height: 320px;
+    min-height: 400px;
   }
 
   .home-hero-panel img {
-    min-height: 288px;
+    min-height: 364px;
   }
 
   .home-contact {
