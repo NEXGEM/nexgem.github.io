@@ -21,7 +21,7 @@ title: Home
     </div>
     <div class="home-hero-panel">
       <img
-        src="{{ 'images/main/Research.jpg' | relative_url }}"
+        src="{{ 'images/main/DSC02964.jpg' | relative_url }}"
         alt="NEXGEM research overview"
         loading="eager"
         {% include fallback.html %}
