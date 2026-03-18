@@ -8,8 +8,8 @@ title: Home
 
 <section class="home-hero">
   <div class="home-hero-copy">
-    <p class="home-kicker">Next Generation Medicine Lab</p>
-    <h1>AI-driven precision oncology for translational cancer research</h1>
+    <p class="home-kicker">NEXGEM</p>
+    <h1>Next Generation Medicine Lab</h1>
     <p class="home-lead">
       NEXGEM develops computational and experimental strategies that connect biological big data with clinically meaningful cancer treatment decisions.
     </p>
