@@ -10,7 +10,7 @@ title: Home
   <div class="home-hero-grid">
     <div class="home-hero-copy">
       <p class="home-kicker">Next Generation Medicine Lab</p>
-      <h1>Advancing precision oncology through AI, data science, and translational cancer biology.</h1>
+      <h1>AI-driven precision oncology for translational cancer research.</h1>
       <p class="home-lead">
         NEXGEM develops computational and experimental strategies that connect biological big data with clinically meaningful cancer treatment decisions.
       </p>
@@ -21,7 +21,7 @@ title: Home
     </div>
     <div class="home-hero-panel">
       <img
-        src="{{ 'images/main/header5.jpg' | relative_url }}"
+        src="{{ 'images/main/Research.jpg' | relative_url }}"
         alt="NEXGEM research overview"
         loading="eager"
         {% include fallback.html %}
