@@ -1,3 +1,22 @@
+- id: doi.org/10.1016/j.xgen.2025.100876
+  type: paper
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2666979X25001326-fx1.jpg
+
+- id: doi.org/10.1038/s41423-025-01367-7
+  type: paper
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41423-025-01367-7/MediaObjects/41423_2025_1367_Fig1_HTML.png?as=webp 
+
+- id: doi.org/10.1038/s12276-025-01539-5
+  type: paper
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs12276-025-01539-5/MediaObjects/12276_2025_1539_Fig1_HTML.png?as=webp
+
+- id: doi.org/10.1016/j.tig.2025.05.002
+  type: paper
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S016895252500109X-gr1_lrg.jpg
+
+- id: doi.org/10.1158/0008-5472.CAN-25-4350
+  type: paper
+  image: https://aacrjournals.org/view-large/figure/16663318/CAN-25-4350_f1.tif
 
 - id: arxiv:2403.07592
   type: paper
