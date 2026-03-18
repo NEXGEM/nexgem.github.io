@@ -166,7 +166,7 @@
   date: '2025-10-30'
   link: https://doi.org/hbsx3c
   type: paper
-  image: https://aacr.silverchair-cdn.com/aacr/content_public/journal/cancerres/85/24/10.1158_0008-5472.can-25-4350/2/can-25-4350_f1.png?Expires=1776836451&Signature=oLCIyYw~y2QTkGU18YPGPn~N2B8EWMj6wkeh9bTljMZOlbgMCXOBCXEvRScKydK-FA1ItMSiIG8qifHN~8oD4adA-gI1sC0sNjjPhFjNoPQVX-a76OYU5ZqMdfl6d9sS9xxGZD8FVBjp1dZ91x1HP64c442P90pUqQJcSJecF4ZCOXqDsMXlhfOQjEW955NBy5iD1mDowi9oGXWIOoarXrkduvZXBMXL4UOeRuocnOB41VNAsU~umqUu7RuvN14CkOj~DUQS~zzcWhy0g7l3Ua9PriGeB0t51WPNETk8~CY9g0sb~lf6lnWjO99HQOv3mZal4VBhr7hTWE-WxOw~PA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+  image: https://aacr.silverchair-cdn.com/aacr/content_public/journal/cancerres/85/24/10.1158_0008-5472.can-25-4350/2/can-25-4350_f1.png
   plugin: sources.py
   file: sources.yaml
 - id: arxiv:2403.07592
