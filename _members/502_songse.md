@@ -1,5 +1,5 @@
 ---
-name: Song Sieun
+name: Sieun Song
 image: images/team/Sieun.jpg
 role: rast
 description: Research Assistant
