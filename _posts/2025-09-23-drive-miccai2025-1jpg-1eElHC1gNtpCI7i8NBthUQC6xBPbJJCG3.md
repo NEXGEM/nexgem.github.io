@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/1eElHC1gNtpCI7i8NBthUQC6xBPbJJCG3=w2
 source: google-drive
 drive_file_id: 1eElHC1gNtpCI7i8NBthUQC6xBPbJJCG3
 drive_web_view_link: "https://drive.google.com/file/d/1eElHC1gNtpCI7i8NBthUQC6xBPbJJCG3/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBNdFsD2STZFoVOSuI6nSiHV_QIBykbSlH8GT4n_66UiKIbfu_UDcKx6o1yQXbCZiLi69lPYOsd_l3x3PiqKquv02pYr2jkFl1TGHaI=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBOQrCsnL0IvVI5Tdt62r6ulo76G4MnFD6ZKbeuJHsfCqkrmm-FrVctmU3INlm9g0OylbgdfC6_AiuSkL3D2Ws_AgvGmHf2yhft5XBqA=s220"
 description: "MICCAI conference in 2025, at Daejeon"
 ---
 ![MICCAI2025](https://lh3.googleusercontent.com/d/1eElHC1gNtpCI7i8NBthUQC6xBPbJJCG3=w2200)
