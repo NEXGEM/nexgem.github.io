@@ -1,0 +1,58 @@
+.publications-hero,
+.publications-section {
+  display: grid;
+  gap: 24px;
+  text-align: left;
+}
+
+.publications-kicker {
+  margin: 0;
+  color: var(--primary);
+  font-size: 0.95rem;
+  font-weight: var(--semi-bold);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.publications-hero h1,
+.publications-section-head h2 {
+  margin: 0;
+  font-family: var(--heading);
+  font-weight: var(--bold);
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+}
+
+.publications-hero h1 {
+  max-width: 15ch;
+  font-size: clamp(2.1rem, 5vw, 3.6rem);
+}
+
+.publications-lead,
+.publications-section-head p {
+  max-width: 760px;
+  margin: 0;
+  color: var(--gray);
+  font-size: 1.02rem;
+  line-height: 1.75;
+}
+
+.publications-section-head {
+  display: grid;
+  gap: 10px;
+}
+
+.publications-list h3 {
+  margin: 34px 0 18px;
+  color: var(--text);
+  font-family: var(--heading);
+  font-size: 1.35rem;
+  font-weight: var(--semi-bold);
+  text-align: left;
+}
+
+.publications-list h3:first-child {
+  margin-top: 0;
+}
+
+/*# sourceMappingURL=publications-page.css.map */
