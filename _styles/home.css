@@ -147,9 +147,47 @@
 }
 
 .home-pillar h3 {
-  margin: 0 0 14px;
+  margin: 0 0 16px;
   font-family: var(--heading);
-  font-size: 1.2rem;
+  font-size: 1.22rem;
+  line-height: 1.25;
+}
+
+.home-pillar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.home-pillar ul {
+  display: grid;
+  gap: 12px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.home-pillar li {
+  position: relative;
+  margin: 0;
+  padding: 0 0 0 18px;
+  color: var(--gray);
+  text-align: left;
+  line-height: 1.65;
+}
+
+.home-pillar li::before {
+  content: "";
+  position: absolute;
+  top: 0.7em;
+  left: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  background: var(--primary);
+  transform: translateY(-50%);
 }
 
 .home-pathways {
