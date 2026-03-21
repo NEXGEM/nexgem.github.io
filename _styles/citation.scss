@@ -1,43 +1,47 @@
 ---
 ---
 
-$thumb-size: 180px;
-$wrap: 800px;
+$wrap: 860px;
 
 .citation {
-  display: flex;
-  margin: 15px 0;
-  border-radius: var(--rounded);
-  background: var(--background);
+  display: grid;
+  grid-template-columns: minmax(260px, 320px) minmax(0, 1fr);
+  margin: 20px 0;
+  border: 1px solid color-mix(in srgb, var(--light-gray) 80%, transparent);
+  border-radius: 22px;
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--background-alt) 92%, white), var(--background));
   overflow: hidden;
-  box-shadow: var(--shadow);
+  box-shadow: 0 20px 38px -30px color-mix(in srgb, var(--text) 30%, transparent);
 }
 
 .citation-image {
-  position: relative;
-  width: $thumb-size;
-  flex-shrink: 0;
-  // box-shadow: var(--shadow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 250px;
+  padding: 22px;
+  background:
+    radial-gradient(circle at top, color-mix(in srgb, var(--secondary) 22%, transparent), transparent 55%),
+    linear-gradient(180deg, color-mix(in srgb, var(--background-alt) 96%, white), color-mix(in srgb, var(--background) 96%, white));
+  border-right: 1px solid color-mix(in srgb, var(--light-gray) 75%, transparent);
 }
 
 .citation-image img {
-  position: absolute;
-  inset: 0;
   width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 260px;
   object-fit: contain;
+  object-position: center;
 }
 
 .citation-text {
   position: relative;
-  display: inline-flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  height: min-content;
-  padding: 20px;
-  padding-left: 30px;
+  display: grid;
+  gap: 14px;
+  align-content: start;
+  padding: 26px 30px;
   text-align: left;
-  z-index: 0;
 }
 
 .citation-title,
@@ -45,25 +49,40 @@ $wrap: 800px;
 .citation-details,
 .citation-description {
   width: 100%;
-  line-height: calc(var(--spacing) - 0.4);
 }
 
 .citation-title {
+  color: var(--text);
+  font-family: var(--heading);
+  font-size: 1.2rem;
   font-weight: var(--semi-bold);
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.citation-authors {
+  color: var(--text);
+  line-height: 1.7;
+}
+
+.citation-details {
+  color: var(--gray);
+  font-size: 0.94rem;
+  line-height: 1.7;
 }
 
 .citation-text > .icon {
   position: absolute;
-  top: 20px;
-  right: 20px;
-  color: var(--light-gray);
-  opacity: 0.5;
-  font-size: 30px;
-  z-index: -1;
+  top: 24px;
+  right: 24px;
+  color: color-mix(in srgb, var(--primary) 20%, var(--light-gray));
+  opacity: 0.8;
+  font-size: 28px;
 }
 
 .citation-description {
   color: var(--gray);
+  line-height: 1.75;
 }
 
 .citation-buttons {
@@ -84,11 +103,20 @@ $wrap: 800px;
 
 @media (max-width: $wrap) {
   .citation {
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 
   .citation-image {
-    width: unset;
-    height: $thumb-size;
+    min-height: 220px;
+    border-right: none;
+    border-bottom: 1px solid color-mix(in srgb, var(--light-gray) 75%, transparent);
+  }
+
+  .citation-image img {
+    max-height: 240px;
+  }
+
+  .citation-text {
+    padding: 22px 22px 24px;
   }
 }
