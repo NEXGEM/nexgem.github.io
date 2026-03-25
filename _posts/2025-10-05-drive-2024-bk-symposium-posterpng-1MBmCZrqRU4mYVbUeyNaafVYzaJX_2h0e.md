@@ -1,6 +1,6 @@
 ---
 title: "2024 Bk Symposium Poster"
-author: "NEXGEM"
+author: "nexgem-drive"
 date: 2024-10-05
 category: "lab-life"
 tags: ["lab-life", "lab", "photos"]
@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/1MBmCZrqRU4mYVbUeyNaafVYzaJX_2h0e=w2
 source: google-drive
 drive_file_id: 1MBmCZrqRU4mYVbUeyNaafVYzaJX_2h0e
 drive_web_view_link: "https://drive.google.com/file/d/1MBmCZrqRU4mYVbUeyNaafVYzaJX_2h0e/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBPDxfpJQiFeYpORb6Sbw3LVG2siWBSfwlQd4DPxnOW-GA2MNatQE7gmnHkWsLpbHmQHrCb0ohS9sn3jnsRiO2zE1B-TozyIyp_xrAAm=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBM8jm5n084nbwkGZYYXHfyudhF6KgVZz84SOUD4VfDwu1lIBLkVNgwEbGTx6PV-BFE6SDEVDpqsvQJIbWFeACFi8--TTONime6f8ao=s220"
 description: "2024 BK Symposium: Future of Medicine Poster"
 ---
 ![2024 Bk Symposium Poster](https://lh3.googleusercontent.com/d/1MBmCZrqRU4mYVbUeyNaafVYzaJX_2h0e=w2200)

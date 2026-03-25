@@ -1,6 +1,6 @@
 ---
 title: "Korea-US Frontiers in Heal and Life Sciences"
-author: "NEXGEM"
+author: "nexgem-drive"
 date: 2025-11-06
 category: "conference"
 tags: ["conference", "lab", "photos", "boston-korea", "poster"]
@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/1--gfV77R3f6m-b5BHo-OGZGR1dLbVlRv=w2
 source: google-drive
 drive_file_id: 1--gfV77R3f6m-b5BHo-OGZGR1dLbVlRv
 drive_web_view_link: "https://drive.google.com/file/d/1--gfV77R3f6m-b5BHo-OGZGR1dLbVlRv/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBOr8g255Dt-ptmLajLLJ6ZBraZYwZvSTWNfgG4HBXu0F_kCI5ra9qqx37M0krkVQpJHbkYINiUy97CLv97rtuvnhrGeB1t3UnA0TiWS=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBNi1C7IwrEqe7kCQLFBtl7lSroHFbQSVmHjij0zf5oUVg_gasiCqncy6W8YhRt-04mOscNoSKod0lu4A8N2Sj1KiUwtIhfGxH2kUP4=s220"
 description: "PI JooSang Lee gives lectures in Korea-US Frontiers in Heal and Life Sciences for progress in Boston-Korea project funding"
 ---
 ![Korea-US Frontiers in Heal and Life Sciences](https://lh3.googleusercontent.com/d/1--gfV77R3f6m-b5BHo-OGZGR1dLbVlRv=w2200)
