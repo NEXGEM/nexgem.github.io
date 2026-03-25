@@ -7,7 +7,7 @@ nav:
 
 <section class="publications-hero">
   <p class="publications-kicker">Research Archive</p>
-  <h1>Selected publications and ongoing scientific contributions</h1>
+  <h1>Publications</h1>
   <p class="publications-lead">
     Explore the lab's publication record through image-led citation cards designed to keep each paper's key figure visible, legible, and easy to scan.
   </p>

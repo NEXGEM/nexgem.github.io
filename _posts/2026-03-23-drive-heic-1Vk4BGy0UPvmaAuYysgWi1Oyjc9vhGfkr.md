@@ -1,6 +1,10 @@
 ---
 title: "Birthday Party for Ji Hun"
+<<<<<<< HEAD
 author: "nexgem-drive"
+=======
+author: "NEXGEM"
+>>>>>>> main
 date: 2026-03-23
 category: "event"
 tags: ["event", "lab", "photos", "celebration", "birthday"]
