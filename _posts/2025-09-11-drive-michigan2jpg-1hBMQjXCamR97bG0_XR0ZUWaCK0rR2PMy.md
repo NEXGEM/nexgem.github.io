@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/1hBMQjXCamR97bG0_XR0ZUWaCK0rR2PMy=w2
 source: google-drive
 drive_file_id: 1hBMQjXCamR97bG0_XR0ZUWaCK0rR2PMy
 drive_web_view_link: "https://drive.google.com/file/d/1hBMQjXCamR97bG0_XR0ZUWaCK0rR2PMy/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBNe4vAb-1CuAd3EoscYxmgX0B6kf5RPv2pnD5QaXvUzS-cdHweqmKzhsK_ynFQan6osYzuDJcvPNqVvU9GoHCwwo3Hfx7SFhVfpN3n2=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBN52Lw7JKkZ5h74_RQg5ZW_u1bdjCeW17kJ0QtEmfn4h-U1bZo8KJAnPbXGDjVSjk1pLy5oW25Xa_h5RL9GYVyLqejq0GV2ICf05BY=s220"
 description: "Research visit to the University of Michigan to strengthen collaborative research efforts."
 ---
 ![University of Michigan Research Visit](https://lh3.googleusercontent.com/d/1hBMQjXCamR97bG0_XR0ZUWaCK0rR2PMy=w2200)
