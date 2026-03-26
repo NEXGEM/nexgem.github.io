@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/1bTkhtdIf2Srkien-XgnVyFx_Sno636tp=w2
 source: google-drive
 drive_file_id: 1bTkhtdIf2Srkien-XgnVyFx_Sno636tp
 drive_web_view_link: "https://drive.google.com/file/d/1bTkhtdIf2Srkien-XgnVyFx_Sno636tp/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBNAFxpHiM9qbwb4Fw3a19HBKyQR1GZi2Rd4qfoRKxqkuGjEHv7KQBsf5kmHCGI9-asS-blXKGgzKSEWFfnLeP2N8tyw8Q5uDNpjKuow=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBNhRThMGj6wkEXXDGje-BziLJxXK7xzVto4QxwNpsuvtBOArKDpl5ciKJoLjsEpUnuqFBgoWVjWVpssSjURIS3iC0i3uPA4m0qro17X=s220"
 description: "Birthday Party for Alice, Yeori"
 ---
 ![Birthday Party for Alice, Yeori](https://lh3.googleusercontent.com/d/1bTkhtdIf2Srkien-XgnVyFx_Sno636tp=w2200)
