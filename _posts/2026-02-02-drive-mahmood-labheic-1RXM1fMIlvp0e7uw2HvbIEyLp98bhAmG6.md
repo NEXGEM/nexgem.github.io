@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/1RXM1fMIlvp0e7uw2HvbIEyLp98bhAmG6=w2
 source: google-drive
 drive_file_id: 1RXM1fMIlvp0e7uw2HvbIEyLp98bhAmG6
 drive_web_view_link: "https://drive.google.com/file/d/1RXM1fMIlvp0e7uw2HvbIEyLp98bhAmG6/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBM8KjV60R73-W7duAXwj7Nrj7bCxdLHHeBLOovMBZ00qaNrvoOhUnNbVB_u8PvIr39HWlSCGkUW1fkAYfQl-IbDZChKEcYJugA1hERu=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBNSyPUJMEnNXS-oyfny2n6QViuqzK_O5MbwBRTzGY3-8DbN5PJMzLfniKWCFN3GqBKAEH86sN52LdQY_g3xUDbdU5RRrmJVKSdzHSNV=s220"
 description: ""
 ---
 ![Visiting the Mahmood Lab (Harvard)](https://lh3.googleusercontent.com/d/1RXM1fMIlvp0e7uw2HvbIEyLp98bhAmG6=w2200)
