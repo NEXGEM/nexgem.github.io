@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/1--gfV77R3f6m-b5BHo-OGZGR1dLbVlRv=w2
 source: google-drive
 drive_file_id: 1--gfV77R3f6m-b5BHo-OGZGR1dLbVlRv
 drive_web_view_link: "https://drive.google.com/file/d/1--gfV77R3f6m-b5BHo-OGZGR1dLbVlRv/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBOoAYTArPlogG_7pWqc6gjrqIYikD1GDQTgMP1Hf6AApnrPUvpZFFIynhDKdnFkhNTlaNzYLZ9c43wZZiFif11HYauRo3Mr61E4Mhk=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBNbN97zhSXDIIgd0PLnwqJ8X-ciGZYphADMhkdXEwBpi_6C_F5cr-2aER-ObI9xBSdFoe20AadS2Q443H9YjWy6bX6n_xnbF4tkNkw=s220"
 description: "PI JooSang Lee gives lectures in Korea-US Frontiers in Heal and Life Sciences for progress in Boston-Korea project funding"
 ---
 ![Korea-US Frontiers in Heal and Life Sciences](https://lh3.googleusercontent.com/d/1--gfV77R3f6m-b5BHo-OGZGR1dLbVlRv=w2200)
