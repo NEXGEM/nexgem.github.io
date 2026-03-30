@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/1Vk4BGy0UPvmaAuYysgWi1Oyjc9vhGfkr=w2
 source: google-drive
 drive_file_id: 1Vk4BGy0UPvmaAuYysgWi1Oyjc9vhGfkr
 drive_web_view_link: "https://drive.google.com/file/d/1Vk4BGy0UPvmaAuYysgWi1Oyjc9vhGfkr/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBMZ54GKoWpZENG75vFhk8j5_N_u3KWXLT28WfvbNsxUZnzlDq1LYUdBrkKNQbwEMy6Z6fH7EVph1wzTZyyye9uCOlRUQacvtKJn_UU=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBO0wsJ7-nSIBjF64cCtXQQnEC1WLV0sYc_uAQSzXf-TUBkinkFrwMkCe6-nFcFr742WCttyTO5niaQKydqfZlxDEeGUlY73q59QwC_2=s220"
 description: "Birthday Party for Ji Hun"
 ---
 ![Birthday Party for Ji Hun](https://lh3.googleusercontent.com/d/1Vk4BGy0UPvmaAuYysgWi1Oyjc9vhGfkr=w2200)
