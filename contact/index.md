@@ -12,8 +12,8 @@ We are currently recruiting **experimental cancer biologists** with M.S degree f
 {%
   include button.html
   type="email"
-  text="lee.joosang@gmail.com"
-  link="lee.joosang@gmail.com"
+  text="joosang.lee@skku.edu"
+  link="joosang.lee@skku.edu"
 %}
 {%
   include button.html

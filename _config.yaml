@@ -3,7 +3,7 @@ description: Next Genernation Medicine Lab (NEXGEM) aims to integrate the biolog
 header: images/main/header5.jpg
 footer: images/main/footer.jpg
 links:
-  email: lee.joosang@gmail.com
+  email: joosang.lee@skku.edu
   orcid: 0000-0001-8564-0848
   google-scholar: O1WXoOsAAAAJ
   github: nexgem
@@ -44,6 +44,6 @@ exclude:
   - README.md
   - LICENSE.md
   - CITATION.cff
-email: lee.joosang@gmail.com
+email: joosang.lee@skku.edu
 github: nexgem
 
