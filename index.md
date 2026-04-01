@@ -6,26 +6,73 @@ title: Home
 {% assign team_count = site.members | size %}
 {% assign post_count = site.posts | size %}
 
-<section class="home-hero">
+<!--
+  size: full;
+-->
+<div class="home-hero">
   <div class="home-hero-copy">
     <p class="home-kicker">NEXGEM</p>
-    <h1>Next Generation Medicine Lab</h1>
+    <h1>Next&nbsp;Generation Medicine Lab</h1>
     <p class="home-lead">
       NEXGEM develops computational and experimental strategies that connect biological big data with clinically meaningful cancer treatment decisions.
     </p>
+    <div class="home-highlight">
+      <span>Computational oncology</span>
+      <span>Translational AI</span>
+      <span>Spatial biology</span>
+    </div>
     <div class="home-actions">
       <a class="home-button" href="{{ '/research' | relative_url }}">Explore Research</a>
       <a class="home-button home-button-secondary" href="{{ '/publications' | relative_url }}">View Publications</a>
     </div>
   </div>
-  <div class="home-hero-panel">
-    <img
-      src="{{ 'images/main/main_photo.jpg' | relative_url }}"
-      alt="NEXGEM research overview"
-      loading="eager"
-      {% include fallback.html %}
-    >
+
+  <div class="home-hero-showcase">
+    <div class="home-hero-photo-card">
+      <div class="home-hero-photo">
+        <img
+          src="{{ 'images/main/main_photo.jpg' | relative_url }}"
+          alt="NEXGEM group and research environment"
+          loading="eager"
+          {% include fallback.html %}
+        >
+      </div>
+    </div>
+
+    <div class="home-hero-brief-card">
+      <div class="home-hero-brief">
+        <strong>We build data-driven models that connect molecular mechanisms with clinical decision making.</strong>
+        <p>
+          Our work spans synthetic lethality, tumor microenvironment analysis, pathology-integrated modeling, and translational frameworks for precision oncology.
+        </p>
+      </div>
+    </div>
+
+    <div class="home-hero-list">
+      <article>
+        <span>01</span>
+        <div>
+          <strong>Mechanism to therapy</strong>
+          <p>From biological signal to clinically actionable hypothesis.</p>
+        </div>
+      </article>
+      <article>
+        <span>02</span>
+        <div>
+          <strong>Multimodal data integration</strong>
+          <p>Joint analysis of omics, pathology, and patient-scale evidence.</p>
+        </div>
+      </article>
+      <article>
+        <span>03</span>
+        <div>
+          <strong>Translational focus</strong>
+          <p>Designed to support real-world oncology questions and collaborations.</p>
+        </div>
+      </article>
+    </div>
   </div>
+
   <div class="home-stats">
     <article>
       <strong>{{ publication_count }}+</strong>
@@ -40,9 +87,11 @@ title: Home
       <span>Lab stories and photo archive updates</span>
     </article>
   </div>
-</section>
+</div>
 
-<section class="home-section">
+{% include section.html %}
+
+<div class="home-section">
   <div class="home-section-head">
     <p class="home-kicker">Research Focus</p>
     <h2>Three themes shaping our work</h2>
@@ -76,9 +125,9 @@ title: Home
       </ul>
     </article>
   </div>
-</section>
+</div>
 
-<section class="home-section">
+<div class="home-section">
   <div class="home-section-head">
     <p class="home-kicker">Explore</p>
     <h2>Navigate the lab at a glance</h2>
@@ -97,6 +146,7 @@ title: Home
         >
       </span>
       <span class="home-pathway-body">
+        <em>01</em>
         <strong>Research</strong>
         <span>Read our current scientific directions, translational questions, and funded projects.</span>
       </span>
@@ -111,6 +161,7 @@ title: Home
         >
       </span>
       <span class="home-pathway-body">
+        <em>02</em>
         <strong>Team</strong>
         <span>Meet the faculty, students, and trainees contributing to the lab's research program.</span>
       </span>
@@ -125,14 +176,15 @@ title: Home
         >
       </span>
       <span class="home-pathway-body">
+        <em>03</em>
         <strong>Blog</strong>
         <span>Browse the lab's visual archive of conferences, milestones, and day-to-day moments.</span>
       </span>
     </a>
   </div>
-</section>
+</div>
 
-<section class="home-section">
+<div class="home-section">
   <div class="home-section-head">
     <p class="home-kicker">Latest Updates</p>
     <h2>Recent stories from the lab</h2>
@@ -148,9 +200,9 @@ title: Home
       </a>
     {% endfor %}
   </div>
-</section>
+</div>
 
-<section class="home-section home-section-compact">
+<div class="home-section home-section-compact">
   <div class="home-contact">
     <div>
       <p class="home-kicker">Contact</p>
@@ -161,4 +213,4 @@ title: Home
     </div>
     <a class="home-button" href="{{ '/contact' | relative_url }}">Get in&nbsp;Touch</a>
   </div>
-</section>
+</div>
