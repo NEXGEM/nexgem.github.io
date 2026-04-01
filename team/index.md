@@ -5,68 +5,127 @@ nav:
   tooltip: About our team
 ---
 
-# <i class="fas fa-microscope"></i> **Principal Investigator**
-{% include section.html %}
-
-{%
-  include list.html
-  data="members"
-  component="portrait"
-  filters="role: pi"
-%}
+<section class="page-hero">
+  <p class="page-kicker">People</p>
+  <h1>Team</h1>
+  <p class="page-lead">
+    Meet the faculty, researchers, students, and staff shaping NEXGEM's work across computational oncology, cancer biology, and translational medicine.
+  </p>
+</section>
 
 {% include section.html %}
 
-# <i class="fas fa-microscope"></i> **Postdoctoral Researchers**
-{%
-  include list.html
-  data="members"
-  component="portrait"
-  filters="role: postdoc"
-%}
+<div class="team-content-shell">
+  <div class="page-section team-section-card">
+    <div class="page-section-head">
+      <p class="page-kicker">Leadership</p>
+      <h2>Principal investigator</h2>
+      <p>The lab is led by a research program grounded in precision oncology, data science, and clinically meaningful biological discovery.</p>
+    </div>
+    <div class="page-people-grid">
+      {%
+        include list.html
+        data="members"
+      component="portrait"
+      filters="role: pi"
+    %}
+  </div>
+  </div>
 
-# <i class="fas fa-users"></i> **Student Researchers**
-{%
-  include list.html
-  data="members"
-  component="portrait"
-  filters="role: phd"
-%}
-{%
-  include list.html
-  data="members"
-  component="portrait"
-  filters="role: mdphd"
-%}
+  <div class="page-section team-section-card">
+    <div class="page-section-head">
+      <p class="page-kicker">Researchers</p>
+      <h2>Postdoctoral researchers</h2>
+      <p>Researchers building new methods, validating biological hypotheses, and extending the lab's translational portfolio.</p>
+    </div>
+    <div class="page-people-grid">
+      {%
+        include list.html
+        data="members"
+      component="portrait"
+      filters="role: postdoc"
+    %}
+  </div>
+  </div>
 
-# <i class="fas fa-users"></i> **Research Assistants**
-{%
-  include list.html
-  data="members"
-  component="portrait"
-  filters="role: rast"
-%}
+  <div class="page-section team-section-card">
+    <div class="page-section-head">
+      <p class="page-kicker">Trainees</p>
+      <h2>Student researchers</h2>
+      <p>Graduate and dual-degree trainees contributing to computational, molecular, and translational cancer research.</p>
+    </div>
+    <div class="page-people-grid">
+      {%
+        include list.html
+        data="members"
+        component="portrait"
+        filters="role: phd"
+      %}
+      {%
+        include list.html
+        data="members"
+      component="portrait"
+      filters="role: mdphd"
+    %}
+  </div>
+  </div>
 
-# <i class="fas fa-users"></i> **Administrative Assistants**
-{%
-  include list.html
-  data="members"
-  component="portrait"
-  filters="role: administrative"
-%}
+  <div class="page-section team-section-card">
+    <div class="page-section-head">
+      <p class="page-kicker">Support</p>
+      <h2>Research assistants</h2>
+      <p>Team members supporting experiments, data generation, and the day-to-day continuity of the lab's research program.</p>
+    </div>
+    <div class="page-people-grid">
+      {%
+        include list.html
+        data="members"
+      component="portrait"
+      filters="role: rast"
+    %}
+  </div>
+  </div>
 
-# <i class="fas fa-users"></i> **Undergraduate Interns**
-{%
-  include list.html
-  data="members"
-  component="portrait"
-  filters="role: undergrad"
-%}
-{:.center}
+  <div class="page-section team-section-card">
+    <div class="page-section-head">
+      <p class="page-kicker">Operations</p>
+      <h2>Administrative assistants</h2>
+      <p>Staff members who support coordination, communication, and the administrative foundation of the lab.</p>
+    </div>
+    <div class="page-people-grid">
+      {%
+        include list.html
+        data="members"
+      component="portrait"
+      filters="role: administrative"
+    %}
+  </div>
+  </div>
 
-{% include section.html background="images/banner.png" dark=true%}
+  <div class="page-section team-section-card">
+    <div class="page-section-head">
+      <p class="page-kicker">Emerging Scholars</p>
+      <h2>Undergraduate interns</h2>
+      <p>Early-career trainees exploring research through hands-on participation in the lab's projects and culture.</p>
+    </div>
+    <div class="page-people-grid">
+      {%
+        include list.html
+        data="members"
+      component="portrait"
+      filters="role: undergrad"
+    %}
+  </div>
+  </div>
 
-Our lab is looking for ambitious individuals eager to advance scientific research. Join a team where innovation meets impact, in an environment fostering collaboration and diversity. Make your mark in a place where every contribution propels us forward. Apply now to be part of the change!
-
-{% include button.html icon="fas fa-hands-helping" text="Join the Team" link="contact" %} {:.center}
-
+  <div class="page-section team-section-card">
+    <div class="page-cta">
+      <div class="page-cta-copy">
+        <p class="page-kicker">Join Us</p>
+        <h2>Interested in working with the lab?</h2>
+        <p>We welcome ambitious researchers who want to contribute to impactful science in a collaborative and rigorous environment.</p>
+      </div>
+      {% include button.html icon="fas fa-hands-helping" text="Join the Team" link="contact" %}
+    </div>
+  </div>
+</div>

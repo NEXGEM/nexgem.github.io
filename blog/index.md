@@ -5,11 +5,16 @@ nav:
   tooltip: Musings and miscellany
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %} **NEXGEM Blog**
-
-Snapshots, milestones, conferences, and the people behind our work.
-Browse the lab archive as a clean photo gallery with every moment visible at a glance.
+<section class="page-hero">
+  <p class="page-kicker">Lab Archive</p>
+  <h1>Blog</h1>
+  <p class="page-lead">
+    Snapshots, milestones, conferences, and day-to-day moments from the lab, presented as a clean visual archive.
+  </p>
+</section>
 
 {% include section.html %}
 
-{% include posts-grid.html data="posts" component="blog-grid" %}
+<section class="page-section">
+  {% include posts-grid.html data="posts" component="blog-grid" %}
+</section>

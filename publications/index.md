@@ -5,10 +5,10 @@ nav:
   tooltip: Published works
 ---
 
-<section class="publications-hero">
-  <p class="publications-kicker">Research Archive</p>
+<section class="page-hero">
+  <p class="page-kicker">Research Archive</p>
   <h1>Publications</h1>
-  <p class="publications-lead">
+  <p class="page-lead">
     Explore the lab's publication record through image-led citation cards designed to keep each paper's key figure visible, legible, and easy to scan.
   </p>
 </section>
@@ -16,8 +16,8 @@ nav:
 {% include section.html %}
 
 <section class="publications-section">
-  <div class="publications-section-head">
-    <p class="publications-kicker">Highlighted</p>
+  <div class="page-section-head">
+    <p class="page-kicker">Highlighted</p>
     <h2>Featured publication</h2>
     <p>A closer look at one representative paper from the lab's recent work.</p>
   </div>
@@ -28,8 +28,8 @@ nav:
 {% include section.html %}
 
 <section class="publications-section">
-  <div class="publications-section-head">
-    <p class="publications-kicker">Browse All</p>
+  <div class="page-section-head">
+    <p class="page-kicker">Browse All</p>
     <h2>Publication list</h2>
     <p>Search across the archive and browse publications by year.</p>
   </div>
