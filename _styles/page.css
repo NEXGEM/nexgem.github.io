@@ -8,7 +8,7 @@
 .page-hero {
   position: relative;
   gap: 12px;
-  width: min(1000px, 100% - 80px);
+  width: min(1132px, 100% - 48px);
   margin: 0 auto;
   padding: 22px 26px 24px;
   border: 1px solid var(--line);
@@ -322,7 +322,7 @@
 }
 @media (max-width: 560px) {
   .page-hero {
-    width: min(1000px, 100% - 32px);
+    width: min(1132px, 100% - 24px);
   }
   .page-card,
   .page-media-card,
