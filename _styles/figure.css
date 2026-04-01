@@ -12,6 +12,8 @@
 }
 
 .figure-image img {
+  display: block;
+  width: 100%;
   border-radius: var(--rounded);
   overflow: hidden;
   box-shadow: var(--shadow);

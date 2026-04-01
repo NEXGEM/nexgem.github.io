@@ -4,6 +4,10 @@
   margin: 0 0 22px;
 }
 
+.page-section .blog-gallery-intro {
+  margin-top: -4px;
+}
+
 .blog-gallery-count {
   display: inline-flex;
   align-items: center;
@@ -40,7 +44,7 @@
   align-items: baseline;
   gap: 16px;
   padding-bottom: 12px;
-  border-bottom: 1px solid var(--light-gray);
+  border-bottom: 1px solid var(--line);
 }
 
 .blog-year-heading h2 {

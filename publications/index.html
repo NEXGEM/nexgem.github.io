@@ -85,7 +85,7 @@
 <!-- automatically get url from fonts used in theme file -->
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Manrope:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -227,6 +227,10 @@
 
   
     <link href="/_styles/main.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/page.css" rel="stylesheet">
   
 
   
@@ -389,7 +393,7 @@
 
 
 
-<header class="background" style="--image: url('/images/main/header5.jpg')">
+<header class="site-header">
 
   <a href="/" class="home">
     
@@ -468,10 +472,10 @@
   
 
   <section class="background" data-size="page">
-    <section class="publications-hero">
-  <p class="publications-kicker">Research Archive</p>
+    <section class="page-hero">
+  <p class="page-kicker">Research Archive</p>
   <h1>Publications</h1>
-  <p class="publications-lead">
+  <p class="page-lead">
     Explore the lab's publication record through image-led citation cards designed to keep each paper's key figure visible, legible, and easy to scan.
   </p>
 </section>
@@ -489,8 +493,8 @@
 -->
 
 <section class="publications-section">
-  <div class="publications-section-head">
-    <p class="publications-kicker">Highlighted</p>
+  <div class="page-section-head">
+    <p class="page-kicker">Highlighted</p>
     <h2>Featured publication</h2>
     <p>A closer look at one representative paper from the lab's recent work.</p>
   </div>
@@ -570,8 +574,8 @@
 -->
 
 <section class="publications-section">
-  <div class="publications-section-head">
-    <p class="publications-kicker">Browse All</p>
+  <div class="page-section-head">
+    <p class="page-kicker">Browse All</p>
     <h2>Publication list</h2>
     <p>Search across the archive and browse publications by year.</p>
   </div>
@@ -1610,21 +1614,29 @@
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/images/main/footer.jpg')" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
+    <footer class="site-footer">
+  <div class="site-footer-grid">
+    <div class="site-footer-brand">
+      <p class="site-footer-kicker">NEXGEM</p>
+      <strong>NEXGEM Lab</strong>
+      <p>Next Genernation Medicine Lab (NEXGEM) aims to integrate the biological big-data with AI and data science approaches and cutting-edge experimental techniques to find a better way to treat cancer patients. Our research covers highly translationally important questions in multiple fields of cancer biology including cancer immunotherapy. In particular, we focus on precision cancer medicine, tailoring the cancer treatments based on the molecular markup of individual patients from the perspective of AI and data science.</p>
     </div>
-  -->
+  </div>
 
-  <div>
-    
+  <div class="site-footer-subgrid">
+    <div class="site-footer-meta">
+      <span>Computational oncology</span>
+      <span>Spatial biology</span>
+      <span>Translational AI</span>
+    </div>
+
+    <a class="site-footer-email" href="mailto:joosang.lee@skku.edu">joosang.lee@skku.edu</a>
+
+    <div class="site-footer-links">
       
-      
-      
+        
+        
+        
 
 
 
@@ -1636,10 +1648,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -1651,10 +1663,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -1666,10 +1678,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -1681,10 +1693,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -1696,16 +1708,17 @@
   </div>
 
 
-    
+      
+    </div>
   </div>
 
-  <div>
-    © 2026
-    NEXGEM Lab
-    
-  </div>
+  <div class="site-footer-bottom">
+    <div>
+      © 2026 NEXGEM Lab
+    </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+  </div>
 </footer>
 
   </body>

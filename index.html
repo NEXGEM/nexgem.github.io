@@ -85,7 +85,7 @@
 <!-- automatically get url from fonts used in theme file -->
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Manrope:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -227,6 +227,10 @@
 
   
     <link href="/_styles/main.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/page.css" rel="stylesheet">
   
 
   
@@ -389,7 +393,7 @@
 
 
 
-<header class="background" style="--image: url('/images/main/header5.jpg')" data-size="wide">
+<header class="site-header" data-size="wide">
 
   <a href="/" class="home">
     
@@ -467,22 +471,69 @@
   
   
 
-  <section class="background" data-size="page">
-    <section class="home-hero">
+  <section class="background" data-size="full">
+    <!--
+  size: full;
+-->
+<div class="home-hero">
   <div class="home-hero-copy">
     <p class="home-kicker">NEXGEM</p>
-    <h1>Next Generation Medicine Lab</h1>
+    <h1>Next Generation Medicine Lab</h1>
     <p class="home-lead">
       NEXGEM develops computational and experimental strategies that connect biological big data with clinically meaningful cancer treatment decisions.
     </p>
+    <div class="home-highlight">
+      <span>Computational oncology</span>
+      <span>Translational AI</span>
+      <span>Spatial biology</span>
+    </div>
     <div class="home-actions">
       <a class="home-button" href="/research">Explore Research</a>
       <a class="home-button home-button-secondary" href="/publications">View Publications</a>
     </div>
   </div>
-  <div class="home-hero-panel">
-    <img src="/images/main/main_photo.jpg" alt="NEXGEM research overview" loading="eager" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+  <div class="home-hero-showcase">
+    <div class="home-hero-photo-card">
+      <div class="home-hero-photo">
+        <img src="/images/main/main_photo.jpg" alt="NEXGEM group and research environment" loading="eager" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </div>
+    </div>
+
+    <div class="home-hero-brief-card">
+      <div class="home-hero-brief">
+        <strong>We build data-driven models that connect molecular mechanisms with clinical decision making.</strong>
+        <p>
+          Our work spans synthetic lethality, tumor microenvironment analysis, pathology-integrated modeling, and translational frameworks for precision oncology.
+        </p>
+      </div>
+    </div>
+
+    <div class="home-hero-list">
+      <article>
+        <span>01</span>
+        <div>
+          <strong>Mechanism to therapy</strong>
+          <p>From biological signal to clinically actionable hypothesis.</p>
+        </div>
+      </article>
+      <article>
+        <span>02</span>
+        <div>
+          <strong>Multimodal data integration</strong>
+          <p>Joint analysis of omics, pathology, and patient-scale evidence.</p>
+        </div>
+      </article>
+      <article>
+        <span>03</span>
+        <div>
+          <strong>Translational focus</strong>
+          <p>Designed to support real-world oncology questions and collaborations.</p>
+        </div>
+      </article>
+    </div>
   </div>
+
   <div class="home-stats">
     <article>
       <strong>22+</strong>
@@ -497,9 +548,21 @@
       <span>Lab stories and photo archive updates</span>
     </article>
   </div>
-</section>
+</div>
+  </section>
 
-<section class="home-section">
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<div class="home-section">
   <div class="home-section-head">
     <p class="home-kicker">Research Focus</p>
     <h2>Three themes shaping our work</h2>
@@ -533,9 +596,9 @@
       </ul>
     </article>
   </div>
-</section>
+</div>
 
-<section class="home-section">
+<div class="home-section">
   <div class="home-section-head">
     <p class="home-kicker">Explore</p>
     <h2>Navigate the lab at a glance</h2>
@@ -549,6 +612,7 @@
         <img src="/images/main/select4.jpg" alt="Research projects" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
       </span>
       <span class="home-pathway-body">
+        <em>01</em>
         <strong>Research</strong>
         <span>Read our current scientific directions, translational questions, and funded projects.</span>
       </span>
@@ -558,6 +622,7 @@
         <img src="/images/main/JACR2.jpg" alt="Team members" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
       </span>
       <span class="home-pathway-body">
+        <em>02</em>
         <strong>Team</strong>
         <span>Meet the faculty, students, and trainees contributing to the lab's research program.</span>
       </span>
@@ -567,14 +632,15 @@
         <img src="/images/main/sumok3.jpeg" alt="Lab blog and gallery" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
       </span>
       <span class="home-pathway-body">
+        <em>03</em>
         <strong>Blog</strong>
         <span>Browse the lab's visual archive of conferences, milestones, and day-to-day moments.</span>
       </span>
     </a>
   </div>
-</section>
+</div>
 
-<section class="home-section">
+<div class="home-section">
   <div class="home-section-head">
     <p class="home-kicker">Latest Updates</p>
     <h2>Recent stories from the lab</h2>
@@ -600,9 +666,9 @@
       </a>
     
   </div>
-</section>
+</div>
 
-<section class="home-section home-section-compact">
+<div class="home-section home-section-compact">
   <div class="home-contact">
     <div>
       <p class="home-kicker">Contact</p>
@@ -613,26 +679,34 @@
     </div>
     <a class="home-button" href="/contact">Get in Touch</a>
   </div>
-</section>
+</div>
   </section>
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/images/main/footer.jpg')" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
+    <footer class="site-footer">
+  <div class="site-footer-grid">
+    <div class="site-footer-brand">
+      <p class="site-footer-kicker">NEXGEM</p>
+      <strong>NEXGEM Lab</strong>
+      <p>Next Genernation Medicine Lab (NEXGEM) aims to integrate the biological big-data with AI and data science approaches and cutting-edge experimental techniques to find a better way to treat cancer patients. Our research covers highly translationally important questions in multiple fields of cancer biology including cancer immunotherapy. In particular, we focus on precision cancer medicine, tailoring the cancer treatments based on the molecular markup of individual patients from the perspective of AI and data science.</p>
     </div>
-  -->
+  </div>
 
-  <div>
-    
+  <div class="site-footer-subgrid">
+    <div class="site-footer-meta">
+      <span>Computational oncology</span>
+      <span>Spatial biology</span>
+      <span>Translational AI</span>
+    </div>
+
+    <a class="site-footer-email" href="mailto:joosang.lee@skku.edu">joosang.lee@skku.edu</a>
+
+    <div class="site-footer-links">
       
-      
-      
+        
+        
+        
 
 
 
@@ -644,10 +718,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -659,10 +733,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -674,10 +748,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -689,10 +763,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -704,16 +778,17 @@
   </div>
 
 
-    
+      
+    </div>
   </div>
 
-  <div>
-    © 2026
-    NEXGEM Lab
-    
-  </div>
+  <div class="site-footer-bottom">
+    <div>
+      © 2026 NEXGEM Lab
+    </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+  </div>
 </footer>
 
   </body>

@@ -50,4 +50,8 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.page-card .gallery {
+  margin: 0;
+}
+
 /*# sourceMappingURL=gallery.css.map */

@@ -85,7 +85,7 @@
 <!-- automatically get url from fonts used in theme file -->
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Manrope:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -227,6 +227,10 @@
 
   
     <link href="/_styles/main.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/page.css" rel="stylesheet">
   
 
   
@@ -389,7 +393,7 @@
 
 
 
-<header class="background" style="--image: url('/images/main/header5.jpg')">
+<header class="site-header">
 
   <a href="/" class="home">
     
@@ -468,13 +472,38 @@
   
 
   <section class="background" data-size="page">
-    <h1 id="contact">
-<i class="icon fa-regular fa-envelope"></i><strong>Contact</strong>
-</h1>
+    <section class="page-hero">
+  <p class="page-kicker">Connect</p>
+  <h1>Contact</h1>
+  <p class="page-lead">
+    We welcome inquiries about collaboration, recruitment, and research opportunities related to computational oncology and experimental cancer biology.
+  </p>
+</section>
+  </section>
 
-<p>We are currently recruiting <strong>experimental cancer biologists</strong> with M.S degree for <strong>mouse experiments</strong>.</p>
+  
+  
+  
 
-<div class="button-wrapper">
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<section class="page-section">
+  <div class="page-section-head">
+    <p class="page-kicker">Recruitment</p>
+    <h2>Current opening</h2>
+    <p>We are currently recruiting experimental cancer biologists with an M.S. degree for mouse experiment-centered research projects.</p>
+  </div>
+  <div class="page-contact-list">
+    
+
+
+
+  <div class="button-wrapper">
     <a class="button" href="mailto:joosang.lee@skku.edu" data-tooltip="Email" data-style="" aria-label="Email">
       <i class="icon fa-solid fa-envelope"></i>
       
@@ -483,7 +512,12 @@
     </a>
   </div>
 
-<div class="button-wrapper">
+
+    
+
+
+
+  <div class="button-wrapper">
     <a class="button" href="tel:031-299-6107" data-tooltip="Phone number" data-style="" aria-label="Phone number">
       <i class="icon fa-solid fa-phone"></i>
       
@@ -491,22 +525,23 @@
       
     </a>
   </div>
-  </section>
 
-  
-  
-  
 
-  <section class="background" data-size="page">
-    <!--
-  background: ;
-  dark: ;
-  size: ;
--->
+  </div>
+</section>
 
-<h2 id="lab-contact-information">Lab contact information</h2>
+<section class="page-section">
+  <div class="page-section-head">
+    <p class="page-kicker">Visit</p>
+    <h2>Lab contact information</h2>
+    <p>Reach out directly or use the map link for directions to the lab and affiliated campus locations.</p>
+  </div>
+  <div class="page-contact-list">
+    
 
-<div class="button-wrapper">
+
+
+  <div class="button-wrapper">
     <a class="button" href="tel:031-299-6110" data-tooltip="Phone number" data-style="" aria-label="Phone number">
       <i class="icon fa-solid fa-phone"></i>
       
@@ -515,7 +550,12 @@
     </a>
   </div>
 
-<div class="button-wrapper">
+
+    
+
+
+
+  <div class="button-wrapper">
     <a class="button" href="https://goo.gl/maps/esAoSh75Xyfkknra8" data-tooltip="Our location on Google Maps for easy navigation" data-style="" aria-label="Our location on Google Maps for easy navigation">
       <i class="icon fa-solid fa-map-location-dot"></i>
       
@@ -523,24 +563,20 @@
       
     </a>
   </div>
-  </section>
 
-  
-  
-  
 
-  <section class="background" data-size="page">
-    <!--
-  background: ;
-  dark: ;
-  size: ;
--->
+  </div>
+</section>
 
-<div class="cols" style="--cols: 2">
-  
-    
-    <div>
-<figure class="figure">
+<section class="page-section">
+  <div class="page-section-head">
+    <p class="page-kicker">Campus</p>
+    <h2>Location highlights</h2>
+    <p>A quick visual reference for the campus and medical school environment surrounding the lab.</p>
+  </div>
+  <div class="page-image-grid">
+    <div class="page-media-card">
+      <figure class="figure">
   <a class="figure-image" aria-label="figure link">
     <img src="/images/%EC%84%B1%EA%B7%A0%EA%B4%80%EB%8C%80%EC%A0%95%EB%AC%B8.jpg" style="
         width: auto;
@@ -555,11 +591,9 @@
   
 </figure>
 
-</div>
-  
-    
-    <div>
-<figure class="figure">
+    </div>
+    <div class="page-media-card">
+      <figure class="figure">
   <a class="figure-image" aria-label="figure link">
     <img src="/images/%EC%84%B1%EA%B7%A0%EA%B4%80%EB%8C%80%EC%9D%98%EB%8C%80.jpg" style="
         width: auto;
@@ -569,28 +603,36 @@
   
 </figure>
 
-</div>
-  
-</div>
+    </div>
+  </div>
+</section>
   </section>
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/images/main/footer.jpg')" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
+    <footer class="site-footer">
+  <div class="site-footer-grid">
+    <div class="site-footer-brand">
+      <p class="site-footer-kicker">NEXGEM</p>
+      <strong>NEXGEM Lab</strong>
+      <p>Next Genernation Medicine Lab (NEXGEM) aims to integrate the biological big-data with AI and data science approaches and cutting-edge experimental techniques to find a better way to treat cancer patients. Our research covers highly translationally important questions in multiple fields of cancer biology including cancer immunotherapy. In particular, we focus on precision cancer medicine, tailoring the cancer treatments based on the molecular markup of individual patients from the perspective of AI and data science.</p>
     </div>
-  -->
+  </div>
 
-  <div>
-    
+  <div class="site-footer-subgrid">
+    <div class="site-footer-meta">
+      <span>Computational oncology</span>
+      <span>Spatial biology</span>
+      <span>Translational AI</span>
+    </div>
+
+    <a class="site-footer-email" href="mailto:joosang.lee@skku.edu">joosang.lee@skku.edu</a>
+
+    <div class="site-footer-links">
       
-      
-      
+        
+        
+        
 
 
 
@@ -602,10 +644,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -617,10 +659,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -632,10 +674,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -647,10 +689,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -662,16 +704,17 @@
   </div>
 
 
-    
+      
+    </div>
   </div>
 
-  <div>
-    © 2026
-    NEXGEM Lab
-    
-  </div>
+  <div class="site-footer-bottom">
+    <div>
+      © 2026 NEXGEM Lab
+    </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+  </div>
 </footer>
 
   </body>
