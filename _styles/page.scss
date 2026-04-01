@@ -3,7 +3,7 @@
 
 $page-tablet: 860px;
 $page-phone: 560px;
-$page-content: 1000px;
+$page-content: 1132px;
 
 .page-hero,
 .page-section {
@@ -15,7 +15,7 @@ $page-content: 1000px;
 .page-hero {
   position: relative;
   gap: 12px;
-  width: min($page-content, calc(100% - 80px));
+  width: min($page-content, calc(100% - 48px));
   margin: 0 auto;
   padding: 22px 26px 24px;
   border: 1px solid var(--line);
@@ -333,7 +333,7 @@ $page-content: 1000px;
 
 @media (max-width: $page-phone) {
   .page-hero {
-    width: min($page-content, calc(100% - 32px));
+    width: min($page-content, calc(100% - 24px));
   }
 
   .page-card,

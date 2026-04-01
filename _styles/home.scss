@@ -3,20 +3,29 @@
 
 $tablet: 860px;
 $phone: 560px;
+$home-content: 1132px;
 
 .home-hero,
 .home-section {
   display: grid;
   gap: 26px;
   text-align: left;
+  width: min($home-content, calc(100% - 48px));
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section[data-size="full"] > .home-hero {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 28px;
 }
 
 .home-hero {
+  box-sizing: border-box;
   grid-template-columns: 1fr;
   align-items: start;
   gap: 26px;
-  width: min(1180px, calc(100% - 48px));
-  margin: 0 auto;
   padding: 34px;
   border: 0;
   border-radius: 28px;
@@ -28,6 +37,7 @@ $phone: 560px;
   display: grid;
   gap: 16px;
   max-width: 780px;
+  text-align: left;
 }
 
 .home-kicker {
@@ -57,6 +67,7 @@ $phone: 560px;
 .home-hero-copy h1 {
   max-width: 10ch;
   font-size: clamp(2.35rem, 4vw, 4rem);
+  text-transform: none;
 }
 
 .home-lead,
@@ -179,6 +190,7 @@ $phone: 560px;
   display: grid;
   gap: 8px;
   max-width: 900px;
+  text-align: left;
 }
 
 .home-hero-brief strong {
@@ -202,6 +214,8 @@ $phone: 560px;
   border: 1px solid var(--line);
   border-radius: 20px;
   background: var(--surface);
+  text-align: left;
+  justify-items: start;
 }
 
 .home-hero-list span {
@@ -211,10 +225,16 @@ $phone: 560px;
   letter-spacing: 0.12em;
 }
 
+.home-hero-list article > div {
+  width: 100%;
+  text-align: left;
+}
+
 .home-hero-list strong {
   display: block;
   margin-bottom: 6px;
   font-size: 1.02rem;
+  text-align: left;
 }
 
 .home-hero-list p {
@@ -222,6 +242,7 @@ $phone: 560px;
   color: var(--gray);
   font-size: 0.96rem;
   line-height: 1.72;
+  text-align: left;
 }
 
 .home-stats {
@@ -244,6 +265,7 @@ $phone: 560px;
 
 .home-stats article {
   padding: 16px 20px;
+  text-align: left;
 }
 
 .home-stats strong {
@@ -286,12 +308,17 @@ $phone: 560px;
   display: grid;
   gap: 16px;
   padding: 24px;
+  text-align: left;
+  justify-items: start;
+  align-content: start;
 }
 
 .home-pillar h3 {
   margin: 0;
   font-size: 1.08rem;
   line-height: 1.35;
+  width: 100%;
+  text-align: left;
 }
 
 .home-pillar ul {
@@ -300,11 +327,14 @@ $phone: 560px;
   margin: 0;
   padding: 0;
   list-style: none;
+  width: 100%;
+  text-align: left;
 }
 
 .home-pillar li {
   position: relative;
   padding-left: 18px;
+  text-align: left;
 }
 
 .home-pillar li::before {
@@ -328,6 +358,7 @@ $phone: 560px;
 .home-pathway {
   display: block;
   overflow: hidden;
+  text-align: left;
 }
 
 .home-pathway-image,
@@ -355,6 +386,7 @@ $phone: 560px;
   display: grid;
   gap: 10px;
   padding: 24px;
+  text-align: left;
 }
 
 .home-pathway-body em {
@@ -376,6 +408,7 @@ $phone: 560px;
   display: grid;
   gap: 12px;
   padding: 22px 24px;
+  text-align: left;
 }
 
 .home-update-meta {
@@ -394,6 +427,7 @@ $phone: 560px;
   justify-content: space-between;
   gap: 24px;
   padding: 30px 32px;
+  text-align: left;
   background:
     linear-gradient(135deg, color-mix(in srgb, var(--hero-glow) 20%, var(--surface)), var(--surface-strong));
 }
@@ -427,6 +461,15 @@ $phone: 560px;
 }
 
 @media (max-width: $phone) {
+  .home-hero,
+  .home-section {
+    width: min($home-content, calc(100% - 24px));
+  }
+
+  section[data-size="full"] > .home-hero {
+    border-radius: 24px;
+  }
+
   .home-actions {
     flex-direction: column;
   }
