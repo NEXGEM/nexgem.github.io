@@ -39,16 +39,20 @@
 
   <nav>
     {% assign pages = site.pages
-      | where_exp: "page", "page.nav"
+      | where_exp: "candidate", "candidate.nav"
       | sort: "nav.order"
     %}
-    {% for page in pages %}
-      {% if page.nav %}
+    {% for nav_page in pages %}
+      {% if nav_page.nav %}
         <a
-          href="{{ page.dir | relative_url }}"
-          data-tooltip="{{ page.nav.tooltip }}"
+          href="{{ nav_page.dir | relative_url }}"
+          data-tooltip="{{ nav_page.nav.tooltip }}"
+          {% if nav_page.url == page.url %}
+            data-active="true"
+            aria-current="page"
+          {% endif %}
         >
-          {{ page.title }}
+          {{ nav_page.title }}
         </a>
       {% endif %}
     {% endfor %}
