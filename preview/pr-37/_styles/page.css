@@ -1,0 +1,346 @@
+.page-hero,
+.page-section {
+  display: grid;
+  gap: 22px;
+  text-align: left;
+}
+
+.page-hero {
+  position: relative;
+  gap: 12px;
+  width: min(1132px, 100% - 48px);
+  margin: 0 auto;
+  padding: 22px 26px 24px;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: var(--surface-strong);
+  box-shadow: none;
+}
+
+.page-hero::before {
+  content: "";
+  width: 72px;
+  height: 3px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--primary) 88%, white);
+}
+
+.page-hero::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: color-mix(in srgb, var(--line) 92%, white);
+}
+
+.page-kicker {
+  margin: 0;
+  color: var(--primary);
+  display: inline-flex;
+  align-items: center;
+  justify-self: start;
+  min-height: 28px;
+  padding: 0 11px;
+  border: 1px solid color-mix(in srgb, var(--primary) 12%, var(--line));
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--primary) 5%, white);
+  font-size: 0.78rem;
+  font-weight: var(--semi-bold);
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.page-hero h1,
+.page-section-head h2 {
+  margin: 0;
+  font-family: var(--heading);
+  font-weight: var(--bold);
+  line-height: 1.1;
+  letter-spacing: -0.028em;
+}
+
+.page-hero h1 {
+  max-width: none;
+  font-size: clamp(2rem, 3.2vw, 2.7rem);
+}
+
+.page-section-head h2,
+.page-cta-copy h2 {
+  font-size: clamp(1.55rem, 2.4vw, 2rem);
+}
+
+.page-lead,
+.page-section-head p,
+.page-rich-text > p,
+.page-rich-text > ul,
+.page-rich-text > ol {
+  max-width: 820px;
+  margin: 0;
+  color: var(--gray);
+  font-size: 1rem;
+  line-height: 1.72;
+}
+
+.page-hero .page-lead {
+  max-width: 720px;
+  font-size: 1rem;
+}
+
+.page-section {
+  margin-top: 8px;
+}
+
+.page-section-head {
+  display: grid;
+  gap: 8px;
+}
+
+.page-card {
+  padding: 24px 26px;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: var(--surface);
+  box-shadow: none;
+}
+
+.page-rich-text {
+  display: grid;
+  gap: 18px;
+}
+
+.page-rich-text h3 {
+  margin: 0;
+  font-family: var(--heading);
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.page-rich-text ul,
+.page-rich-text ol {
+  padding-left: 20px;
+}
+
+.page-rich-text li {
+  margin: 0;
+  padding-left: 4px;
+  text-align: left;
+}
+
+.page-split {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(360px, 1.05fr);
+  gap: 28px;
+  align-items: start;
+}
+
+.page-media-card {
+  display: grid;
+  gap: 18px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: var(--surface);
+}
+
+.research-theme-shell {
+  display: grid;
+  gap: 22px;
+  padding: 28px 30px;
+  border: 1px solid rgba(22, 34, 42, 0.08);
+  border-radius: 26px;
+  background: var(--surface-strong);
+  box-shadow: none;
+}
+
+.research-theme-shell .page-section-head {
+  gap: 12px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+.research-theme-shell .page-section-head p,
+.research-theme-shell .page-section-head h2 {
+  max-width: none;
+}
+
+.research-stack {
+  display: grid;
+  gap: 28px;
+}
+
+.team-content-shell {
+  display: grid;
+  gap: 28px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.team-content-shell .team-section-card {
+  margin-top: 0;
+  padding: 28px 30px;
+  border: 1px solid rgba(22, 34, 42, 0.08);
+  border-radius: 26px;
+  background: var(--surface-strong);
+  box-shadow: none;
+}
+
+.team-content-shell .portrait,
+.team-content-shell .page-cta {
+  background: var(--surface);
+  box-shadow: none;
+}
+
+.research-stack .research-theme-shell,
+.research-stack .page-media-card,
+.research-stack .page-media-card-emphasis {
+  background: var(--surface);
+}
+
+.research-theme-shell-funding .gallery {
+  margin: 0;
+}
+
+.page-media-card-emphasis {
+  padding: 22px;
+  border-radius: 28px;
+  background: var(--surface);
+}
+
+.page-media-frame {
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.page-media-frame img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 460px;
+  object-fit: contain;
+  object-position: center top;
+}
+
+.page-people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 22px;
+}
+
+.page-people-grid > .portrait-wrapper {
+  display: block;
+}
+
+.page-people-grid .portrait {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 22px 20px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: var(--surface);
+  box-shadow: none;
+}
+
+.page-people-grid .portrait-image {
+  width: 132px;
+  box-shadow: 0 18px 30px rgba(14, 25, 31, 0.1);
+}
+
+.page-people-grid .portrait-text {
+  align-items: center;
+}
+
+.page-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 26px 28px;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--hero-glow) 28%, var(--surface)), var(--surface-strong));
+}
+
+.page-cta-copy {
+  display: grid;
+  gap: 10px;
+}
+
+.page-cta-copy h2,
+.page-cta-copy p {
+  margin: 0;
+}
+
+.page-pill-list,
+.page-contact-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.page-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 0 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--gray);
+  font-size: 0.8rem;
+  font-weight: var(--semi-bold);
+}
+
+.page-contact-list .button-wrapper {
+  margin: 0;
+}
+
+.page-image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.page-image-grid .figure {
+  margin: 0;
+}
+
+@media (max-width: 860px) {
+  .page-split,
+  .page-image-grid {
+    grid-template-columns: 1fr;
+  }
+  .page-media-frame img {
+    min-height: 320px;
+  }
+  .page-cta {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+@media (max-width: 560px) {
+  .page-hero {
+    width: min(1132px, 100% - 24px);
+  }
+  .page-card,
+  .page-media-card,
+  .page-cta {
+    padding: 20px;
+    border-radius: 22px;
+  }
+  .research-theme-shell {
+    padding: 20px;
+    border-radius: 24px;
+  }
+  .team-content-shell {
+    gap: 20px;
+  }
+  .team-content-shell .team-section-card {
+    padding: 20px;
+    border-radius: 24px;
+  }
+}
+
+/*# sourceMappingURL=page.css.map */
