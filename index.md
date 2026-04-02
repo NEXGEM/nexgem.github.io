@@ -12,7 +12,7 @@ title: Home
 <div class="home-hero">
   <div class="home-hero-copy">
     <p class="home-kicker">NEXGEM</p>
-    <h1><span class="home-title-lockup">Next Generation Medicine</span> Lab</h1>
+    <h1><span class="home-title-lockup">Next Generation Medicine Lab</span></h1>
     <p class="home-lead">
       NEXGEM develops computational and experimental strategies that connect biological big data with clinically meaningful cancer treatment decisions.
     </p>
