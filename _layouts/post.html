@@ -2,14 +2,15 @@
 layout: default
 ---
 
-<h1 class="center">{{ page.title }}</h1>
-
-{%
-  include post-info.html
-  member=page.member
-  published=page.date
-  updated=page.last_modified_at
-%}
+<section class="post-header">
+  <p class="page-kicker">{{ page.category | default: "Blog" }}</p>
+  <h1>{{ page.title }}</h1>
+  {%
+    include post-info.html
+    member=page.member
+    published=page.date
+  %}
+</section>
 
 {% include section.html %}
 

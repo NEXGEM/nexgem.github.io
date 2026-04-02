@@ -1,7 +1,7 @@
 ---
 ---
 
-$page: 1132px;
+$page: 1280px;
 $padding: 24px;
 
 section {
@@ -10,7 +10,7 @@ section {
 }
 
 section[data-size="wide"] {
-  padding: $padding;
+  padding: $padding max($padding, calc((100% - $page) / 2));
 }
 
 section[data-size="full"] {
