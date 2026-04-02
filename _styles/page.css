@@ -8,12 +8,12 @@
 .page-hero {
   position: relative;
   gap: 12px;
-  width: min(1132px, 100% - 48px);
+  width: min(1280px, 100%);
   margin: 0 auto;
-  padding: 22px 26px 24px;
-  border: 1px solid var(--line);
-  border-radius: 24px;
-  background: var(--surface-strong);
+  padding: 8px 0 20px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
   box-shadow: none;
 }
 
@@ -61,6 +61,7 @@
 .page-hero h1 {
   max-width: none;
   font-size: clamp(2rem, 3.2vw, 2.7rem);
+  text-transform: none;
 }
 
 .page-section-head h2,
@@ -87,11 +88,18 @@
 
 .page-section {
   margin-top: 8px;
+  width: min(1280px, 100%);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page-section-head {
   display: grid;
   gap: 8px;
+}
+
+.page-section-head p {
+  max-width: 72ch;
 }
 
 .page-card {
@@ -105,6 +113,10 @@
 .page-rich-text {
   display: grid;
   gap: 18px;
+}
+
+.page-rich-text > :where(p, ul, ol) {
+  max-width: 74ch;
 }
 
 .page-rich-text h3 {
@@ -143,12 +155,12 @@
 
 .research-theme-shell {
   display: grid;
-  gap: 22px;
+  gap: 20px;
   padding: 28px 30px;
   border: 1px solid rgba(22, 34, 42, 0.08);
   border-radius: 26px;
   background: var(--surface-strong);
-  box-shadow: none;
+  box-shadow: var(--shadow-soft);
 }
 
 .research-theme-shell .page-section-head {
@@ -164,12 +176,12 @@
 
 .research-stack {
   display: grid;
-  gap: 28px;
+  gap: 24px;
 }
 
 .team-content-shell {
   display: grid;
-  gap: 28px;
+  gap: 24px;
   padding: 0;
   border: 0;
   border-radius: 0;
@@ -179,17 +191,17 @@
 
 .team-content-shell .team-section-card {
   margin-top: 0;
-  padding: 28px 30px;
+  padding: 26px 28px;
   border: 1px solid rgba(22, 34, 42, 0.08);
   border-radius: 26px;
   background: var(--surface-strong);
-  box-shadow: none;
+  box-shadow: var(--shadow-soft);
 }
 
 .team-content-shell .portrait,
 .team-content-shell .page-cta {
   background: var(--surface);
-  box-shadow: none;
+  box-shadow: var(--shadow-soft);
 }
 
 .research-stack .research-theme-shell,
@@ -206,6 +218,7 @@
   padding: 22px;
   border-radius: 28px;
   background: var(--surface);
+  box-shadow: var(--shadow-soft);
 }
 
 .page-media-frame {
@@ -224,8 +237,8 @@
 
 .page-people-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-  gap: 22px;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 18px;
 }
 
 .page-people-grid > .portrait-wrapper {
@@ -236,11 +249,11 @@
   width: 100%;
   max-width: none;
   margin: 0;
-  padding: 22px 20px;
+  padding: 20px 18px;
   border: 1px solid var(--line);
   border-radius: 20px;
   background: var(--surface);
-  box-shadow: none;
+  box-shadow: var(--shadow-soft);
 }
 
 .page-people-grid .portrait-image {
@@ -250,6 +263,7 @@
 
 .page-people-grid .portrait-text {
   align-items: center;
+  gap: 4px;
 }
 
 .page-cta {
@@ -260,7 +274,8 @@
   padding: 26px 28px;
   border: 1px solid var(--line);
   border-radius: 24px;
-  background: linear-gradient(135deg, color-mix(in srgb, var(--hero-glow) 28%, var(--surface)), var(--surface-strong));
+  background: linear-gradient(135deg, color-mix(in srgb, var(--hero-glow) 18%, var(--surface)), var(--surface-strong));
+  box-shadow: var(--shadow-soft);
 }
 
 .page-cta-copy {
@@ -341,9 +356,8 @@
 }
 @media (max-width: 560px) {
   .page-hero {
-    width: min(1132px, 100% - 24px);
-    padding: 18px 18px 20px;
-    border-radius: 22px;
+    width: min(1280px, 100%);
+    padding: 4px 0 18px;
   }
   .page-hero h1 {
     font-size: clamp(1.62rem, 7.4vw, 2.1rem);

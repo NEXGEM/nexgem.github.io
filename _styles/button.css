@@ -26,12 +26,18 @@ button {
   vertical-align: middle;
   -webkit-appearance: none;
   appearance: none;
-  transition-property: background, color;
+  transition: background 0.22s ease, color 0.22s ease, transform 0.22s ease, box-shadow 0.22s ease;
 }
 
 .button:hover {
   background: var(--text);
   color: var(--background);
+  transform: translateY(-1px);
+}
+
+.button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--primary) 18%, transparent), 0 0 0 1px color-mix(in srgb, var(--primary) 44%, white);
 }
 
 .button[data-style=bare] {
@@ -41,6 +47,7 @@ button {
 }
 .button[data-style=bare]:hover {
   color: var(--text);
+  transform: none;
 }
 
 .button[data-flip] {
