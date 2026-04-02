@@ -266,11 +266,13 @@
 .page-cta-copy {
   display: grid;
   gap: 10px;
+  text-align: left;
 }
 
 .page-cta-copy h2,
 .page-cta-copy p {
   margin: 0;
+  text-align: left;
 }
 
 .page-pill-list,
