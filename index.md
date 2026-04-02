@@ -16,11 +16,6 @@ title: Home
     <p class="home-lead">
       NEXGEM develops computational and experimental strategies that connect biological big data with clinically meaningful cancer treatment decisions.
     </p>
-    <div class="home-highlight">
-      <span>Computational oncology</span>
-      <span>Translational AI</span>
-      <span>Spatial biology</span>
-    </div>
     <div class="home-actions">
       <a class="home-button" href="{{ '/research' | relative_url }}">Explore Research</a>
       <a class="home-button home-button-secondary" href="{{ '/publications' | relative_url }}">View Publications</a>

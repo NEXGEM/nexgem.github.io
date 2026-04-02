@@ -4,9 +4,10 @@
   | first
   | default: include
 %}
+{% assign hide_image = include.no_image == true or include.no_image == "true" %}
 
-<div class="citation">
-  {% if include.style == "rich" %}
+<div class="citation" {% if hide_image %}data-no-image="true"{% endif %}>
+  {% if include.style == "rich" and hide_image != true %}
     <a
       href="{{ citation.link | relative_url }}"
       class="citation-image"
@@ -22,9 +23,6 @@
   {% endif %}
 
   <div class="citation-text">
-    {% assign type = site.data.types[citation.type] %}
-    {% include icon.html icon=type.icon %}
-
     <a href="{{ citation.link }}" class="citation-title">
       {{ citation.title }}
     </a>
