@@ -3,14 +3,14 @@
 
 $tablet: 860px;
 $phone: 560px;
-$home-content: 1132px;
+$home-content: 1280px;
 
 .home-hero,
 .home-section {
   display: grid;
   gap: 26px;
   text-align: left;
-  width: min($home-content, calc(100% - 48px));
+  width: min($home-content, 100%);
   margin-left: auto;
   margin-right: auto;
 }
@@ -26,11 +26,11 @@ section[data-size="full"] > .home-hero {
   grid-template-columns: 1fr;
   align-items: start;
   gap: 26px;
-  padding: 34px;
+  padding: 8px 0 4px;
   border: 0;
-  border-radius: 28px;
-  background: var(--surface-strong);
-  box-shadow: var(--shadow);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
 }
 
 .home-hero-copy {
@@ -139,6 +139,15 @@ section[data-size="full"] > .home-hero {
   transform: translateY(-2px);
 }
 
+.home-button:focus-visible,
+.home-pathway:focus-visible,
+.home-update:focus-visible {
+  outline: none;
+  box-shadow:
+    0 0 0 3px color-mix(in srgb, var(--primary) 16%, transparent),
+    0 0 0 1px color-mix(in srgb, var(--primary) 34%, white);
+}
+
 .home-button-secondary {
   background: transparent;
   color: var(--text);
@@ -189,6 +198,7 @@ section[data-size="full"] > .home-hero {
   border: 1px solid var(--line);
   border-radius: 20px;
   background: var(--surface);
+  box-shadow: var(--shadow-soft);
 }
 
 .home-hero-brief {
@@ -265,7 +275,7 @@ section[data-size="full"] > .home-hero {
   border: 1px solid var(--line);
   border-radius: 22px;
   background: var(--surface);
-  box-shadow: none;
+  box-shadow: var(--shadow-soft);
 }
 
 .home-stats article {
@@ -473,13 +483,12 @@ section[data-size="full"] > .home-hero {
 @media (max-width: $phone) {
   .home-hero,
   .home-section {
-    width: min($home-content, calc(100% - 24px));
+    width: min($home-content, 100%);
   }
 
   .home-hero {
     gap: 20px;
-    padding: 22px 18px;
-    border-radius: 24px;
+    padding: 4px 0 0;
   }
 
   .home-hero-copy,
