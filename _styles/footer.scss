@@ -2,9 +2,10 @@
 ---
 
 footer.site-footer {
+  box-sizing: border-box;
   width: min(1180px, calc(100% - 48px));
   margin: 0 auto 28px;
-  padding: 32px 32px 22px;
+  padding: 32px 22px 22px;
   border: 1px solid var(--line);
   border-radius: 28px;
   background:
@@ -120,6 +121,11 @@ footer.site-footer a:hover {
 }
 
 @media (max-width: 860px) {
+  footer.site-footer {
+    width: min(1180px, calc(100% - 24px));
+    padding: 24px 18px 20px;
+  }
+
   .site-footer-subgrid {
     grid-template-columns: 1fr;
   }
@@ -127,7 +133,6 @@ footer.site-footer a:hover {
 
 @media (max-width: 560px) {
   footer.site-footer {
-    padding: 24px 20px;
     border-radius: 24px;
   }
 
