@@ -316,9 +316,30 @@ $page-content: 1132px;
 }
 
 @media (max-width: $page-tablet) {
+  .page-hero,
+  .page-section {
+    gap: 18px;
+  }
+
+  .research-theme-shell,
+  .team-content-shell .team-section-card {
+    padding: 24px;
+    border-radius: 24px;
+  }
+
   .page-split,
   .page-image-grid {
     grid-template-columns: 1fr;
+  }
+
+  .page-split {
+    gap: 20px;
+  }
+
+  .page-media-card,
+  .page-media-card-emphasis {
+    padding: 18px;
+    border-radius: 22px;
   }
 
   .page-media-frame img {
@@ -334,6 +355,28 @@ $page-content: 1132px;
 @media (max-width: $page-phone) {
   .page-hero {
     width: min($page-content, calc(100% - 24px));
+    padding: 18px 18px 20px;
+    border-radius: 22px;
+  }
+
+  .page-hero h1 {
+    font-size: clamp(1.62rem, 7.4vw, 2.1rem);
+    line-height: 1.08;
+  }
+
+  .page-kicker {
+    min-height: 26px;
+    padding: 0 10px;
+    font-size: 0.72rem;
+  }
+
+  .page-lead,
+  .page-section-head p,
+  .page-rich-text > p,
+  .page-rich-text > ul,
+  .page-rich-text > ol {
+    font-size: 0.96rem;
+    line-height: 1.62;
   }
 
   .page-card,
@@ -348,12 +391,54 @@ $page-content: 1132px;
     border-radius: 24px;
   }
 
+  .research-theme-shell .page-section-head {
+    gap: 10px;
+    padding-bottom: 14px;
+  }
+
+  .page-section-head h2,
+  .page-cta-copy h2 {
+    font-size: clamp(1.34rem, 6.6vw, 1.72rem);
+    line-height: 1.14;
+  }
+
   .team-content-shell {
-    gap: 20px;
+    gap: 16px;
   }
 
   .team-content-shell .team-section-card {
     padding: 20px;
     border-radius: 24px;
+  }
+
+  .page-rich-text {
+    gap: 14px;
+  }
+
+  .page-rich-text h3 {
+    font-size: 1rem;
+    line-height: 1.45;
+  }
+
+  .page-people-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .page-cta {
+    gap: 18px;
+  }
+
+  .page-cta .button-wrapper,
+  .page-cta .button {
+    width: 100%;
+  }
+
+  .page-cta .button {
+    justify-content: center;
+  }
+
+  .page-media-frame img {
+    min-height: 220px;
   }
 }

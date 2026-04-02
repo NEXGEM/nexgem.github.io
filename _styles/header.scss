@@ -135,9 +135,34 @@ nav > a[data-active="true"] {
 
 @media (max-width: $collapse) {
   header.site-header {
+    gap: 18px;
     align-items: flex-start;
     flex-wrap: wrap;
+    width: min(1180px, calc(100% - 24px));
+    margin-top: 12px;
+    padding: 16px 18px;
     border-radius: 28px;
+  }
+
+  .home {
+    gap: 12px;
+    width: min(100%, calc(100% - 58px));
+  }
+
+  .logo {
+    width: 48px;
+    height: 48px;
+    padding: 8px;
+    border-radius: 14px;
+  }
+
+  .site-header .title > span:first-of-type {
+    font-size: 1.52rem !important;
+    line-height: 1;
+  }
+
+  .site-header .title > span:last-of-type {
+    font-size: 0.94rem;
   }
 
   .nav-toggle {
@@ -160,10 +185,11 @@ nav > a[data-active="true"] {
 
   nav > a {
     width: 100%;
-    padding: 12px 14px;
+    padding: 11px 13px;
     border: 1px solid var(--line);
     border-radius: 14px;
     background: color-mix(in srgb, var(--surface) 92%, transparent);
+    font-size: 0.9rem;
     text-align: left;
   }
 }
@@ -180,6 +206,6 @@ nav > a[data-active="true"] {
   }
 
   .site-header .title > span:first-of-type {
-    font-size: 2rem !important;
+    font-size: 1.34rem !important;
   }
 }
