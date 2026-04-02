@@ -1,0 +1,17 @@
+---
+title: "Birthday Party for Talbot"
+author: "nexgem-drive"
+date: 2026-04-02
+category: "event"
+tags: ["event", "lab", "photos", "celebration", "birthday"]
+image: "https://lh3.googleusercontent.com/d/1AhbemZeMbfOGNnyh19k_Q2pfae4ZwGfu=w2200"
+source: google-drive
+drive_file_id: 1AhbemZeMbfOGNnyh19k_Q2pfae4ZwGfu
+drive_web_view_link: "https://drive.google.com/file/d/1AhbemZeMbfOGNnyh19k_Q2pfae4ZwGfu/view?usp=drivesdk"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBN7nXwC-4nnDfiaxY3y_1Vso-aNpw9ci0Mg48fZ4U5eU32ZA7xQQ_5zh5x3JL-MiTyJxTnFkJ0qkhGBPtg8uUxy5FwTKZ6iph2us2A=s220"
+description: "Birthday Party for Talbot"
+---
+![Birthday Party for Talbot](https://lh3.googleusercontent.com/d/1AhbemZeMbfOGNnyh19k_Q2pfae4ZwGfu=w2200)
+<!-- excerpt start -->
+Birthday Party for Talbot
+<!-- excerpt end -->
