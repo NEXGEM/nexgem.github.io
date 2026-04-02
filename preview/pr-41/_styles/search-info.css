@@ -1,0 +1,13 @@
+.search-info {
+  margin: -8px 0 28px;
+  color: var(--gray);
+  font-size: 0.98rem;
+  line-height: 1.7;
+}
+
+.search-info a {
+  font-style: normal;
+  font-weight: var(--semi-bold);
+}
+
+/*# sourceMappingURL=search-info.css.map */
