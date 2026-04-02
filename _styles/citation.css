@@ -9,6 +9,10 @@
   box-shadow: 0 20px 38px -30px color-mix(in srgb, var(--text) 30%, transparent);
 }
 
+.citation[data-no-image=true] {
+  grid-template-columns: 1fr;
+}
+
 .citation-image {
   display: flex;
   align-items: center;
@@ -36,6 +40,10 @@
   text-align: left;
 }
 
+.citation[data-no-image=true] .citation-text {
+  padding: 24px 26px;
+}
+
 .citation-title,
 .citation-authors,
 .citation-details,
@@ -61,15 +69,6 @@
   color: var(--gray);
   font-size: 0.94rem;
   line-height: 1.7;
-}
-
-.citation-text > .icon {
-  position: absolute;
-  top: 24px;
-  right: 24px;
-  color: color-mix(in srgb, var(--primary) 20%, var(--light-gray));
-  opacity: 0.8;
-  font-size: 28px;
 }
 
 .citation-description {
