@@ -4,22 +4,22 @@
 .blog-gallery-intro {
   display: flex;
   justify-content: flex-end;
-  margin: 0 0 22px;
+  margin: 0 0 -50px;
 }
 
 .page-section .blog-gallery-intro {
-  margin-top: -4px;
+  margin-top: -50px;
 }
 
 .blog-gallery-count {
   display: inline-flex;
   align-items: center;
-  min-height: 34px;
-  padding: 0 14px;
+  min-height: 30px;
+  padding: 0 12px;
   border-radius: 999px;
   background: color-mix(in srgb, var(--secondary) 16%, transparent);
   color: color-mix(in srgb, var(--text) 84%, var(--primary));
-  font-size: 0.84rem;
+  font-size: 0.8rem;
   font-weight: var(--semi-bold);
   letter-spacing: 0.1em;
   text-transform: uppercase;

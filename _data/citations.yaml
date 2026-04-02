@@ -169,7 +169,7 @@
   image: https://aacr.silverchair-cdn.com/aacr/content_public/journal/cancerres/85/24/10.1158_0008-5472.can-25-4350/2/can-25-4350_f1.png
   plugin: sources.py
   file: sources.yaml
-- id: arxiv:2403.07592
+- id: 11591
   title: Accurate Spatial Gene Expression Prediction by integrating Multi-resolution
     features
   authors:
@@ -177,9 +177,9 @@
   - Ji Hun Ha
   - Kyeong Chan Im
   - Joo Sang Lee
-  publisher: arXiv
+  publisher: CVPR 2024
   date: '2024-04-26'
-  link: https://arxiv.org/abs/2403.07592
+  link: https://openaccess.thecvf.com/content/CVPR2024/papers/Chung_Accurate_Spatial_Gene_Expression_Prediction_by_Integrating_Multi-Resolution_Features_CVPR_2024_paper.pdf
   type: paper
   image: https://github.com/NEXGEM/TRIPLEX/raw/main/figures/TRIPLEX_main.jpg
   plugin: sources.py

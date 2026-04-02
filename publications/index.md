@@ -9,7 +9,7 @@ nav:
   <p class="page-kicker">Research Archive</p>
   <h1>Publications</h1>
   <p class="page-lead">
-    Explore the lab's publication record through image-led citation cards designed to keep each paper's key figure visible, legible, and easy to scan.
+    Explore the lab's publication record through a featured visual highlight and a clean text-first publication archive.
   </p>
 </section>
 
@@ -39,6 +39,6 @@ nav:
   {% include search-info.html %}
 
   <div class="publications-list">
-    {% include list.html data="citations" component="citation" style="rich" %}
+    {% include list.html data="citations" component="citation" style="rich" no_image=true %}
   </div>
 </section>
