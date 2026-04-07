@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/1it4CbYQvhIUqH4NXhCYDjeRpcKGh_q4w=w2
 source: google-drive
 drive_file_id: 1it4CbYQvhIUqH4NXhCYDjeRpcKGh_q4w
 drive_web_view_link: "https://drive.google.com/file/d/1it4CbYQvhIUqH4NXhCYDjeRpcKGh_q4w/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBOCQ4UnlZ8U_zuHkvXtKnRMT-bZfhVOr7_v57XB6SDSh2Ow4khkDLJBPb4vWkhdunRZzjT6hWMOGULpcUasW21rDW5yqEb-t1DsIL0=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBOjYeeWHqqfT7AEB7Wn0_9jscN2NaWA-otfdANaIODqWU9u9PC6_sQk3J66C8P-7WWpjm10k4CsjTE3iWGUS8E7-zAkllXve94KJUIX=s220"
 description: "Presentation in poster session."
 ---
 ![CVPR 2024 Poster2](https://lh3.googleusercontent.com/d/1it4CbYQvhIUqH4NXhCYDjeRpcKGh_q4w=w2200)
