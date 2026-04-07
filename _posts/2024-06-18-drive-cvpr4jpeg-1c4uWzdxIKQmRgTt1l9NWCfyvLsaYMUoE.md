@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/1c4uWzdxIKQmRgTt1l9NWCfyvLsaYMUoE=w2
 source: google-drive
 drive_file_id: 1c4uWzdxIKQmRgTt1l9NWCfyvLsaYMUoE
 drive_web_view_link: "https://drive.google.com/file/d/1c4uWzdxIKQmRgTt1l9NWCfyvLsaYMUoE/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBPIQcP-XVB744IdLzJdv0rlStPDzDi086gKnOiKHHjVYBuTDd4mj24p8kbb1yE5uV4Wwbz-6-B1kcCBiGpcC0dRlT9Eq6gy1fRyTpU=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBPv7wKIBnPywhM3ircI4oNlCMJEH1eMEb8YvzX6rS7-nG46aXXJo3y7nPTAaCnZJdO8skwyj67RYcmbik_s-B4Datk69JG0ij9-ZaI=s220"
 description: ""
 ---
 ![CVPR 2024 ID](https://lh3.googleusercontent.com/d/1c4uWzdxIKQmRgTt1l9NWCfyvLsaYMUoE=w2200)
