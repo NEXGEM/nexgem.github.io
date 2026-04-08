@@ -182,6 +182,9 @@
   link: https://openaccess.thecvf.com/content/CVPR2024/papers/Chung_Accurate_Spatial_Gene_Expression_Prediction_by_Integrating_Multi-Resolution_Features_CVPR_2024_paper.pdf
   type: paper
   image: https://github.com/NEXGEM/TRIPLEX/raw/main/figures/TRIPLEX_main.jpg
+  tags:
+  - Spatial Transcriptomics
+  - Computational Pathology
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1038/s41467-021-26788-6
@@ -665,5 +668,17 @@
   link: https://doi.org/gg35tg
   type: paper
   image: https://cdn.jamanetwork.com/ama/content_public/journal/oncology/938270/cbr190007f1.png?Expires=1682004390&Signature=XTp2ZHqY787p4upKcKjb7af99L2ChqPLANq66Btjo7OhbLxjpxCcqNY2ZphPUl3t2iTGPs3HjAAConNnFnRiUnSHQK80hiiiFiTBrGKxC-I2oaX4VrtOxTGL~YGucVW1yEBoJyvhXaW-BVVouk565cDMiUcHHPbGIkGZ1gRxP8XQ7oUiB4iduaLsCrZiozoGvpTbOSUMV~Apy-wpuIcvQ6xB3WZ~AnoYVMeLIBRVoORUKSACdI07CEqq6y8M5FMuEUQVjB3p5vuh1fT9PQusHYi4eO9N-xbKN-JLqwcwHzRtPz-zHxhePR7qXTVpXUOqjWHo55JTquQEDkWbELS-EQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1371/journal.pbio.3003266
+  title: Can the tumor neural niche be targeted to re-program cancer?
+  authors:
+  - Erica K. Sloan
+  - Joo Sang Lee 
+  publisher: PLOS Biology
+  date: '2025-07-21'
+  link: https://doi.org/10.1371/journal.pbio.3003266
+  type: paper
+  image: https://journals.plos.org/plosbiology/article/figure/image?size=large&id=10.1371/journal.pbio.3003266.g001
   plugin: sources.py
   file: sources.yaml
