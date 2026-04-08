@@ -18,11 +18,12 @@ nav:
 <section class="publications-section">
   <div class="page-section-head">
     <p class="page-kicker">Highlighted</p>
-    <h2>Featured publication</h2>
-    <p>A closer look at one representative paper from the lab's recent work.</p>
+    <h2>Featured publications</h2>
+    <p>A closer look at representative papers from the lab's recent work.</p>
   </div>
 
   {% include citation.html lookup="Synthetic lethality-mediated precision oncology via the tumor transcriptome" style="rich" %}
+  {% include citation.html lookup="Accurate Spatial Gene Expression Prediction by integrating Multi-resolution" style="rich" %}
 </section>
 
 {% include section.html %}
