@@ -169,7 +169,7 @@
   image: https://aacr.silverchair-cdn.com/aacr/content_public/journal/cancerres/85/24/10.1158_0008-5472.can-25-4350/2/can-25-4350_f1.png
   plugin: sources.py
   file: sources.yaml
-- id: 11591
+- id: arxiv:2403.07592
   title: Accurate Spatial Gene Expression Prediction by integrating Multi-resolution
     features
   authors:
@@ -177,14 +177,11 @@
   - Ji Hun Ha
   - Kyeong Chan Im
   - Joo Sang Lee
-  publisher: CVPR 2024
+  publisher: arXiv
   date: '2024-04-26'
-  link: https://openaccess.thecvf.com/content/CVPR2024/papers/Chung_Accurate_Spatial_Gene_Expression_Prediction_by_Integrating_Multi-Resolution_Features_CVPR_2024_paper.pdf
+  link: https://arxiv.org/abs/2403.07592
   type: paper
   image: https://github.com/NEXGEM/TRIPLEX/raw/main/figures/TRIPLEX_main.jpg
-  tags:
-  - Spatial Transcriptomics
-  - Computational Pathology
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1038/s41467-021-26788-6
@@ -674,10 +671,10 @@
   title: Can the tumor neural niche be targeted to re-program cancer?
   authors:
   - Erica K. Sloan
-  - Joo Sang Lee 
+  - Joo Sang Lee
   publisher: PLOS Biology
   date: '2025-07-21'
-  link: https://doi.org/10.1371/journal.pbio.3003266
+  link: https://doi.org/hbwbwp
   type: paper
   image: https://journals.plos.org/plosbiology/article/figure/image?size=large&id=10.1371/journal.pbio.3003266.g001
   plugin: sources.py
