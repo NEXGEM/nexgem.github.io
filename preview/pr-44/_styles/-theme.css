@@ -1,0 +1,58 @@
+[data-dark=false] {
+  --primary: #1d4ed8;
+  --secondary: #7da6ff;
+  --text: #16222a;
+  --background: #f3f5f7;
+  --background-alt: #edf1f4;
+  --light-gray: #d4dde3;
+  --gray: #5f6d75;
+  --overlay: rgba(15, 28, 35, 0.05);
+  --surface: #f7f9fb;
+  --surface-strong: #fbfcfd;
+  --line: rgba(22, 34, 42, 0.09);
+  --hero-glow: rgba(29, 78, 216, 0.08);
+}
+
+[data-dark=true] {
+  --primary: #8fb4ff;
+  --secondary: #2c4a92;
+  --text: #ecf1f3;
+  --background: #0f1519;
+  --background-alt: #151d22;
+  --light-gray: #293239;
+  --gray: #9eabb2;
+  --overlay: rgba(255, 255, 255, 0.08);
+  --surface: rgba(21, 29, 34, 0.88);
+  --surface-strong: #151d22;
+  --line: rgba(236, 241, 243, 0.12);
+  --hero-glow: rgba(143, 180, 255, 0.14);
+}
+
+:root {
+  --title: "Outfit", sans-serif;
+  --heading: "Manrope", sans-serif;
+  --body: "Manrope", sans-serif;
+  --code: "Roboto Mono", monospace;
+  --text-sm: 0.88rem;
+  --text-base: 1rem;
+  --text-lg: 1.1rem;
+  --text-xl: 1.28rem;
+  --text-2xl: 1.68rem;
+  --text-3xl: 2.25rem;
+  --text-4xl: 3.4rem;
+  --medium: 1.2rem;
+  --large: 1.4rem;
+  --xl: 1.6rem;
+  --xxl: 1.8rem;
+  --thin: 200;
+  --regular: 400;
+  --semi-bold: 500;
+  --bold: 600;
+  --black: 800;
+  --spacing: 2;
+  --rounded: 16px;
+  --shadow: 0 14px 30px 0 var(--overlay);
+  --shadow-soft: 0 16px 34px -28px var(--overlay);
+}
+
+/*# sourceMappingURL=-theme.css.map */

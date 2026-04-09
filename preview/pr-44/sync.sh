@@ -1,0 +1,3 @@
+GOOGLE_DRIVE_API_KEY=AIzaSyDZ3IQLA_BDj0TYvSLXUpFX62V6ZMbJbQk \
+GOOGLE_DRIVE_FOLDER_ID=1bxsfJ27NarvHLuRXt2KrBr27z2UjpdH2 \
+node tools/sync-google-drive-blog.mjs
