@@ -1,6 +1,6 @@
 ---
 title: "MICCAI2025"
-author: "nexgem-drive"
+author: "NEXGEM"
 date: 2025-09-23
 category: "conference"
 tags: ["conference", "lab", "photos", "miccai", "daejeon"]
@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/1vM8-a_xykM3GcfUJrlgZfAa342ScpbQ9=w2
 source: google-drive
 drive_file_id: 1vM8-a_xykM3GcfUJrlgZfAa342ScpbQ9
 drive_web_view_link: "https://drive.google.com/file/d/1vM8-a_xykM3GcfUJrlgZfAa342ScpbQ9/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBPHvvwxJ_M76kexJUa_RxQK5ZKnF1HAvSJr4gQ8FDQxoHNa2PibNlf8igwFSFXjVjUsonweYmJu3bZTs_150B0qW380KmGPy-WXc1c=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBMMakFtn3Eyony8xS1LJxi3knnvG0yw-Q5YWuhpPa6gwV1hNuA2WWRQLSABXrmVW645JaR4UYSKI01iQM04SqydoLrTyBdIFlgwarlW=s220"
 description: "MICCAI conference in 2025, at Daejeon"
 ---
 ![MICCAI2025](https://lh3.googleusercontent.com/d/1vM8-a_xykM3GcfUJrlgZfAa342ScpbQ9=w2200)
