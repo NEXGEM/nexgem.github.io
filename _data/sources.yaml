@@ -21,6 +21,9 @@
 - id: arxiv:2403.07592
   type: paper
   image: https://github.com/NEXGEM/TRIPLEX/raw/main/figures/TRIPLEX_main.jpg
+  tags:
+    - Spatial Transcriptomics
+    - Computational Pathology
 
 - id: doi:10.1038/s41467-021-26788-6
   type: paper
