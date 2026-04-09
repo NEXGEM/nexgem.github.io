@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/1AhbemZeMbfOGNnyh19k_Q2pfae4ZwGfu=w2
 source: google-drive
 drive_file_id: 1AhbemZeMbfOGNnyh19k_Q2pfae4ZwGfu
 drive_web_view_link: "https://drive.google.com/file/d/1AhbemZeMbfOGNnyh19k_Q2pfae4ZwGfu/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBPnibMc6rDYIKL1p4PPR_QJwL9UIa0FmK358AKqQ2--niaCFm6Asb5mKVtRSSFMuJJHZLK__NWeU3XVH_Crm9xT9g8Pe8TntZdrBrQ=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBO6Wh4D2nngBgt7jyxCf8DxQ0LplkPF1M_A9J6cvY8hW-empyKsdd-VpQvZ2pxR5s3sZvp8ubNynVrOK7_CGBxYYrLH_FQc_oQXI8RD=s220"
 description: "Birthday Party for Talbot"
 ---
 ![Birthday Party for Talbot](https://lh3.googleusercontent.com/d/1AhbemZeMbfOGNnyh19k_Q2pfae4ZwGfu=w2200)
