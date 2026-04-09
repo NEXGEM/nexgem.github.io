@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/1MBmCZrqRU4mYVbUeyNaafVYzaJX_2h0e=w2
 source: google-drive
 drive_file_id: 1MBmCZrqRU4mYVbUeyNaafVYzaJX_2h0e
 drive_web_view_link: "https://drive.google.com/file/d/1MBmCZrqRU4mYVbUeyNaafVYzaJX_2h0e/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBOqBdZgGcBack_dfG96RsbswGFQKee77NrVAOlBtPT2g6Womy2wCellLceKm_p0bnWHlzeKf8s1UWY7vgkAE45BGVF9kL265RfHfyEb=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBO9UcYk0_NAPpijKc52wXJ0Z-ob7ZoozxM2ZH7MnPgGpvHgALLuawqr1v-1zlzXNWjiwmkuV2ivMMbBa4FrlnazqC_ELdwB435P__67=s220"
 description: "2024 BK Symposium: Future of Medicine Poster"
 ---
 ![2024 Bk Symposium Poster](https://lh3.googleusercontent.com/d/1MBmCZrqRU4mYVbUeyNaafVYzaJX_2h0e=w2200)
