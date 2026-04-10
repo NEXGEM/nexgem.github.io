@@ -1,6 +1,6 @@
 ---
-title: "Birthday Party for Talbot"
-author: "NEXGEM"
+title: "Birthday Party for Jaeyoung"
+author: "nexgem-drive"
 date: 2026-04-02
 category: "event"
 tags: ["event", "lab", "photos", "celebration", "birthday"]
@@ -8,10 +8,10 @@ image: "https://lh3.googleusercontent.com/d/1AhbemZeMbfOGNnyh19k_Q2pfae4ZwGfu=w2
 source: google-drive
 drive_file_id: 1AhbemZeMbfOGNnyh19k_Q2pfae4ZwGfu
 drive_web_view_link: "https://drive.google.com/file/d/1AhbemZeMbfOGNnyh19k_Q2pfae4ZwGfu/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBMb6PQffsranZ1xK4GseJYBSJJVdQRBSB4B8bu2HUONloEssvqBOUtQ6jglHQEScnE0-8jzJhzUhOJumSm_IZIIjcV9so2HuDVkqoY=s220"
-description: "Birthday Party for Talbot"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBP8ct1AbjAdZjtwQxjfpuovPR6GNeAO3aLP2vSe3sT3IbeZeEZY42iDc2xF-3VmwrZFZxZwq4hbz-GKV333gOpsTcpmALOyEBaDAk_E=s220"
+description: "Birthday Party for Jaeyoung"
 ---
-![Birthday Party for Talbot](https://lh3.googleusercontent.com/d/1AhbemZeMbfOGNnyh19k_Q2pfae4ZwGfu=w2200)
+![Birthday Party for Jaeyoung](https://lh3.googleusercontent.com/d/1AhbemZeMbfOGNnyh19k_Q2pfae4ZwGfu=w2200)
 <!-- excerpt start -->
-Birthday Party for Talbot
+Birthday Party for Jaeyoung
 <!-- excerpt end -->
