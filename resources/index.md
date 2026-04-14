@@ -1,5 +1,5 @@
 ---
-title: Resource
+title: Resources
 nav:
   order: 4
   tooltip: Lab equipment and infrastructure
@@ -7,7 +7,7 @@ nav:
 
 <section class="page-hero">
   <p class="page-kicker">Lab Infrastructure</p>
-  <h1>Resource</h1>
+  <h1>Resources</h1>
   <p class="page-lead">
     An overview of the lab's core infrastructure, including computing systems and experimental platforms that support computational oncology and translational cancer research.
   </p>
