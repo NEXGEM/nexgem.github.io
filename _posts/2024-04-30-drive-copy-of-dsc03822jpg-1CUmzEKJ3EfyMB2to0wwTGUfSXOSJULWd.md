@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/1CUmzEKJ3EfyMB2to0wwTGUfSXOSJULWd=w2
 source: google-drive
 drive_file_id: 1CUmzEKJ3EfyMB2to0wwTGUfSXOSJULWd
 drive_web_view_link: "https://drive.google.com/file/d/1CUmzEKJ3EfyMB2to0wwTGUfSXOSJULWd/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBN-eAvrabbzro6iTsfCbh0DHD_K7IxJqsR9jWxl6jYJ_0KCCt5l6FeL5vMjyGi2zxWlxQ814CwShbmpGyDNId4hvCsZ9A0ShqPm2Dxd=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBPntH60S50CL3ha6QMh2NIxydl5dHWQ5WVCJYZxH5ErvXbKbMwRBrLyt_EABOpx1xElWoRz6DoOLaUH92h7nH4ObS9XYBMiDRU1ZM6H=s220"
 description: "Bio-AI, Informatics, and the Future of Medicine symposium"
 ---
 ![Copy Of DSC03822](https://lh3.googleusercontent.com/d/1CUmzEKJ3EfyMB2to0wwTGUfSXOSJULWd=w2200)
