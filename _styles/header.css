@@ -9,7 +9,7 @@ header.site-header {
   gap: 24px;
   width: 100%;
   margin: 0;
-  padding: 22px max(24px, (100% - 1280px) / 2) 18px;
+  padding: 22px max(var(--page-gutter), (100% - 1280px) / 2) 18px;
   border: 0;
   border-bottom: 1px solid var(--line);
   border-radius: 0;
@@ -142,7 +142,7 @@ nav > a:focus-visible {
     align-items: flex-start;
     flex-wrap: wrap;
     width: 100%;
-    padding: 14px 12px 12px;
+    padding: 14px var(--page-gutter) 12px;
   }
   .home {
     gap: 12px;

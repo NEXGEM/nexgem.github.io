@@ -1,10 +1,10 @@
 section {
-  padding: 24px max(24px, (100% - 1280px) / 2);
+  padding: 24px max(var(--page-gutter), (100% - 1280px) / 2);
   transition-property: background, color;
 }
 
 section[data-size=wide] {
-  padding: 24px max(24px, (100% - 1280px) / 2);
+  padding: 24px max(var(--page-gutter), (100% - 1280px) / 2);
 }
 
 section[data-size=full] {
@@ -39,10 +39,10 @@ main > section:nth-of-type(even) {
 
 @media (max-width: 560px) {
   section {
-    padding: 16px 12px;
+    padding: 16px var(--page-gutter);
   }
   section[data-size=wide] {
-    padding: 16px 12px;
+    padding: 16px var(--page-gutter);
   }
 }
 
