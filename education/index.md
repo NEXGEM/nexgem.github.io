@@ -167,7 +167,7 @@ nav:
         <span class="resource-status">2024</span>
       </div>
       <p class="education-award-recipient">Awarded to <strong>Dowon Im</strong></p>
-      <p class="resource-summary">Awarded to Dowon Im, this recognition reflects the lab's emphasis on helping trainees turn research learning into clear, competitive academic presentation outcomes.</p>
+      <p class="resource-summary">This recognition reflects the lab's emphasis on helping trainees turn research learning into clear, competitive academic presentation outcomes.</p>
       <div class="page-pill-list">
         <span class="page-pill resource-pill resource-pill-strong">Grand Prize</span>
         <span class="page-pill resource-pill">Academic festival</span>
@@ -187,7 +187,7 @@ nav:
         <span class="resource-status">2026</span>
       </div>
       <p class="education-award-recipient">Awarded to <strong>Cherin Yoon</strong></p>
-      <p class="resource-summary">Awarded to Cherin Yoon, this recognition showcases how trainees can grow through focused mentoring, scientific curiosity, and stepwise development of early-stage research ideas.</p>
+      <p class="resource-summary">This recognition showcases how trainees can grow through focused mentoring, scientific curiosity, and stepwise development of early-stage research ideas.</p>
       <div class="page-pill-list">
         <span class="page-pill resource-pill resource-pill-strong">Best Award</span>
         <span class="page-pill resource-pill">Basic science division</span>
@@ -206,7 +206,7 @@ nav:
         <span class="resource-status">2025-2027</span>
       </div>
       <p class="education-award-recipient">Awarded to <strong>Youngmin Chung</strong></p>
-      <p class="resource-summary">Awarded to Youngmin Chung, this fellowship recognizes doctoral research promise and supports sustained training at the intersection of AI, bioinformatics, and cancer biology.</p>
+      <p class="resource-summary">This fellowship recognizes doctoral research promise and supports sustained training at the intersection of AI, bioinformatics, and cancer biology.</p>
       <div class="page-pill-list">
         <span class="page-pill resource-pill resource-pill-strong">NRF Ph.D. Fellowship</span>
         <span class="page-pill resource-pill">Doctoral training</span>
@@ -225,7 +225,7 @@ nav:
         <span class="resource-status">2024</span>
       </div>
       <p class="education-award-recipient">Awarded to <strong>Youngmin Chung</strong></p>
-      <p class="resource-summary">Awarded to Youngmin Chung by the Korean Society for Bioinformatics, this prize highlights visible research quality and contribution within the bioinformatics community.</p>
+      <p class="resource-summary">Awarded by the Korean Society for Bioinformatics, this prize highlights visible research quality and contribution within the bioinformatics community.</p>
       <div class="page-pill-list">
         <span class="page-pill resource-pill resource-pill-strong">Best Paper Award</span>
         <span class="page-pill resource-pill">KSBI BIOINFO</span>
@@ -244,7 +244,7 @@ nav:
         <span class="resource-status">2022-2023</span>
       </div>
       <p class="education-award-recipient">Awarded to <strong>Youngmin Chung</strong></p>
-      <p class="resource-summary">Awarded to Youngmin Chung, this scholarship recognized academic promise early in graduate training and helped support continued development in computational biomedical research.</p>
+      <p class="resource-summary">This scholarship recognized academic promise early in graduate training and helped support continued development in computational biomedical research.</p>
       <div class="page-pill-list">
         <span class="page-pill resource-pill resource-pill-strong">Graduate scholarship</span>
         <span class="page-pill resource-pill">Kwanjeong Foundation</span>
