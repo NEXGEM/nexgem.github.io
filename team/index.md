@@ -88,6 +88,22 @@ nav:
 
   <div class="page-section team-section-card">
     <div class="page-section-head">
+      <p class="page-kicker">Visitors</p>
+      <h2>Visiting researchers</h2>
+      <p>Collaborators and visiting scholars who contribute to the lab through exchange, joint discussion, and short-term research engagement.</p>
+    </div>
+    <div class="page-people-grid">
+      {%
+        include list.html
+        data="members"
+        component="portrait"
+        filters="role: visiting"
+      %}
+    </div>
+  </div>
+
+  <div class="page-section team-section-card">
+    <div class="page-section-head">
       <p class="page-kicker">Operations</p>
       <h2>Administrative assistants</h2>
       <p>Staff members who support coordination, communication, and the administrative foundation of the lab.</p>
