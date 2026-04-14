@@ -5,12 +5,12 @@ $page: 1280px;
 $padding: 24px;
 
 section {
-  padding: $padding max($padding, calc((100% - $page) / 2));
+  padding: $padding max(var(--page-gutter), calc((100% - $page) / 2));
   transition-property: background, color;
 }
 
 section[data-size="wide"] {
-  padding: $padding max($padding, calc((100% - $page) / 2));
+  padding: $padding max(var(--page-gutter), calc((100% - $page) / 2));
 }
 
 section[data-size="full"] {
@@ -45,10 +45,10 @@ main > section:nth-of-type(even) {
 
 @media (max-width: 560px) {
   section {
-    padding: 16px 12px;
+    padding: 16px var(--page-gutter);
   }
 
   section[data-size="wide"] {
-    padding: 16px 12px;
+    padding: 16px var(--page-gutter);
   }
 }

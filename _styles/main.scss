@@ -1,6 +1,10 @@
 ---
 ---
 
+:root {
+  --page-gutter: clamp(16px, 3.4vw, 28px);
+}
+
 main {
   display: flex;
   flex-direction: column;

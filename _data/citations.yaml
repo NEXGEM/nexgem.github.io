@@ -1,5 +1,34 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
-
+- id: doi.org/10.1038/s41467-026-71896-w
+  title: Herpes simplex virus 1 harboring poly(T) DNA sequences as a key ligand for AIM2 inflammasome activation and host defense
+  authors:
+  - SuHyeon Oh
+  - Jueun Oh
+  - Kyeongchan Im
+  - Tae Hyoung Kim
+  - Jihye Lee
+  - Kihye Shin
+  - Nabukenya Mariam
+  - Cheong Seok
+  - Jaewoo Park
+  - GyeongJu Yu
+  - Hayeon Kim
+  - Suhyun Kim
+  - Seyun Shin
+  - Jinwoo Gil
+  - Sehee Park
+  - Yoon-Seok Chung
+  - Daesik Kim
+  - Young Ki Choi
+  - Eui Tae Kim
+  - Joo Sang Lee
+  - SangJoon Lee
+  publisher: Nature Communications
+  date: '2026-04-13'
+  link: https://www.nature.com/articles/s41467-026-71896-w
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
 - id: doi.org/10.1016/j.xgen.2025.100876
   title: Identification of targetable vulnerabilities of PLK1-overexpressing cancers
     by synthetic dosage lethality

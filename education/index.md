@@ -100,7 +100,8 @@ nav:
 
     <article class="page-card education-feature-card">
       <div class="education-feature-media">
-        <img src="{{ '/images/team/kimds.jpg' | relative_url }}" alt="Dasol Kim SELF project">
+        <img src="{{ '/images/main/Research.jpg' | relative_url }}" alt="SELF project">
+        <!-- <img src="{{ '/images/team/kimds.jpg' | relative_url }}" alt="SELF project"> -->
       </div>
       <div class="education-feature-body">
         <div class="education-feature-head">
@@ -110,7 +111,7 @@ nav:
           </div>
           <span class="resource-status">Completed</span>
         </div>
-        <p class="resource-summary">Dasol Kim's self-directed research experience in the Department of Artificial Intelligence highlighted how students can shape their own questions while receiving structured scientific mentorship.</p>
+        <p class="resource-summary">Self-directed research experience in the Department of Artificial Intelligence highlighted how students can shape their own questions while receiving structured scientific mentorship.</p>
         <div class="page-pill-list">
           <span class="page-pill resource-pill">Self-directed study</span>
           <span class="page-pill resource-pill">AI department</span>
@@ -158,41 +159,99 @@ nav:
 
   <div class="education-highlight-grid">
     <article class="page-card education-highlight-card">
-      <div class="education-award-person">
-        <img src="{{ '/images/team/imdw_resized.jpg' | relative_url }}" alt="Dowon Im">
+      <div class="education-award-head">
         <div>
-          <p class="resource-type">Student achievement</p>
-          <h3>Dowon Im: Grand Prize at the Sung-Ui Academic Festival</h3>
+          <p class="resource-type">Academic festival</p>
+          <h3>Sung-Ui Academic Festival Grand Prize</h3>
         </div>
+        <span class="resource-status">2024</span>
       </div>
-      <p class="resource-summary">Dowon's recognition reflects the lab's emphasis on helping trainees turn research learning into clear, competitive academic presentation outcomes.</p>
+      <p class="education-award-recipient">Awarded to <strong>Dowon Im</strong></p>
+      <p class="resource-summary">Awarded to Dowon Im, this recognition reflects the lab's emphasis on helping trainees turn research learning into clear, competitive academic presentation outcomes.</p>
       <div class="page-pill-list">
         <span class="page-pill resource-pill resource-pill-strong">Grand Prize</span>
         <span class="page-pill resource-pill">Academic festival</span>
         <span class="page-pill resource-pill">Student presentation</span>
       </div>
       <div class="resource-meta">
-        <span>The award highlighted strong scientific storytelling and careful project development, showing how mentoring in the lab can translate into visible academic achievement.</span>
+        <!-- <span>The award highlighted strong scientific storytelling and careful project development, showing how mentoring in the lab can translate into visible academic achievement.</span> -->
       </div>
     </article>
 
     <article class="page-card education-highlight-card">
-      <div class="education-award-person">
-        <img src="{{ '/images/team/Cherin.png' | relative_url }}" alt="Cherin Yoon">
+      <div class="education-award-head">
         <div>
-          <p class="resource-type">Student achievement</p>
-          <h3>Cherin Yoon: Best Award in the Basic Science Division</h3>
+          <p class="resource-type">Academic festival</p>
+          <h3>Sung-Ui Academic Festival Best Award in Basic Science</h3>
         </div>
+        <span class="resource-status">2026</span>
       </div>
-      <p class="resource-summary">Cherin's 2026 recognition showcases how trainees can grow through focused mentoring, scientific curiosity, and stepwise development of early-stage research ideas.</p>
+      <p class="education-award-recipient">Awarded to <strong>Cherin Yoon</strong></p>
+      <p class="resource-summary">Awarded to Cherin Yoon, this recognition showcases how trainees can grow through focused mentoring, scientific curiosity, and stepwise development of early-stage research ideas.</p>
       <div class="page-pill-list">
-        <span class="page-pill resource-pill resource-pill-strong">2026</span>
         <span class="page-pill resource-pill resource-pill-strong">Best Award</span>
         <span class="page-pill resource-pill">Basic science division</span>
       </div>
-      <div class="resource-meta">
-        <span>The project outcome demonstrates the lab's role in supporting students as they learn how to frame a question, refine a message, and present it with confidence.</span>
+      <!-- <div class="resource-meta"> -->
+        <!-- <span>The project outcome demonstrates the lab's role in supporting students as they learn how to frame a question, refine a message, and present it with confidence.</span> -->
+      <!-- </div> -->
+    </article>
+
+    <article class="page-card education-highlight-card">
+      <div class="education-award-head">
+        <div>
+          <p class="resource-type">Fellowship</p>
+          <h3>National Research Foundation Ph.D. Fellowship</h3>
+        </div>
+        <span class="resource-status">2025-2027</span>
       </div>
+      <p class="education-award-recipient">Awarded to <strong>Youngmin Chung</strong></p>
+      <p class="resource-summary">Awarded to Youngmin Chung, this fellowship recognizes doctoral research promise and supports sustained training at the intersection of AI, bioinformatics, and cancer biology.</p>
+      <div class="page-pill-list">
+        <span class="page-pill resource-pill resource-pill-strong">NRF Ph.D. Fellowship</span>
+        <span class="page-pill resource-pill">Doctoral training</span>
+      </div>
+      <!-- <div class="resource-meta"> -->
+        <!-- <span>This distinction reflects both individual research potential and the kind of long-horizon scientific development that the lab aims to support in graduate trainees.</span> -->
+      <!-- </div> -->
+    </article>
+
+    <article class="page-card education-highlight-card">
+      <div class="education-award-head">
+        <div>
+          <p class="resource-type">Paper award</p>
+          <h3>BIOINFO Best Paper Award</h3>
+        </div>
+        <span class="resource-status">2024</span>
+      </div>
+      <p class="education-award-recipient">Awarded to <strong>Youngmin Chung</strong></p>
+      <p class="resource-summary">Awarded to Youngmin Chung by the Korean Society for Bioinformatics, this prize highlights visible research quality and contribution within the bioinformatics community.</p>
+      <div class="page-pill-list">
+        <span class="page-pill resource-pill resource-pill-strong">Best Paper Award</span>
+        <span class="page-pill resource-pill">KSBI BIOINFO</span>
+      </div>
+      <!-- <div class="resource-meta">
+        <span>The award reinforces the lab's education model of helping trainees grow from learners into contributors whose work can stand out in a disciplinary research setting.</span>
+      </div> -->
+    </article>
+
+    <article class="page-card education-highlight-card">
+      <div class="education-award-head">
+        <div>
+          <p class="resource-type">Scholarship</p>
+          <h3>Kwanjeong Educational Foundation Graduate Scholarship</h3>
+        </div>
+        <span class="resource-status">2022-2023</span>
+      </div>
+      <p class="education-award-recipient">Awarded to <strong>Youngmin Chung</strong></p>
+      <p class="resource-summary">Awarded to Youngmin Chung, this scholarship recognized academic promise early in graduate training and helped support continued development in computational biomedical research.</p>
+      <div class="page-pill-list">
+        <span class="page-pill resource-pill resource-pill-strong">Graduate scholarship</span>
+        <span class="page-pill resource-pill">Kwanjeong Foundation</span>
+      </div>
+      <!-- <div class="resource-meta">
+        <span>Together with later awards, this scholarship shows a strong trajectory of student growth through research training, academic performance, and sustained mentorship.</span>
+      </div> -->
     </article>
   </div>
 </section>
@@ -227,7 +286,7 @@ nav:
 
     <article class="page-card education-feature-card">
       <div class="education-feature-media">
-        <img src="{{ '/images/main/header3.jpg' | relative_url }}" alt="Freshman seminar">
+        <img src="{{ '/images/main/Research.jpg' | relative_url }}" alt="Freshman seminar">
       </div>
       <div class="education-feature-body">
         <div class="education-feature-head">
