@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/1qxzA1lialTFwjYD-o3FxEZmCJ0-A2Iw_=w2
 source: google-drive
 drive_file_id: 1qxzA1lialTFwjYD-o3FxEZmCJ0-A2Iw_
 drive_web_view_link: "https://drive.google.com/file/d/1qxzA1lialTFwjYD-o3FxEZmCJ0-A2Iw_/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBMQE-EVDjJhrcp0kY0n4n8GDDOjTaNZQJgE_k4hV0yad2O9IZoriU1dDR2RVALaWdV1l8XoxymFVblRToJUS-AbvisW6WBVVYIABEY=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBP8f894Ncjlb1DoeytdxnHpbKOE0rN_TzQnwZORHmUqLWmAQv9aWa8LXKT_BlLiqLzFo8HzHfSRHim_sMZ3fj_BSCO7Oze_U0q3uRp3=s220"
 description: ""
 ---
 ![Build a snowman](https://lh3.googleusercontent.com/d/1qxzA1lialTFwjYD-o3FxEZmCJ0-A2Iw_=w2200)
