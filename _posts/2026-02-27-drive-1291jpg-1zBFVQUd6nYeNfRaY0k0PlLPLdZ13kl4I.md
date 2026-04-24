@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/1zBFVQUd6nYeNfRaY0k0PlLPLdZ13kl4I=w2
 source: google-drive
 drive_file_id: 1zBFVQUd6nYeNfRaY0k0PlLPLdZ13kl4I
 drive_web_view_link: "https://drive.google.com/file/d/1zBFVQUd6nYeNfRaY0k0PlLPLdZ13kl4I/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBNUGBo8-IdvWAL9CPD06um1Sgkai5pGZSFsr4t0Zz12baAyLCufK26j4ZScP02qUEHcTK5Rowjq0QbrjqCgBpmJ_uyvh0q2w5MhdRsW=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBPQxVxKgNCoAjgLpudidZIvFih9fDa3CPLmKhse3Zw2e07CCUXTighq4MXlnvPELucAMvg6FeQC-aZuGkh6FP1ElPDHEq0iI9vHKSCH=s220"
 description: "Lab internship program during winter vacation"
 ---
 ![2026 Winter internship program](https://lh3.googleusercontent.com/d/1zBFVQUd6nYeNfRaY0k0PlLPLdZ13kl4I=w2200)
