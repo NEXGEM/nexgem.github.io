@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/1BAP_Pp7G6RamuoQZ6wr3O0_52cbeV2K2=w2
 source: google-drive
 drive_file_id: 1BAP_Pp7G6RamuoQZ6wr3O0_52cbeV2K2
 drive_web_view_link: "https://drive.google.com/file/d/1BAP_Pp7G6RamuoQZ6wr3O0_52cbeV2K2/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBP4UkhXuCR1W-IcaYSoPxUWjn57XK9I9vAyLhzDLCrqiwKwKxc_Zh6JP95TxyoJT-b7Dy7uUsxYw6EZBUtEUg3X6FuhrSVIC7BV6VJ-=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBOTz4kiwZo9OozFGi5EnbHjJ8Ob2TwTpacY8a2EXJCcggp7exNDn7uRu0UWrWQEItAjhtTDsqegI3MtASDpDHUOg2XkX1meNUeGEYA=s220"
 description: "Hosted the 2024 BK Symposium, bringing together leading researchers to discuss the future of medicine at the intersection of computational pathology and spatial biology."
 ---
 ![2024 BK Symposium: Future of Medicine](https://lh3.googleusercontent.com/d/1BAP_Pp7G6RamuoQZ6wr3O0_52cbeV2K2=w2200)
