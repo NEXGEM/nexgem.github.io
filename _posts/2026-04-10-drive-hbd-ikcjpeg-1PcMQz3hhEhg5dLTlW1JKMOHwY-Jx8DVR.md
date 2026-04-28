@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/1PcMQz3hhEhg5dLTlW1JKMOHwY-Jx8DVR=w2
 source: google-drive
 drive_file_id: 1PcMQz3hhEhg5dLTlW1JKMOHwY-Jx8DVR
 drive_web_view_link: "https://drive.google.com/file/d/1PcMQz3hhEhg5dLTlW1JKMOHwY-Jx8DVR/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBNktrpk_ZhmMgL-q_ipJGSoK4xaYuadusTl6P--e2_693mcCa8B4inpplmYHWAalsB9en7kMhj8qgrz6GLfv1frjgPtFAWHb18FEJ8=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBPQp6Q4Q0vfAeUoNdUpxrObYakOSRFBytP-_0ENIwx3P_dL6P-PMBpSAZAPDuhRlqzadw7dvsdHVQQtVy2q0Z9DEgo3d6GSShnBFfE=s220"
 description: "Birthday Party for IKC"
 ---
 ![Birthday Party for Kyeongchan](https://lh3.googleusercontent.com/d/1PcMQz3hhEhg5dLTlW1JKMOHwY-Jx8DVR=w2200)
