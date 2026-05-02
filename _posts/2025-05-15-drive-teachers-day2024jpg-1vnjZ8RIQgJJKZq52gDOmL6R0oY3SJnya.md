@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/1vnjZ8RIQgJJKZq52gDOmL6R0oY3SJnya=w2
 source: google-drive
 drive_file_id: 1vnjZ8RIQgJJKZq52gDOmL6R0oY3SJnya
 drive_web_view_link: "https://drive.google.com/file/d/1vnjZ8RIQgJJKZq52gDOmL6R0oY3SJnya/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBOlvjItLERojIq99LgbFhewAZ6xf41cw26XEPOmk2baHOMl-gcwet3Tqxwdv0DOVl9YKMr7sebQh_YYLlNUOHkfDkCrgM56YBSJbSQ=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBMuGEOBD53A_CFrKiw_pGXIY5INgOTM5TnvvIVZ4y9JHxQGo4yEVRBVHmMM0eKQ7SQ1czXbv6UPfKLIgP9cYuZsEpykXqlv15ZHgMVT=s220"
 description: "Teacher's Day"
 ---
 ![Happy Teacher's Day (2024)](https://lh3.googleusercontent.com/d/1vnjZ8RIQgJJKZq52gDOmL6R0oY3SJnya=w2200)
