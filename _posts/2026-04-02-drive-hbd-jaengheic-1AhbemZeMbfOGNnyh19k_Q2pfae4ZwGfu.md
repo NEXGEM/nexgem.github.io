@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/1AhbemZeMbfOGNnyh19k_Q2pfae4ZwGfu=w2
 source: google-drive
 drive_file_id: 1AhbemZeMbfOGNnyh19k_Q2pfae4ZwGfu
 drive_web_view_link: "https://drive.google.com/file/d/1AhbemZeMbfOGNnyh19k_Q2pfae4ZwGfu/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBOluADJ3WdmdFvxWNQwQdu2_7FW9MBmIttjf1nB3qEA75Wm9qggVbQmF3B9eWWg53G33U3t5i0nww5QVnKDqWLEUjmXlSez9yLpAGig=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBPJeS01E8XYgw91u5znw41pUd8IjwEkGb_5vuPFnEjv-V09Zrd_HLuAd4SGDFqnsFzhdIKEPbF_ma2ze3iVHhf5Waic4VZUX25GLRt2=s220"
 description: "Birthday Party for Jaeyoung"
 ---
 ![Birthday Party for Jaeyoung](https://lh3.googleusercontent.com/d/1AhbemZeMbfOGNnyh19k_Q2pfae4ZwGfu=w2200)
