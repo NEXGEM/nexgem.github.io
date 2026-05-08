@@ -1,6 +1,6 @@
 ---
 title: "CVPR 2024 ID"
-author: "NEXGEM"
+author: "nexgem-drive"
 date: 2024-06-18
 category: "conference"
 tags: ["conference", "lab", "photos", "cvpr", "seattle"]
@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/1c4uWzdxIKQmRgTt1l9NWCfyvLsaYMUoE=w2
 source: google-drive
 drive_file_id: 1c4uWzdxIKQmRgTt1l9NWCfyvLsaYMUoE
 drive_web_view_link: "https://drive.google.com/file/d/1c4uWzdxIKQmRgTt1l9NWCfyvLsaYMUoE/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBOspl27XVPmdD-Asagb2oXvL_BbvHxzT3BcIZ-r0RRBqwh06sCFIVujQwepW3IxTgQONasyqGX_o0fJfbVfwRBdfbB0vSduuk2wc9fA=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBPZ5Q_h9CIC1YyvEcqIBONFGuL0ijSxqeWVCvb0QeQxIDu-Opur6zkNvNgMRWRcMISUBPnyUazuuiIbEjsI_hvDRF-SYTwF4XzGsQjA=s220"
 description: ""
 ---
 ![CVPR 2024 ID](https://lh3.googleusercontent.com/d/1c4uWzdxIKQmRgTt1l9NWCfyvLsaYMUoE=w2200)

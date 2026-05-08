@@ -1,6 +1,6 @@
 ---
 title: "CVPR 2024 Poster2"
-author: "NEXGEM"
+author: "nexgem-drive"
 date: 2024-06-21
 category: "conference"
 tags: ["conference", "lab", "photos", "cvpr", "poster", "seattle"]
@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/1it4CbYQvhIUqH4NXhCYDjeRpcKGh_q4w=w2
 source: google-drive
 drive_file_id: 1it4CbYQvhIUqH4NXhCYDjeRpcKGh_q4w
 drive_web_view_link: "https://drive.google.com/file/d/1it4CbYQvhIUqH4NXhCYDjeRpcKGh_q4w/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBM274TMBM2ejUdGxqeVbtiXYNJVR5G3b8Kn7YkWwYCj6-yLtuz-Bongn67d7Zz4Y1sreVXPYvQyMExkbiID6PMr78ceE3l5h64AOdS2=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBMHIJwuzx-4Lr7PMlxUWjUsawLTEN4BEA6HMoYH4OXSFfXZNiYxKz2lB0mEVMVCUFPlzjdno2axl8IHg5WJiaxaiH-meaHe0QJdzgrX=s220"
 description: "Presentation in poster session."
 ---
 ![CVPR 2024 Poster2](https://lh3.googleusercontent.com/d/1it4CbYQvhIUqH4NXhCYDjeRpcKGh_q4w=w2200)
