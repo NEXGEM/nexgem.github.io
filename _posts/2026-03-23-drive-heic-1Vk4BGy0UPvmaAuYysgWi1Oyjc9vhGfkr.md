@@ -1,6 +1,6 @@
 ---
 title: "Birthday Party for Ji Hun"
-author: "NEXGEM"
+author: "nexgem-drive"
 date: 2026-03-23
 category: "event"
 tags: ["event", "lab", "photos", "celebration", "birthday"]
@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/1Vk4BGy0UPvmaAuYysgWi1Oyjc9vhGfkr=w2
 source: google-drive
 drive_file_id: 1Vk4BGy0UPvmaAuYysgWi1Oyjc9vhGfkr
 drive_web_view_link: "https://drive.google.com/file/d/1Vk4BGy0UPvmaAuYysgWi1Oyjc9vhGfkr/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBMlkEIubBNiW22iTkhbOOWC9tJkSmBOzMVLqn2T4Ks5OBV8a0wEQJyuuxKs79GNDt9tvps2sszLiwG5T5622rSv9saN_1kGcx0ri4y2=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBPPRP4oMZ0eiofi7OJQMlZNnW8geB62oGFI7AKpu5Usy8m_hfekjFA4grPd7sH9om7HxUxuLkPg16M7Lvmhw9spUHJfDr5pAaNSlEYX=s220"
 description: "Birthday Party for Ji Hun"
 ---
 ![Birthday Party for Ji Hun](https://lh3.googleusercontent.com/d/1Vk4BGy0UPvmaAuYysgWi1Oyjc9vhGfkr=w2200)

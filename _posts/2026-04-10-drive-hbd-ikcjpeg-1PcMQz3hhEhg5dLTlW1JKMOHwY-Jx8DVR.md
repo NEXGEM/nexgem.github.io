@@ -1,6 +1,6 @@
 ---
 title: "Birthday Party for Kyeongchan"
-author: "NEXGEM"
+author: "nexgem-drive"
 date: 2026-04-10
 category: "event"
 tags: ["event", "lab", "photos", "celebration", "birthday"]
@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/1PcMQz3hhEhg5dLTlW1JKMOHwY-Jx8DVR=w2
 source: google-drive
 drive_file_id: 1PcMQz3hhEhg5dLTlW1JKMOHwY-Jx8DVR
 drive_web_view_link: "https://drive.google.com/file/d/1PcMQz3hhEhg5dLTlW1JKMOHwY-Jx8DVR/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBOMdaai--4YVKtj8Gb60jzcJDf-C6j4gMAH-ctDMiqqriF8vVjyvAssg3AnemfwvhjcCsYQAffOxmIl7yOqdQ9YtaMO1u2Z_VI46Xgk=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBN2OBKfvM12wXYkOMe_6wgD-EU3jotyQI8obKgy3OpLqpHSZ4FAG4hA8uCb_1zqGAeMjhCCCiMJNR2hu7Mt-3wmziUBqFF2Q-c15QZn=s220"
 description: "Birthday Party for IKC"
 ---
 ![Birthday Party for Kyeongchan](https://lh3.googleusercontent.com/d/1PcMQz3hhEhg5dLTlW1JKMOHwY-Jx8DVR=w2200)

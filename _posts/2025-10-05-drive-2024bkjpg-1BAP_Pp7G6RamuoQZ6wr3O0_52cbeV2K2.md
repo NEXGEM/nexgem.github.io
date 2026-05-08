@@ -1,6 +1,6 @@
 ---
 title: "2024 BK Symposium: Future of Medicine"
-author: "NEXGEM"
+author: "nexgem-drive"
 date: 2024-10-05
 category: "symposium"
 tags: ["symposium", "lab", "photos", "medical-ai", "computational-pathology", "spatial-biology", "boston-korea"]
@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/1BAP_Pp7G6RamuoQZ6wr3O0_52cbeV2K2=w2
 source: google-drive
 drive_file_id: 1BAP_Pp7G6RamuoQZ6wr3O0_52cbeV2K2
 drive_web_view_link: "https://drive.google.com/file/d/1BAP_Pp7G6RamuoQZ6wr3O0_52cbeV2K2/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBPLMp9PLghtTV2cbDiOVqhM95zt5YrNMZA4eK2fsD3zYEUyIpiwP5Vk4NXGRE61LAw5zPHU_GDASqGJdmZLRAxKTpcXzcH47rT1SAT1=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBOw-W_McxTZYlJx5ejTtRC32gmSgZ6RfFxVbZMHwHn7IfNoLmgUyf5B6mBVw_4xxz3Vaz0SdpAvzCbzHGc0ZsjJMqB9StlwSlp04Ak1=s220"
 description: "Hosted the 2024 BK Symposium, bringing together leading researchers to discuss the future of medicine at the intersection of computational pathology and spatial biology."
 ---
 ![2024 BK Symposium: Future of Medicine](https://lh3.googleusercontent.com/d/1BAP_Pp7G6RamuoQZ6wr3O0_52cbeV2K2=w2200)
