@@ -1,14 +1,17 @@
 ---
-title: "HBD Kds 2026"
-author: "nexgem-drive"
-date: 2026-05-08
-category: "lab-life"
-tags: ["lab-life", "lab", "photos"]
+title: "Birthday Party for Dasol"
+author: "NEXGEM"
+date: 2026-05-04
+category: "event"
+tags: ["event", "lab", "photos", "celebration", "birthday"]
 image: "https://lh3.googleusercontent.com/d/19SsYJAgHzZNmU7YXfz64ULkB7xHjHPXG=w2200"
 source: google-drive
 drive_file_id: 19SsYJAgHzZNmU7YXfz64ULkB7xHjHPXG
 drive_web_view_link: "https://drive.google.com/file/d/19SsYJAgHzZNmU7YXfz64ULkB7xHjHPXG/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBMrQDPdk-2zwzLeau2TvLZvQD8O1AWVPu_xaBkMMpUrIC0BfnV4cJcUVTmS-4hWYCp5YZPQjydw-FxU0YaXbBkOaIGRJqJOHHbxUz-t=s220"
-description: ""
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBMw0NW1rKp_d7BxDBSsz-VA1WW3McTp0iSjzePCOxjETvvW2jszfs-m7JuD7zqg1h-ptC2j6Az375kIqUdHXkbLwX2hSDtueg7hRWjv=s220"
+description: "Birthday Party for Dasol"
 ---
-![HBD Kds 2026](https://lh3.googleusercontent.com/d/19SsYJAgHzZNmU7YXfz64ULkB7xHjHPXG=w2200)
+![Birthday Party for Dasol](https://lh3.googleusercontent.com/d/19SsYJAgHzZNmU7YXfz64ULkB7xHjHPXG=w2200)
+<!-- excerpt start -->
+Birthday Party for Dasol
+<!-- excerpt end -->

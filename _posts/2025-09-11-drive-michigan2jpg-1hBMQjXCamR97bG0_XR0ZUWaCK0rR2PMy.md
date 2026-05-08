@@ -1,6 +1,6 @@
 ---
 title: "University of Michigan Research Visit"
-author: "nexgem-drive"
+author: "NEXGEM"
 date: 2025-09-11
 category: "research-trip"
 tags: ["research-trip", "lab", "photos", "university-of-michigan", "seq-scope", "collaboration", "spatial-transcriptomics", "boston-korea"]
@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/1hBMQjXCamR97bG0_XR0ZUWaCK0rR2PMy=w2
 source: google-drive
 drive_file_id: 1hBMQjXCamR97bG0_XR0ZUWaCK0rR2PMy
 drive_web_view_link: "https://drive.google.com/file/d/1hBMQjXCamR97bG0_XR0ZUWaCK0rR2PMy/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBN7bNtdtMzn-3nE9y1QJNxO4W5YIjhvSVK-moLdZubKuPqGJTFWg9ugaTtWUFZ8NRn9973UBPcpQXpv3KrtVqyh9ybRTsEufCGMbmcu=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBPIXAn8wVYoMAFT0Jg96ZNpjXp59ExCsFC7IFp1MfdYxQsfE0KXvnkOCcC0id0zKghIjSshStVH7hn73Q6eADTMc1x_mRe1tYbx-1Bd=s220"
 description: "Research visit to the University of Michigan to strengthen collaborative research efforts."
 ---
 ![University of Michigan Research Visit](https://lh3.googleusercontent.com/d/1hBMQjXCamR97bG0_XR0ZUWaCK0rR2PMy=w2200)
