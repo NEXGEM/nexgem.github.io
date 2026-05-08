@@ -1,6 +1,6 @@
 ---
 title: "Happy Teacher's Day (2024)"
-author: "NEXGEM"
+author: "nexgem-drive"
 date: 2025-05-15
 category: "teachers-day"
 tags: ["teachers-day", "lab", "photos"]
@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/1vnjZ8RIQgJJKZq52gDOmL6R0oY3SJnya=w2
 source: google-drive
 drive_file_id: 1vnjZ8RIQgJJKZq52gDOmL6R0oY3SJnya
 drive_web_view_link: "https://drive.google.com/file/d/1vnjZ8RIQgJJKZq52gDOmL6R0oY3SJnya/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBNr_p8AQngCxWtpoAqYdI4cfEbBPlDp0dfB3ylpTrqslxW8HbgeM3gv0ON0bJ7p46baByAT8Q5tU9Mbq5mATTM3eS91vWkDjNtaGPtD=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIMvu5P2b6n07CpPe_QJQe50X-eBA996TdHXygJ-XJKOjXcZ1LQCgbEjny7BEKVciKCk1wzzjqlontMIswWJnID5mfakrw8l-Y3sLI=s220"
 description: "Teacher's Day"
 ---
 ![Happy Teacher's Day (2024)](https://lh3.googleusercontent.com/d/1vnjZ8RIQgJJKZq52gDOmL6R0oY3SJnya=w2200)
