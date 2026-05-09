@@ -8,7 +8,7 @@ image: "https://lh3.googleusercontent.com/d/19SsYJAgHzZNmU7YXfz64ULkB7xHjHPXG=w2
 source: google-drive
 drive_file_id: 19SsYJAgHzZNmU7YXfz64ULkB7xHjHPXG
 drive_web_view_link: "https://drive.google.com/file/d/19SsYJAgHzZNmU7YXfz64ULkB7xHjHPXG/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBNOYtjmchuYVHwQqd-lrseKXZu4YsfzL4tnct4H7ywi2Sl21siCclYRPD0nfOJI2u7CbtVuibx1YE6Lx6GQ81NFs6bQmvyb51IoMINT=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBMwdoftesWU450i1vHBCwKsHLHCYkfXQS3Lwk5ei9Tk84aG4YiH5loqjvtIbrukafxqHEdilNmJ4i-6KXNHHiUdEqPwlcgmbv3g_LM=s220"
 description: "Birthday Party for Dasol"
 ---
 ![Birthday Party for Dasol](https://lh3.googleusercontent.com/d/19SsYJAgHzZNmU7YXfz64ULkB7xHjHPXG=w2200)
