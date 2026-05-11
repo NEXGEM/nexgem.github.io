@@ -182,20 +182,58 @@ title: Home
 <div class="home-section">
   <div class="home-section-head">
     <p class="home-kicker">Latest Updates</p>
-    <h2>Recent stories from the lab</h2>
+    <h2>NEXGEM in the news</h2>
     <p>
-      A quick view of recent activity before diving into the full archive.
+      Recent media coverage highlighting research connected to the lab.
     </p>
   </div>
+  {% assign media_items = site.data.media_coverage | sort: "date" | reverse %}
   <div class="home-updates">
-    {% for post in site.posts limit: 3 %}
-      <a class="home-update" href="{{ post.url | relative_url }}">
-        <span class="home-update-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
-        <strong>{{ post.title }}</strong>
+    {% for item in media_items limit: 3 %}
+      <a class="home-update" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+        <span class="home-update-meta">{{ item.date | date: "%B %-d, %Y" }} · {{ item.source }}</span>
+        <strong>{{ item.title }}</strong>
       </a>
     {% endfor %}
   </div>
 </div>
+
+{% assign lab_news_items = site.data.lab_news | sort: "date" | reverse %}
+{% if lab_news_items.size > 0 %}
+<div class="home-section">
+  <div class="home-section-head">
+    <p class="home-kicker">Lab News</p>
+    <h2>Updates from NEXGEM</h2>
+    <p>
+      Milestones from the lab, including new members, paper acceptances, awards, and research activities.
+    </p>
+  </div>
+
+  <div class="home-lab-news">
+    {% for item in lab_news_items limit: 4 %}
+      <article class="home-lab-news-card">
+        <div class="home-lab-news-meta">
+          <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%B %-d, %Y" }}</time>
+        </div>
+
+        <div class="home-lab-news-body">
+          <h3>
+            {% if item.url %}
+              <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            {% else %}
+              {{ item.title }}
+            {% endif %}
+          </h3>
+          {% if item.category %}
+            <span class="home-lab-news-category">{{ item.category }}</span>
+          {% endif %}
+
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
 
 <div class="home-section home-section-compact">
   <div class="home-contact">

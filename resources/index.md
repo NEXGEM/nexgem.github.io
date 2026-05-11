@@ -1,7 +1,7 @@
 ---
 title: Resources
 nav:
-  order: 4
+  order: 5
   tooltip: Lab equipment and infrastructure
 ---
 

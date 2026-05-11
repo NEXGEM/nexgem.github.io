@@ -1,0 +1,28 @@
+- title: '"우리 몸 면역 센서 깨우는 바이러스 DNA 서열 발견"'
+  source: Yonhap News Agency
+  date: 2026-04-27
+  paper: Nature Communications
+  url: https://www.yna.co.kr/view/AKR20260427062000057
+  description: >
+    Yonhap covered a collaborative study with UNIST, Sungkyunkwan University,
+    Jeju National University, and IBS showing that poly(T) repeat sequences in
+    herpesvirus DNA can activate the AIM2 innate immune sensor and trigger
+    inflammatory responses.
+  tags:
+    - Nature Communications
+    - Innate immunity
+    - Virus genomics
+
+- title: New AI Tool Could Replace Costly Cancer Gene Expression Profiling
+  source: Cedars-Sinai Newsroom
+  date: 2026-05-08
+  paper: Cell
+  url: https://www.cedars-sinai.org/newsroom/new-ai-tool-could-replace-costly-cancer-gene-expression-profiling/
+  description: >
+    Cedars-Sinai featured Path2Space, an AI-based method reported in Cell that
+    predicts spatial gene expression from digital biopsy slide images, with
+    potential to make spatial tumor profiling faster and more accessible.
+  tags:
+    - Cell
+    - Spatial transcriptomics
+    - AI pathology

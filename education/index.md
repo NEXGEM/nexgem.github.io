@@ -1,7 +1,7 @@
 ---
 title: Education
 nav:
-  order: 5
+  order: 6
   tooltip: Training, mentoring, and academic programs
 ---
 
