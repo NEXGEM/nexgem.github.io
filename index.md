@@ -219,13 +219,17 @@ title: Home
         <div class="home-lab-news-body">
           <h3>
             {% if item.url %}
-              <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>
             {% else %}
               {{ item.title }}
             {% endif %}
           </h3>
           {% if item.category %}
-            <span class="home-lab-news-category">{{ item.category }}</span>
+            {% if item.url and item.category == "Publication" %}
+              <a class="home-lab-news-category" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.category }}</a>
+            {% else %}
+              <span class="home-lab-news-category">{{ item.category }}</span>
+            {% endif %}
           {% endif %}
 
         </div>

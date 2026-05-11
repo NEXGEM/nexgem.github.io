@@ -509,6 +509,14 @@ section[data-size="full"] > .home-hero {
   font-weight: var(--semi-bold);
   letter-spacing: 0.07em;
   text-transform: uppercase;
+  text-decoration: none;
+}
+
+a.home-lab-news-category:hover,
+a.home-lab-news-category:focus-visible {
+  border-color: color-mix(in srgb, var(--primary) 32%, var(--line));
+  background: color-mix(in srgb, var(--primary) 10%, white);
+  color: var(--primary);
 }
 
 .home-section-compact {
