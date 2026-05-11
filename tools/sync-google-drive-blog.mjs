@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
+import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 
@@ -255,29 +255,28 @@ const renderPost = (file) => {
 const sync = async () => {
   const driveFiles = await listDriveImages();
   const existing = await loadExistingGeneratedPosts();
-  const seen = new Set();
+  let added = 0;
+  let skipped = 0;
 
   for (const file of driveFiles) {
     const rendered = renderPost(file);
     const previous = existing.get(rendered.fileId);
-    const filename = previous?.filename || rendered.filename;
-    const filePath = path.join(postsDir, filename);
 
-    await writeFile(filePath, rendered.content, "utf8");
-    seen.add(rendered.fileId);
-    console.log(`Synced ${filename}`);
-  }
-
-  for (const [fileId, entry] of existing.entries()) {
-    if (seen.has(fileId)) {
+    if (previous) {
+      skipped += 1;
+      console.log(`Skipped existing ${previous.filename}`);
       continue;
     }
 
-    await rm(entry.filePath);
-    console.log(`Removed ${entry.filename}`);
+    const filePath = path.join(postsDir, rendered.filename);
+    await writeFile(filePath, rendered.content, "utf8");
+    added += 1;
+    console.log(`Added ${rendered.filename}`);
   }
 
-  console.log(`Processed ${seen.size} Google Drive image posts.`);
+  console.log(
+    `Processed ${driveFiles.length} Google Drive image posts. Added ${added}, skipped ${skipped} existing posts.`
+  );
 };
 
 sync().catch((error) => {
