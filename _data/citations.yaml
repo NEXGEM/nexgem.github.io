@@ -1,4 +1,47 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
+- id: doi.org/10.1016/j.cell.2026.04.023
+  title: AI-predicted spatial transcriptomics unlocks breast cancer biomarkers from pathology
+  authors:
+  - Eldad D Shulman
+  - Emma M Campagnolo
+  - Roshan Lodha
+  - Youngmin Chung
+  - Amos Stemmer
+  - Thomas Cantore
+  - Beibei Ru
+  - Tian-Gen Chang
+  - Sumona Biswas
+  - Saugato Rahman Dhruba
+  - Sumeet Patiyal
+  - Sushant Patkar
+  - Andrew Wang
+  - Ranjan K Barman
+  - Chuhan Wang
+  - Rohit Paul
+  - Sarath Chandra Kalisetty
+  - Tom Hu
+  - MacLean P Nasrallah
+  - Ellis Patrick
+  - Jean Yang
+  - Yuan Yuan
+  - Karine Sargsyan
+  - Amy Plotkin
+  - Padma Sheila Rajagopal
+  - Stephen-John Sammut
+  - Stanley Lipkowitz
+  - Peng Jiang
+  - Carlos Caldas
+  - Simon RV Knott
+  - Kenneth Aldape
+  - Joo Sang Lee
+  - Danh-Tai Hoang
+  - Eytan Ruppin
+  publisher: Cell
+  date: '2026-05-08'
+  link: https://www.cell.com/cell/abstract/S0092-8674(26)00458-7
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
 - id: doi.org/10.1038/s41467-026-71896-w
   title: Herpes simplex virus 1 harboring poly(T) DNA sequences as a key ligand for AIM2 inflammasome activation and host defense
   authors:
