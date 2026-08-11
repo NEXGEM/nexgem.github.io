@@ -1,5 +1,5 @@
 ---
-title: "Happy Teacher's Day (2024)"
+title: "Happy Teacher's Day"
 author: "nexgem-drive"
 date: 2025-05-15
 category: "teachers-day"
@@ -8,10 +8,10 @@ image: "https://lh3.googleusercontent.com/d/1vnjZ8RIQgJJKZq52gDOmL6R0oY3SJnya=w2
 source: google-drive
 drive_file_id: 1vnjZ8RIQgJJKZq52gDOmL6R0oY3SJnya
 drive_web_view_link: "https://drive.google.com/file/d/1vnjZ8RIQgJJKZq52gDOmL6R0oY3SJnya/view?usp=drivesdk"
-drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIMvu5P2b6n07CpPe_QJQe50X-eBA996TdHXygJ-XJKOjXcZ1LQCgbEjny7BEKVciKCk1wzzjqlontMIswWJnID5mfakrw8l-Y3sLI=s220"
+drive_thumbnail_link: "https://lh3.googleusercontent.com/drive-storage/AJQWtBPsyZf_HiobNxx5RSZ4mDWSvRn5JfKZHbbTiNE_5t6CJTtknaAhVEFzuhEUjnbUiUKwDHc4vP-mZosqFe1I6ePxIWr3MLS5W5PcVns=s220"
 description: "Teacher's Day"
 ---
-![Happy Teacher's Day (2024)](https://lh3.googleusercontent.com/d/1vnjZ8RIQgJJKZq52gDOmL6R0oY3SJnya=w2200)
+![Happy Teacher's Day](https://lh3.googleusercontent.com/d/1vnjZ8RIQgJJKZq52gDOmL6R0oY3SJnya=w2200)
 <!-- excerpt start -->
 Teacher's Day
 <!-- excerpt end -->
