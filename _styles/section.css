@@ -25,8 +25,11 @@ main > section:last-of-type {
 }
 
 main > section.background:first-of-type {
-  padding: 0;
   background: transparent;
+}
+
+main > section.background:first-of-type[data-size=full] {
+  padding: 0;
 }
 
 main > section:nth-of-type(odd) {
