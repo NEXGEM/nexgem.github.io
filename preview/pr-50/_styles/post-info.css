@@ -1,0 +1,74 @@
+.post-header {
+  display: grid;
+  gap: 14px;
+  width: min(980px, 100%);
+  margin: 0 auto;
+  padding: 6px 0 10px;
+  text-align: left;
+}
+
+.post-header h1 {
+  margin: 0;
+  max-width: 14ch;
+  font-size: clamp(2.1rem, 4vw, 3.4rem);
+  font-weight: var(--semi-bold);
+  line-height: 1.04;
+  letter-spacing: -0.04em;
+  text-transform: none;
+  text-align: left;
+}
+
+.post-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 0;
+  color: var(--gray);
+}
+
+.post-info .portrait {
+  margin: 0;
+}
+
+.post-info .icon {
+  margin-right: 0.5em;
+}
+
+.post-info a {
+  color: inherit;
+}
+
+.post-info a:hover {
+  color: var(--primary);
+}
+
+.post-info > span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 0 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--surface) 92%, transparent);
+  text-align: left;
+  white-space: nowrap;
+}
+
+@media (max-width: 700px) {
+  .post-header {
+    gap: 12px;
+  }
+  .post-header h1 {
+    max-width: none;
+    font-size: clamp(1.7rem, 8vw, 2.35rem);
+  }
+  .post-info > span {
+    min-height: 34px;
+    padding: 0 12px;
+    font-size: 0.92rem;
+  }
+}
+
+/*# sourceMappingURL=post-info.css.map */
