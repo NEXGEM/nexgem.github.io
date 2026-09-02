@@ -1,8 +1,9 @@
 ---
 name: Sieun Song
 image: images/team/Sieun.jpg
-role: rast
-description: Research Assistant
+role: phd
+description: Integrated MS/PhD Student
+department: School of Medicine
 status: current
 
 links:
