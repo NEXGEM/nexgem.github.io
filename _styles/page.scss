@@ -461,6 +461,30 @@ $page-content: 1280px;
   gap: 20px;
 }
 
+.education-year-group {
+  display: grid;
+  gap: 16px;
+}
+
+.education-year-heading {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 0;
+  color: var(--primary);
+  font-family: var(--heading);
+  font-weight: var(--bold);
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+}
+
+.education-year-heading::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: color-mix(in srgb, var(--line) 92%, white);
+}
+
 .education-overview-grid {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
