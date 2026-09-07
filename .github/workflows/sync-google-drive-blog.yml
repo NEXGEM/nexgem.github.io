@@ -32,7 +32,10 @@ jobs:
 
       - name: Commit synced posts
         run: |
-          if git diff --quiet; then
+          # `git diff` only reports modifications to tracked files, so freshly
+          # generated posts (which are untracked) never reached `git add` below.
+          # Inspect the full working-tree status of _posts instead.
+          if [ -z "$(git status --porcelain _posts)" ]; then
             echo "No blog changes to commit."
             exit 0
           fi
