@@ -1,0 +1,57 @@
+button {
+  cursor: pointer;
+}
+
+.button-wrapper {
+  display: contents;
+}
+
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-width: calc(100% - 5px - 5px);
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: var(--rounded);
+  background: var(--primary);
+  color: var(--background);
+  text-align: center;
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+  line-height: 1;
+  text-decoration: none;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  appearance: none;
+  transition: background 0.22s ease, color 0.22s ease, transform 0.22s ease, box-shadow 0.22s ease;
+}
+
+.button:hover {
+  background: var(--text);
+  color: var(--background);
+  transform: translateY(-1px);
+}
+
+.button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--primary) 18%, transparent), 0 0 0 1px color-mix(in srgb, var(--primary) 44%, white);
+}
+
+.button[data-style=bare] {
+  padding: 5px;
+  background: none;
+  color: var(--primary);
+}
+.button[data-style=bare]:hover {
+  color: var(--text);
+  transform: none;
+}
+
+.button[data-flip] {
+  flex-direction: row-reverse;
+}
+
+/*# sourceMappingURL=button.css.map */
