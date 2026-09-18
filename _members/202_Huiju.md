@@ -1,7 +1,8 @@
 ---
 name: Huiju Lee
 image: images/team/Huiju_Lee.jpg
-role: Postdoctoral Researcher
+role: postdoc
+status: current
 
 links:
   email: huijul@skku.edu
