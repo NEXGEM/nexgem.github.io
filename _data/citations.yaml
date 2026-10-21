@@ -1,6 +1,34 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
+
+- id: arxiv:2609.05956
+  title: 'STP-BENCH: A Unified Systematic Benchmark for Virtual Spatial Transcriptomics
+    from Histopathology Images'
+  authors:
+  - Youngmin Chung
+  - Ji Hun Ha
+  - Andrew H. Song
+  - "Cristina Almagro-P\xE9rez"
+  - Chaeyoung Seo
+  - Won Jun Suh
+  - Jeong Won Beom
+  - Kyoung Bin Oh
+  - Eytan Ruppin
+  - Faisal Mahmood
+  - Joo Sang Lee
+  publisher: arXiv
+  date: '2026-09-09'
+  link: https://arxiv.org/abs/2609.05956
+  type: paper
+  image: https://github.com/NEXGEM/STP-Bench/raw/main/figures/STP-Bench.jpg
+  tags:
+  - Spatial Transcriptomics
+  - Computational Pathology
+  - Benchmark
+  plugin: sources.py
+  file: sources.yaml
 - id: doi.org/10.1016/j.cell.2026.04.023
-  title: AI-predicted spatial transcriptomics unlocks breast cancer biomarkers from pathology
+  title: AI-predicted spatial transcriptomics unlocks breast cancer biomarkers from
+    pathology
   authors:
   - Eldad D Shulman
   - Emma M Campagnolo
@@ -43,7 +71,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi.org/10.1038/s41467-026-71896-w
-  title: Herpes simplex virus 1 harboring poly(T) DNA sequences as a key ligand for AIM2 inflammasome activation and host defense
+  title: Herpes simplex virus 1 harboring poly(T) DNA sequences as a key ligand for
+    AIM2 inflammasome activation and host defense
   authors:
   - SuHyeon Oh
   - Jueun Oh

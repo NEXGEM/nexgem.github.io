@@ -1,3 +1,17 @@
+- id: arxiv:2609.05956
+  type: paper
+  image: https://github.com/NEXGEM/STP-Bench/raw/main/figures/STP-Bench.jpg
+  tags:
+    - Spatial Transcriptomics
+    - Computational Pathology
+    - Benchmark
+
+- id: doi.org/10.1016/j.cell.2026.04.023
+  type: paper
+
+- id: doi.org/10.1038/s41467-026-71896-w
+  type: paper
+
 - id: doi.org/10.1016/j.xgen.2025.100876
   type: paper
   image: https://ars.els-cdn.com/content/image/1-s2.0-S2666979X25001326-fx1.jpg
