@@ -75,34 +75,29 @@ nav:
       <p>Connecting cellular morphology, molecular profiles, and tissue context to advance precision oncology.</p>
     </div>
 
-    <div class="research-cellularspace-copy">
+    <div class="page-split">
       <div class="page-rich-text">
         <h3>CellularSpace Grant</h3>
         <p>We are developing a single-cell-resolution foundation model that integrates histopathology, spatial transcriptomics, and spatial proteomics. By learning relationships between cells and their surrounding tissue, CellularSpace aims to connect molecular mechanisms with therapeutic response.</p>
         <p>Led by Sungkyunkwan University, the project brings together Ewha Womans University, Dongguk University, Pusan National University, and Samsung Medical Center.</p>
-      </div>
-
-      <div class="page-rich-text research-cellularspace-goals">
         <h3>From biological context to clinical insight</h3>
         <ul>
           <li>Predict antibody-drug conjugate (ADC) response and investigate treatment mechanisms.</li>
           <li>Discover therapeutic targets and digital biomarkers.</li>
           <li>Develop intelligent digital pathology and the Spatial-Web Insight research platform.</li>
         </ul>
+        <p class="research-cellularspace-support">Supported by the National Research Foundation of Korea · April 2026–December 2030</p>
       </div>
+
+      <figure class="page-media-card page-media-card-emphasis research-cellularspace-figure">
+        <a class="page-media-frame" href="{{ '/images/cellularspace-overview.png' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open the full-size CellularSpace research diagram in a new tab">
+          <img src="{{ '/images/cellularspace-overview.png' | relative_url }}" width="1186" height="602" alt="CellularSpace integrates pathology images, spatial transcriptomics (ST), and spatial proteomics (SP) across tissue and cell scales to support ADC response prediction, intelligent pathology, and a research web platform." loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <a href="{{ '/images/cellularspace-overview.png' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View full-size diagram (opens in a new tab)">View full-size diagram</a>
+        </figcaption>
+      </figure>
     </div>
-
-    <figure class="research-cellularspace-figure">
-      <a class="research-cellularspace-diagram" href="{{ '/images/cellularspace-overview.png' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open the full-size CellularSpace research diagram in a new tab">
-        <img src="{{ '/images/cellularspace-overview.png' | relative_url }}" width="1186" height="602" alt="CellularSpace integrates pathology images, spatial transcriptomics (ST), and spatial proteomics (SP) across tissue and cell scales to support ADC response prediction, intelligent pathology, and a research web platform." loading="lazy" decoding="async">
-      </a>
-      <figcaption>
-        <span>CellularSpace research overview · ST: spatial transcriptomics · SP: spatial proteomics</span>
-        <a href="{{ '/images/cellularspace-overview.png' | relative_url }}" target="_blank" rel="noopener noreferrer">View full-size diagram <span class="research-cellularspace-new-tab">(opens in a new tab)</span></a>
-      </figcaption>
-    </figure>
-
-    <p class="research-cellularspace-support">Supported by the National Research Foundation of Korea · April 2026–December 2030</p>
   </section>
 
   <div class="research-theme-shell research-theme-shell-funding">
