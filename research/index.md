@@ -91,11 +91,16 @@ nav:
       </div>
 
       <figure class="page-media-card page-media-card-emphasis research-cellularspace-figure">
+        <a class="page-media-frame" href="{{ '/images/cellularspace-impact.png' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open the full-size CellularSpace applications and impact diagram in a new tab">
+          <img src="{{ '/images/cellularspace-impact.png' | relative_url }}" width="1653" height="1125" alt="CellularSpace foundation model applications: shared multimodal data infrastructure, an AI-powered spatial omics web platform, ADC drug discovery, and digital pathology solutions, supporting scientific innovation and the bio-AI research ecosystem." loading="lazy" decoding="async">
+        </a>
         <a class="page-media-frame" href="{{ '/images/cellularspace-overview.png' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open the full-size CellularSpace research diagram in a new tab">
           <img src="{{ '/images/cellularspace-overview.png' | relative_url }}" width="1186" height="602" alt="CellularSpace integrates pathology images, spatial transcriptomics (ST), and spatial proteomics (SP) across tissue and cell scales to support ADC response prediction, intelligent pathology, and a research web platform." loading="lazy" decoding="async">
         </a>
         <figcaption>
-          <a href="{{ '/images/cellularspace-overview.png' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View full-size diagram (opens in a new tab)">View full-size diagram</a>
+          View full-size:
+          <a href="{{ '/images/cellularspace-impact.png' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View applications and impact diagram (opens in a new tab)">Applications &amp; impact</a>
+          · <a href="{{ '/images/cellularspace-overview.png' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View methodology diagram (opens in a new tab)">Methodology</a>
           <ul class="research-cellularspace-institutions" aria-label="주관 및 공동연구기관" lang="ko">
             <li aria-label="주관기관: 성균관대학교">
               <img src="{{ '/images/institutions/sungkyunkwan.png' | relative_url }}" alt="" width="126" height="126" loading="lazy" decoding="async">
