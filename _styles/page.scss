@@ -239,6 +239,11 @@ $page-content: 1280px;
   align-self: start;
 }
 
+.research-cellularspace-diagrams {
+  display: grid;
+  gap: 6px;
+}
+
 .research-cellularspace-figure .page-media-frame {
   background: #fff;
 }
