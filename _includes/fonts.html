@@ -4,6 +4,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="{{ googlefonts }}" rel="stylesheet">
 
+{% if page.korean-font %}
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap" rel="stylesheet">
+{% endif %}
+
 <!-- Font Awesome icons (load asynchronously due to size) -->
 {% assign fontawesome = "https://use.fontawesome.com/releases/v6.3.0/css/all.css" %}
 <link

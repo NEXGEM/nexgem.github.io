@@ -1,5 +1,6 @@
 ---
 title: Research
+korean-font: true
 nav:
   order: 2
   tooltip: Research Summary
@@ -95,6 +96,28 @@ nav:
         </a>
         <figcaption>
           <a href="{{ '/images/cellularspace-overview.png' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View full-size diagram (opens in a new tab)">View full-size diagram</a>
+          <ul class="research-cellularspace-institutions" aria-label="주관 및 공동연구기관" lang="ko">
+            <li aria-label="주관기관: 성균관대학교">
+              <img src="{{ '/images/institutions/sungkyunkwan.png' | relative_url }}" alt="" width="126" height="126" loading="lazy" decoding="async">
+              <span>성균관대학교</span>
+            </li>
+            <li aria-label="공동기관: 이화여자대학교">
+              <img src="{{ '/images/institutions/ewha.png' | relative_url }}" alt="" width="91" height="90" loading="lazy" decoding="async">
+              <span>이화여자대학교</span>
+            </li>
+            <li aria-label="공동기관: 동국대학교">
+              <img src="{{ '/images/institutions/dongguk.png' | relative_url }}" alt="" width="96" height="90" loading="lazy" decoding="async">
+              <span>동국대학교</span>
+            </li>
+            <li aria-label="공동기관: 부산대학교">
+              <img src="{{ '/images/institutions/pusan.png' | relative_url }}" alt="" width="91" height="91" loading="lazy" decoding="async">
+              <span>부산대학교</span>
+            </li>
+            <li aria-label="공동기관: 삼성서울병원">
+              <img src="{{ '/images/institutions/samsung-medical-center.png' | relative_url }}" alt="" width="98" height="89" loading="lazy" decoding="async">
+              <span>삼성서울병원</span>
+            </li>
+          </ul>
         </figcaption>
       </figure>
     </div>
