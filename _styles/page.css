@@ -214,6 +214,100 @@
   margin: 0;
 }
 
+.research-cellularspace {
+  scroll-margin-top: 100px;
+}
+
+.research-cellularspace-copy {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  gap: 32px;
+}
+
+.research-cellularspace .page-section-head p,
+.research-cellularspace .page-rich-text p {
+  text-align: left;
+}
+
+.research-cellularspace-goals {
+  align-content: start;
+  padding-left: 28px;
+  border-left: 1px solid var(--line);
+}
+
+.research-cellularspace-goals ul {
+  display: grid;
+  gap: 10px;
+}
+
+.research-cellularspace-figure {
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+  margin: 4px 0 0;
+}
+
+.research-cellularspace-diagram {
+  display: block;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: #fff;
+}
+
+.research-cellularspace-diagram img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.research-cellularspace-figure figcaption {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px 20px;
+  color: var(--gray);
+  font-size: var(--text-sm);
+  line-height: 1.6;
+  text-align: left;
+}
+
+.research-cellularspace-new-tab {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.research-cellularspace-support {
+  margin: 0;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  color: var(--gray);
+  font-size: var(--text-sm);
+  line-height: 1.6;
+  text-align: left;
+}
+
+@media (max-width: 860px) {
+  .research-cellularspace-copy {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .research-cellularspace-goals {
+    padding: 20px 0 0;
+    border-top: 1px solid var(--line);
+    border-left: 0;
+  }
+}
+@media (max-width: 560px) {
+  .research-cellularspace-diagram {
+    padding: 8px;
+    border-radius: 14px;
+  }
+}
 .page-media-card-emphasis {
   padding: 22px;
   border-radius: 28px;
